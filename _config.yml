@@ -1,7 +1,7 @@
 title: Dextera Wiki
 description: Official documentation and wiki for Dextera Launcher by Dextera Labs — a modern Android home screen.
-baseurl: "/DexteraWiki"
-url: "https://miketblountworks.github.io"
+baseurl: ""
+url: "https://dexteralabs.io"
 lang: en
 
 plugins:
