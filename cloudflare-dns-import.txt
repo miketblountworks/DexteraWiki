@@ -1,0 +1,7 @@
+; Cloudflare DNS Records for dexteralabs.io
+; Import via Cloudflare Dashboard > DNS > Advanced Actions > Import
+
+@	3600	IN	A	185.199.108.153
+@	3600	IN	A	185.199.109.153
+@	3600	IN	A	185.199.110.153
+@	3600	IN	A	185.199.111.153
