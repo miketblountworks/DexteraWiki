@@ -46,7 +46,7 @@ If accessibility is turned off while locking is expected, Security shows a **Pro
 - App version  
 - **Dextera Labs** (developer)  
 - **Privacy Policy** (in-app) — also published on this wiki  
-- Link to GitHub source  
+- Link to **Documentation** (this wiki) — Dextera is proprietary, not open source  
 
 ## Unified Search
 

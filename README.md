@@ -1,10 +1,10 @@
 # Dextera Wiki
 
-Public documentation site for **[Dextera Launcher](https://github.com/miketblountworks/Dextera-Launcher)** by **Dextera Labs** — a modern Android home screen built with Kotlin and Jetpack Compose.
+Public **user documentation** for **Dextera Launcher** by **Dextera Labs** — a modern Android home screen built with Kotlin and Jetpack Compose.
+
+Dextera Launcher is **proprietary software** and is **not open source**. This repository (if public) hosts documentation only, not the app’s source code.
 
 ## Live site
-
-After GitHub Pages is enabled on this repository:
 
 **https://miketblountworks.github.io/DexteraWiki/**
 
@@ -30,11 +30,7 @@ bundle exec jekyll serve
 
 Then open `http://127.0.0.1:4000/DexteraWiki/`.
 
-## Source of truth
-
-- **App code:** [miketblountworks/Dextera-Launcher](https://github.com/miketblountworks/Dextera-Launcher)
-- **This wiki:** Markdown + custom layout for GitHub Pages
-
 ## License
 
-Documentation may be reused with attribution. App source licensing follows the launcher repository.
+- **App (Dextera Launcher):** proprietary — all rights reserved by Dextera Labs.  
+- **This wiki documentation:** may be viewed publicly for user help; redistribution of the docs without permission is not granted unless stated otherwise.  

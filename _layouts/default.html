@@ -34,7 +34,6 @@
         <a href="{{ '/settings/' | relative_url }}" {% if page.url contains '/settings' %}class="active"{% endif %}>Settings</a>
         <a href="{{ '/permissions/' | relative_url }}" {% if page.url contains '/permissions' %}class="active"{% endif %}>Permissions</a>
         <a href="{{ '/privacy/' | relative_url }}" {% if page.url contains '/privacy' %}class="active"{% endif %}>Privacy</a>
-        <a class="nav-external" href="https://github.com/miketblountworks/Dextera-Launcher" target="_blank" rel="noopener">GitHub ↗</a>
       </nav>
     </div>
   </header>
@@ -49,7 +48,7 @@
       <div class="hero-actions">
         <a class="btn btn-primary" href="{{ '/getting-started/' | relative_url }}">Get started</a>
         <a class="btn btn-ghost" href="{{ '/features/' | relative_url }}">Explore features</a>
-        <a class="btn btn-ghost" href="https://github.com/miketblountworks/Dextera-Launcher" target="_blank" rel="noopener">Source code</a>
+        <a class="btn btn-ghost" href="{{ '/privacy/' | relative_url }}">Privacy</a>
       </div>
       {% endif %}
     </section>
@@ -69,11 +68,10 @@
     <div class="container footer-inner">
       <div>
         <strong>Dextera Wiki</strong>
-        <p class="muted">Documentation for Dextera Launcher by <strong>Dextera Labs</strong>. Active development — features may change.</p>
+        <p class="muted">Documentation for Dextera Launcher by <strong>Dextera Labs</strong>. Proprietary software — not open source. Active development — features may change.</p>
       </div>
       <div class="footer-links">
-        <a href="https://github.com/miketblountworks/Dextera-Launcher">Launcher repo</a>
-        <a href="https://github.com/miketblountworks/DexteraWiki">Wiki source</a>
+        <a href="{{ '/permissions/' | relative_url }}">Permissions</a>
         <a href="{{ '/privacy/' | relative_url }}">Privacy policy</a>
       </div>
     </div>

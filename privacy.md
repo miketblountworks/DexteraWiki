@@ -174,7 +174,7 @@ These are **optional** unless a feature requires them. Disabling them limits rel
 
 ## 12. Changes to this policy
 
-We may update this Privacy Policy from time to time. The **Last updated** date at the top will change when we do. Material changes will be reflected in the App repository and/or in-app policy text. Continued use after an update means you accept the revised policy, to the extent permitted by law.
+We may update this Privacy Policy from time to time. The **Last updated** date at the top will change when we do. Material changes will be reflected in the App, on our public documentation site, and/or in-app policy text. Continued use after an update means you accept the revised policy, to the extent permitted by law.
 
 ---
 
@@ -183,16 +183,18 @@ We may update this Privacy Policy from time to time. The **Last updated** date a
 For privacy questions about Dextera Launcher:
 
 - **Developer:** Dextera Labs  
-- **GitHub repository:** [https://github.com/miketblountworks/Dextera-Launcher](https://github.com/miketblountworks/Dextera-Launcher)  
-- Prefer opening an issue labeled **privacy** for policy questions.
+- **Documentation:** [https://miketblountworks.github.io/DexteraWiki/](https://miketblountworks.github.io/DexteraWiki/)  
+- **Email:** [mike.t.blount@gmail.com](mailto:mike.t.blount@gmail.com)  
 
 The Play Store developer name **Dextera Labs** and any store listing contact email for that account are also valid contact channels.
 
 ---
 
-## 14. Open-source note
+## 14. Proprietary software
 
-Dextera is under active development. Source code in the public repository can help you verify how features use data. This policy is intended to describe product behavior in plain language; if source behavior and this policy ever conflict, please report it so we can align them.
+Dextera Launcher is **proprietary software** developed and owned by **Dextera Labs**. It is **not** open source. The app’s source code is not publicly available for inspection, modification, or redistribution. This policy describes product behavior in plain language for users and store review.
+
+Public materials such as this Privacy Policy and the Dextera Wiki are documentation only; they do not grant rights to the app’s source code.
 
 ---
 
