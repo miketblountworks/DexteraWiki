@@ -52,7 +52,8 @@ If accessibility is turned off while locking is expected, Security shows a **Pro
 
 - Web search engine  
 - Previous search results / clear history  
-- SMS search & OTP extractor  
+- Verification codes (OTP from notifications)  
+
 - File index: media access, add folder, indexed locations  
 - Result limit per category  
 

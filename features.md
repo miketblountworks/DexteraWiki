@@ -44,7 +44,7 @@ Tap the floating **Search** bar for on-device + web search.
 | **Contacts** | Call / message |
 | **Settings** | Jump into launcher or system areas |
 | **Files** | Local files (media permission / indexed folders) |
-| **SMS** | Optional SMS search |
+
 | **Web** | Suggestions + open in browser (engine selectable) |
 
 Category chips: **All · Contacts · Apps · Web · Settings**. Optional search history when the query is empty. Typing does not mutate the drawer under the overlay.
@@ -92,9 +92,9 @@ Accessibility service **Dextera App Locker** intercepts locked apps (including f
 
 **Why Accessibility?** Android has no dedicated public API for reliable app-open intercept. The service is used only for this security feature — not as an accessibility tool for disabilities, and not to read passwords or send data off-device. See [Why Dextera uses Accessibility]({{ '/permissions/#accessibility' | relative_url }}).
 
-### SMS OTP (optional)
+### Verification codes / OTP (optional)
 
-Extract verification codes from SMS/notifications and show a home OTP chip (copy / floating popup when overlay permission allows).
+Extract one-time codes from **messaging-app notifications** (notification access) and show a home OTP chip (copy / floating popup when overlay permission allows). Does not use SMS inbox or `READ_SMS`.
 
 ## Wallpaper & contrast
 

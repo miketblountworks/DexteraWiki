@@ -11,6 +11,8 @@ permalink: /privacy/
 
 This Privacy Policy describes how **Dextera Labs** (“**Dextera Labs**,” “**we**,” or “**us**”) handles information when you install and use Dextera Launcher (“**Dextera**,” or “**the App**”) on your Android device.
 
+Dextera does **not** request the Android SMS or Call Log permission groups (`READ_SMS`, call log, etc.).
+
 Dextera is designed as a **device-local home screen launcher**. Most features run on your phone. We do **not** operate a Dextera user account system, and we do **not** sell personal information.
 
 ---
@@ -47,7 +49,6 @@ Depending on permissions and settings, Dextera may process:
 - **Media sessions** — now-playing metadata and playback controls when media is active  
 - **Usage statistics** — app usage frequency for “Frequently used” categorization (if Usage Access is granted)  
 - **Local files / media** — filenames and metadata for file search when media access is granted or folders you add are indexed  
-- **SMS / messages** (optional) — message content for SMS search and verification-code (OTP) extraction when enabled  
 - **Location** (approximate or fine, if granted) — to fetch weather and related astronomical day info  
 - **Network traffic counters** — aggregate upload/download rates for optional fullscreen network-speed display (not a content log of your traffic)  
 - **Launcher preferences** — wallpaper, theme, clock style, fonts, page order, gesture options, search settings  
@@ -99,7 +100,7 @@ We use the information above solely to:
 If laws such as the GDPR apply to you, processing is typically based on:
 
 - **Contract / service delivery** — providing the launcher features you install and use  
-- **Consent** — optional permissions (contacts, SMS, location, accessibility, etc.)  
+- **Consent** — optional permissions (contacts, location, accessibility, etc.)  
 - **Legitimate interests** — local security features and on-device performance, balanced against your rights  
 
 You can withdraw optional permissions in Android Settings at any time (some features will stop working).
@@ -139,7 +140,7 @@ You can:
 
 - Deny or revoke permissions in **Android Settings → Apps → Dextera → Permissions**  
 - Disable notification access, usage access, accessibility (App Locker), or device admin in system settings  
-- Turn off optional features (SMS search, OTP, search history, Bing wallpaper, network speed, etc.) in **Dextera Settings**  
+- Turn off optional features (verification codes / OTP, search history, Bing wallpaper, network speed, etc.) in **Dextera Settings**  
 - Clear app storage or uninstall Dextera to remove on-device app data  
 - Choose a different web search engine or avoid web suggestions by not using search  
 
@@ -153,18 +154,19 @@ Network features may contact servers in other countries (for example, weather or
 
 ---
 
-## 11. Accessibility, device admin, and sensitive permissions {#accessibility-device-admin-and-sensitive-permissions}
+## 11. Accessibility, device admin, and sensitive permissions
 
 Some powerful permissions require special explanation:
 
 | Access | Why Dextera may ask |
 |--------|---------------------|
 | **Notification listener** | Custom notification center, badges, media awareness, OTP helpers |
-| **Accessibility (Dextera App Locker)** | Security only: detect when locked apps open so biometrics / device credential can be required. Dextera is not an accessibility tool for disabilities. Accessibility events and locked-app data stay on device and are not used for ads or analytics. Full disclosure: [Permissions — Why Dextera uses Accessibility]({{ '/permissions/#accessibility' | relative_url }}). |
+| **Accessibility (Dextera App Locker)** | Detect when locked apps open so biometrics can be required |
 | **Device admin** | Uninstallation protection (must be deactivated before uninstall) |
 | **Usage access** | Frequently used apps |
-| **SMS** | Optional SMS search and verification codes |
 | **Display over other apps** | Optional floating OTP popup |
+
+OTP / verification codes use the **notification listener** only (text already shown in messaging-app notifications). Dextera does not read the SMS inbox.
 
 These are **optional** unless a feature requires them. Disabling them limits related features only.
 

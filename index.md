@@ -20,7 +20,7 @@ Dextera replaces the stock Android home screen with a fluid, premium experience.
   </div>
   <div class="card">
     <h3>Unified search</h3>
-    <p>Apps, contacts, settings, files, SMS, and web suggestions from one floating search bar.</p>
+    <p>Apps, contacts, settings, files, and web suggestions from one floating search bar.</p>
   </div>
   <div class="card">
     <h3>Multi-page workspace</h3>
