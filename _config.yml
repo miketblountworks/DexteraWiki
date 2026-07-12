@@ -1,0 +1,23 @@
+title: Dextera Wiki
+description: Official documentation and wiki for Dextera Launcher — a modern Android home screen.
+baseurl: "/DexteraWiki"
+url: "https://miketblountworks.github.io"
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .gitignore
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
