@@ -5,10 +5,11 @@ permalink: /privacy/
 ---
 
 **Effective date:** July 10, 2026  
-**Last updated:** July 10, 2026  
-**Application:** Dextera Launcher (`com.dextera`)
+**Last updated:** July 12, 2026  
+**Application:** Dextera Launcher (`com.dextera`)  
+**Developer:** Dextera Labs
 
-This Privacy Policy describes how Dextera Launcher (“**Dextera**,” “**we**,” “**us**,” or “**the App**”) handles information when you install and use the App on your Android device.
+This Privacy Policy describes how **Dextera Labs** (“**Dextera Labs**,” “**we**,” or “**us**”) handles information when you install and use Dextera Launcher (“**Dextera**,” or “**the App**”) on your Android device.
 
 Dextera is designed as a **device-local home screen launcher**. Most features run on your phone. We do **not** operate a Dextera user account system, and we do **not** sell personal information.
 
@@ -152,14 +153,14 @@ Network features may contact servers in other countries (for example, weather or
 
 ---
 
-## 11. Accessibility, device admin, and sensitive permissions
+## 11. Accessibility, device admin, and sensitive permissions {#accessibility-device-admin-and-sensitive-permissions}
 
 Some powerful permissions require special explanation:
 
 | Access | Why Dextera may ask |
 |--------|---------------------|
 | **Notification listener** | Custom notification center, badges, media awareness, OTP helpers |
-| **Accessibility (Dextera App Locker)** | Detect when locked apps open so biometrics can be required |
+| **Accessibility (Dextera App Locker)** | Security only: detect when locked apps open so biometrics / device credential can be required. Dextera is not an accessibility tool for disabilities. Accessibility events and locked-app data stay on device and are not used for ads or analytics. Full disclosure: [Permissions — Why Dextera uses Accessibility]({{ '/permissions/#accessibility' | relative_url }}). |
 | **Device admin** | Uninstallation protection (must be deactivated before uninstall) |
 | **Usage access** | Frequently used apps |
 | **SMS** | Optional SMS search and verification codes |
@@ -179,10 +180,11 @@ We may update this Privacy Policy from time to time. The **Last updated** date a
 
 For privacy questions about Dextera Launcher:
 
+- **Developer:** Dextera Labs  
 - **GitHub repository:** [https://github.com/miketblountworks/Dextera-Launcher](https://github.com/miketblountworks/Dextera-Launcher)  
 - Prefer opening an issue labeled **privacy** for policy questions.
 
-If you distribute a build under a different developer name or store listing, the store listing contact email is also a valid contact channel for that build.
+The Play Store developer name **Dextera Labs** and any store listing contact email for that account are also valid contact channels.
 
 ---
 

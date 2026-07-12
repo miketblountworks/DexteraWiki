@@ -1,6 +1,6 @@
 # Dextera Wiki
 
-Public documentation site for **[Dextera Launcher](https://github.com/miketblountworks/Dextera-Launcher)** — a modern Android home screen built with Kotlin and Jetpack Compose.
+Public documentation site for **[Dextera Launcher](https://github.com/miketblountworks/Dextera-Launcher)** by **Dextera Labs** — a modern Android home screen built with Kotlin and Jetpack Compose.
 
 ## Live site
 

@@ -90,6 +90,8 @@ Registers Dextera as a **device admin** so casual uninstall is blocked until adm
 
 Accessibility service **Dextera App Locker** intercepts locked apps (including from Recents) and requires biometric / device credential. Opaque cover so content is not readable under the prompt. Independent of device admin.
 
+**Why Accessibility?** Android has no dedicated public API for reliable app-open intercept. The service is used only for this security feature — not as an accessibility tool for disabilities, and not to read passwords or send data off-device. See [Why Dextera uses Accessibility]({{ '/permissions/#accessibility' | relative_url }}).
+
 ### SMS OTP (optional)
 
 Extract verification codes from SMS/notifications and show a home OTP chip (copy / floating popup when overlay permission allows).

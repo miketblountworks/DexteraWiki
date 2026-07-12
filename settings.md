@@ -44,6 +44,7 @@ If accessibility is turned off while locking is expected, Security shows a **Pro
 ## About
 
 - App version  
+- **Dextera Labs** (developer)  
 - **Privacy Policy** (in-app) — also published on this wiki  
 - Link to GitHub source  
 

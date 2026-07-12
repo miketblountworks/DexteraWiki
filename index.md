@@ -9,7 +9,7 @@ description: Official wiki and documentation for Dextera Launcher.
 
 <p><span class="status-pill">● Active development</span></p>
 
-Dextera replaces the stock Android home screen with a fluid, premium experience. This wiki is the public documentation companion to the [Dextera-Launcher](https://github.com/miketblountworks/Dextera-Launcher) repository.
+Dextera replaces the stock Android home screen with a fluid, premium experience. Built by **Dextera Labs**, this wiki is the public documentation companion to the [Dextera-Launcher](https://github.com/miketblountworks/Dextera-Launcher) repository.
 
 ## Highlights
 
@@ -75,4 +75,5 @@ Dextera replaces the stock Android home screen with a fluid, premium experience.
 
 Dextera is under active development. Core features, UI, and system architecture continue to iterate. Prefer this wiki for user-facing docs; prefer the launcher repo for source and issues.
 
+**Developer:** Dextera Labs  
 **Source:** [github.com/miketblountworks/Dextera-Launcher](https://github.com/miketblountworks/Dextera-Launcher)
