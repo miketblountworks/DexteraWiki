@@ -5,7 +5,7 @@ permalink: /privacy/
 ---
 
 **Effective date:** July 10, 2026  
-**Last updated:** July 12, 2026  
+**Last updated:** July 19, 2026  
 **Application:** Dextera Launcher (`com.dextera`)  
 **Developer:** Dextera Labs
 
@@ -64,7 +64,7 @@ Dextera may contact third-party services when you use related features:
 |---------|----------------------|---------------------|
 | **Bing Daily wallpaper** | Bing image archive | Device request metadata (standard HTTP); receives wallpaper URL/image |
 | **Weather** | Providers such as Open-Meteo, weather.gov (US), USNO | Coordinates or location-derived requests |
-| **Web search suggestions** | Suggestion APIs (e.g. Google Suggest, DuckDuckGo) | Search query text you type |
+| **Web search suggestions** | Suggestion services (e.g. Google, DuckDuckGo) | Search query text you type |
 | **Web search open** | Your selected engine (Google, Bing, DuckDuckGo, Brave, etc.) | Query when you open a web result |
 | **General connectivity** | As needed for the above | Standard network/device headers |
 
