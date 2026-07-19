@@ -21,6 +21,18 @@ Dextera is **not** an accessibility tool for users with disabilities. The option
 
 This page is the public disclosure for that use of Accessibility. Related: [Privacy policy — sensitive permissions]({{ '/privacy/#accessibility-device-admin-and-sensitive-permissions' | relative_url }}) and [Features — Global app locker]({{ '/features/' | relative_url }}).
 
+## Photos, videos, and local files {#photos-files}
+
+Dextera is designed for **Google Play’s photo and video policy**:
+
+| Need | How Dextera does it |
+|------|---------------------|
+| **Set a wallpaper photo** | System **photo picker** (one-time pick). Photos are copied into Dextera’s own storage (library of up to 7). **No** `READ_MEDIA_IMAGES` / `READ_MEDIA_VIDEO` permission. |
+| **Search local files** | **Add folder** with the system folder picker (Storage Access Framework). Only folders you grant stay readable. **No** broad media-library scan. |
+| **Older Android (API 32 and below)** | Optional legacy storage access may still help index Downloads/Documents-style locations; modern devices rely on folders you add. |
+
+Dextera does **not** declare broad photo/video library permissions for the current beta.
+
 ## Reference
 
 | Permission / access | Used for |
@@ -29,11 +41,12 @@ This page is the public disclosure for that use of Accessibility. Related: [Priv
 | **Notification listener** | Notification center, badges, media, OTP from message notifications |
 | **Contacts** (read/write) | Contact page, search, delete |
 | **Location (approx.)** | Weather |
-| **Media / storage** | File search indexing |
+| **Folder access (SAF)** | File search indexing for folders you pick |
 | **Usage access** | Frequently used apps |
 | **Device admin** | Uninstall protection |
 | **Accessibility (App Locker)** | [App lock intercept](#accessibility) |
 | **Draw over other apps** (optional) | Floating OTP popup |
+| **Set wallpaper** | Applying the chosen still/dynamic frame to the system wallpaper when selected |
 
 Dextera does **not** request the Android **SMS** or **Call Log** permission groups. Optional verification codes use the notification listener only.
 
@@ -54,6 +67,7 @@ These are **optional** unless a feature requires them. Disabling them limits rel
 - **Android Settings → Apps → Dextera → Permissions**  
 - Notification access, usage access, accessibility, and device admin live under their own system settings areas  
 - Feature toggles also exist inside **Dextera Settings**  
+- File search folders are managed under **Settings → Unified Search → Add folder**  
 
 ## Privacy note
 

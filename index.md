@@ -7,7 +7,7 @@ hero_ctas: true
 description: Official wiki and documentation for Dextera Launcher.
 ---
 
-<p><span class="status-pill">● Active development</span></p>
+<p><span class="status-pill">● Public beta · 0.4.0-beta</span></p>
 
 Dextera replaces the stock Android home screen with a fluid, premium experience. Built by **Dextera Labs**, this wiki is the public user documentation for Dextera Launcher. The app is **proprietary software** — not open source.
 
@@ -16,19 +16,19 @@ Dextera replaces the stock Android home screen with a fluid, premium experience.
 <div class="card-grid">
   <div class="card">
     <h3>Smart notifications</h3>
-    <p>App-grouped card stacks, inline actions, and badges — without the usual tray clutter.</p>
+    <p>App-grouped card stacks, pin-to-top apps, optional lock so pinned apps can’t be swiped away, and inline actions.</p>
   </div>
   <div class="card">
     <h3>Unified search</h3>
-    <p>Apps, contacts, settings, files, and web suggestions from one floating search bar.</p>
+    <p>Apps, contacts, settings, local files (folders you add), and web suggestions from one floating search bar.</p>
   </div>
   <div class="card">
     <h3>Multi-page workspace</h3>
-    <p>Apps, contacts, recents, music, notifications, quick settings, and widgets — scrub between pages with your thumb.</p>
+    <p>Apps, contacts, recents, music, notifications, widgets, Scratch Board — scrub or swipe between pages with your thumb.</p>
   </div>
   <div class="card">
     <h3>Privacy-first design</h3>
-    <p>Most processing stays on-device. No Dextera account. No ads SDK in the core design.</p>
+    <p>Most processing stays on-device. Photo picker for wallpapers; file search via folders you choose — no broad photo library permission.</p>
   </div>
 </div>
 
@@ -45,11 +45,11 @@ Dextera replaces the stock Android home screen with a fluid, premium experience.
   </figure>
   <figure class="shot-card">
     <img src="{{ '/assets/images/07_page_overview.png' | relative_url }}" alt="Page overview" />
-    <figcaption>Page overview for rearranging the workspace</figcaption>
+    <figcaption>Page overview — also opened from the search bar gear</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/02_settings.png' | relative_url }}" alt="Settings entry point" />
-    <figcaption>Settings via the gear on the search bar</figcaption>
+    <img src="{{ '/assets/images/02_settings.png' | relative_url }}" alt="Settings entry" />
+    <figcaption>Settings from page overview (Page settings) or the full Settings entry</figcaption>
   </figure>
 </div>
 
@@ -59,9 +59,9 @@ Dextera replaces the stock Android home screen with a fluid, premium experience.
 |------|------------------|
 | [Getting started]({{ '/getting-started/' | relative_url }}) | Onboarding, default home, first-run tips |
 | [Features]({{ '/features/' | relative_url }}) | Full feature guide with UI details |
-| [Gestures]({{ '/gestures/' | relative_url }}) | Navigation, scrubber, reachability |
+| [Gestures]({{ '/gestures/' | relative_url }}) | Navigation, scrubber, Home action, reachability |
 | [Pages]({{ '/pages/' | relative_url }}) | App list, contacts, media, notifications, widgets |
-| [Settings]({{ '/settings/' | relative_url }}) | Appearance, wellbeing, security, search |
+| [Settings]({{ '/settings/' | relative_url }}) | Appearance, wallpapers, wellbeing, security, search |
 | [Permissions]({{ '/permissions/' | relative_url }}) | What each permission is for |
 | [Privacy]({{ '/privacy/' | relative_url }}) | Full privacy policy |
 
@@ -73,7 +73,7 @@ Dextera replaces the stock Android home screen with a fluid, premium experience.
 
 ## Status
 
-Dextera is under active development. Core features, UI, and system architecture continue to iterate. Prefer this wiki for user-facing docs and policy text.
+**Public beta (`0.4.0-beta`).** The core launcher loop is feature-complete for this cycle. Updates emphasize stability, polish, and Play compliance rather than large new surface area. Prefer this wiki for user-facing docs and policy text.
 
 **Developer:** Dextera Labs  
 **License:** Proprietary — not open source. This wiki is public documentation only.

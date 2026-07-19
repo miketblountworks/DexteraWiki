@@ -48,7 +48,7 @@ Depending on permissions and settings, Dextera may process:
 - **Notifications** — content delivered through Android’s notification listener (titles, text, app identity, actions) for the notification center, badges, media, and optional OTP detection  
 - **Media sessions** — now-playing metadata and playback controls when media is active  
 - **Usage statistics** — app usage frequency for “Frequently used” categorization (if Usage Access is granted)  
-- **Local files / media** — filenames and metadata for file search when media access is granted or folders you add are indexed  
+- **Local files** — filenames and metadata for file search when you **add folders** via the system folder picker (Storage Access Framework). Wallpaper photos you pick with the system photo picker are copied into Dextera’s private storage (library of up to seven images). Dextera does not request broad photo/video library permissions.  
 - **Location** (approximate or fine, if granted) — to fetch weather and related astronomical day info  
 - **Network traffic counters** — aggregate upload/download rates for optional fullscreen network-speed display (not a content log of your traffic)  
 - **Launcher preferences** — wallpaper, theme, clock style, fonts, page order, gesture options, search settings  
