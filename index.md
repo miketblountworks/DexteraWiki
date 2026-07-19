@@ -64,6 +64,7 @@ description: User help and feature guides for Dextera Launcher.
 | [Settings]({{ '/settings/' | relative_url }}) | Change appearance, gestures, and more |
 | [Permissions]({{ '/permissions/' | relative_url }}) | Know why Dextera asks for access |
 | [Privacy]({{ '/privacy/' | relative_url }}) | Read the privacy policy |
+| [Delete data]({{ '/data-deletion/' | relative_url }}) | Request deletion of your Dextera data |
 
 ## Status
 

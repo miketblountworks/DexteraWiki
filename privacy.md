@@ -183,8 +183,9 @@ We may update this Privacy Policy from time to time. The **Last updated** date a
 For privacy questions about Dextera Launcher:
 
 - **Developer:** Dextera Labs  
-- **Documentation:** [https://miketblountworks.github.io/DexteraWiki/](https://miketblountworks.github.io/DexteraWiki/)  
+- **Website / documentation:** [https://dexteralabs.io/](https://dexteralabs.io/)  
 - **Email:** [mike.t.blount@gmail.com](mailto:mike.t.blount@gmail.com)  
+- **Data deletion requests:** [https://dexteralabs.io/data-deletion/](https://dexteralabs.io/data-deletion/)  
 
 The Play Store developer name **Dextera Labs** and any store listing contact email for that account are also valid contact channels.
 
