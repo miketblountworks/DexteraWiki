@@ -72,7 +72,7 @@ Long-press an app or contact for a **small menu next to the icon** (not a full-s
 |------|----------|
 | App info | Call |
 | Pin / unpin | Message |
-| Lock / unlock (with app locker) | Pin |
+| Lock / unlock (from Dextera, Pro) | Pin |
 | Hide / show | Delete |
 | Add to folder | |
 | Uninstall | |
@@ -92,7 +92,7 @@ Dextera can register as a **device admin** so it can’t be uninstalled casually
 
 ### App lock
 
-Lock individual apps so opening them asks for fingerprint / face / PIN. Needs the **Dextera App Locker** accessibility service — used only to catch locked apps opening, not to read passwords. Details: [Permissions]({{ '/permissions/#accessibility' | relative_url }}).
+Lock individual apps (Pro) so opening them **from Dextera** asks for fingerprint / face / PIN. Dextera does **not** use Accessibility and does not intercept apps opened only from system Recents. Details: [Permissions]({{ '/permissions/' | relative_url }}).
 
 ### Verification codes
 

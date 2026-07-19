@@ -42,7 +42,7 @@ This resets Dextera to a fresh install state on that device.
 
 ### Step 2 — Revoke optional permissions (if you keep the app)
 
-In Android **Settings → Apps → Dextera Launcher → Permissions**, deny any access you no longer want (contacts, location, notifications, accessibility, usage access, etc.).
+In Android **Settings → Apps → Dextera Launcher → Permissions**, deny any access you no longer want (contacts, location, notifications, usage access, etc.).
 
 ### Step 3 — Email a deletion request (optional)
 

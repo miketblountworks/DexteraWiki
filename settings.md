@@ -50,9 +50,9 @@ How **First page** works: [Gestures → Home button]({{ '/gestures/#home-button'
 
 ## Security
 
-- Uninstall protection  
-- App locker (accessibility)  
-- Tips if protection isn’t fully set up  
+- Uninstall protection (device admin)  
+- App lock from the app menu (Pro) — biometrics when opening from Dextera  
+
 
 ## Notifications (from Page settings)
 

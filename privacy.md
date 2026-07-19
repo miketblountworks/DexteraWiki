@@ -89,7 +89,7 @@ We use the information above solely to:
 
 - Provide home-screen, search, notifications, media, weather, and page features  
 - Personalize appearance (theme colors from wallpaper, layout preferences)  
-- Enforce app lock and uninstall-protection features you enable  
+- Enforce app lock (when launching from Dextera) and uninstall-protection features you enable  
 - Improve reliability of optional suggestions (web suggest, Bing wallpaper cache)  
 - Remember settings you choose on the device  
 
@@ -100,7 +100,7 @@ We use the information above solely to:
 If laws such as the GDPR apply to you, processing is typically based on:
 
 - **Contract / service delivery** — providing the launcher features you install and use  
-- **Consent** — optional permissions (contacts, location, accessibility, etc.)  
+- **Consent** — optional permissions (contacts, location, notifications, etc.)  
 - **Legitimate interests** — local security features and on-device performance, balanced against your rights  
 
 You can withdraw optional permissions in Android Settings at any time (some features will stop working).
@@ -111,7 +111,7 @@ You can withdraw optional permissions in Android Settings at any time (some feat
 
 - **Storage:** Preferences and indexes are stored on your device. Sensitive launcher lists (e.g. locked/hidden/pinned packages) may use encrypted storage on-device.  
 - **Retention:** Data remains until you clear app data, uninstall Dextera, or revoke permissions / delete related content on the device.  
-- **Security:** Device admin, accessibility-based app locking, and biometric gates are optional protections. No method is 100% secure; physical access and OS vulnerabilities can still pose risks.  
+- **Security:** Device admin and biometric app lock (when launching from Dextera) are optional protections. No method is 100% secure; physical access and OS vulnerabilities can still pose risks.  
 - **Backups:** Android backup systems (if enabled on your device) may include app data according to your OS backup settings.
 
 ---
@@ -120,7 +120,7 @@ You can withdraw optional permissions in Android Settings at any time (some feat
 
 Dextera shares data only as needed to operate features you use:
 
-1. **On your device** — with Android system services (package manager, notification service, biometrics, accessibility, media sessions).  
+1. **On your device** — with Android system services (package manager, notification service, biometrics, media sessions).  
 2. **Third-party network services** — wallpaper, weather, and web suggestion/search providers as described above.  
 3. **When you act** — e.g. opening another app, sharing, uninstalling, or dialing a contact uses system intents to those apps/services.  
 
@@ -139,7 +139,7 @@ Dextera is a general-purpose launcher and is not directed at children under 13 (
 You can:
 
 - Deny or revoke permissions in **Android Settings → Apps → Dextera → Permissions**  
-- Disable notification access, usage access, accessibility (App Locker), or device admin in system settings  
+- Disable notification access, usage access, or device admin in system settings  
 - Turn off optional features (verification codes / OTP, search history, Bing wallpaper, network speed, etc.) in **Dextera Settings**  
 - Clear app storage or uninstall Dextera to remove on-device app data  
 - Choose a different web search engine or avoid web suggestions by not using search  
@@ -154,17 +154,18 @@ Network features may contact servers in other countries (for example, weather or
 
 ---
 
-## 11. Accessibility, device admin, and sensitive permissions
+## 11. Device admin and sensitive permissions
 
 Some powerful permissions require special explanation:
 
 | Access | Why Dextera may ask |
 |--------|---------------------|
 | **Notification listener** | Custom notification center, badges, media awareness, OTP helpers |
-| **Accessibility (Dextera App Locker)** | Detect when locked apps open so biometrics can be required |
 | **Device admin** | Uninstallation protection (must be deactivated before uninstall) |
 | **Usage access** | Frequently used apps |
 | **Display over other apps** | Optional floating OTP popup |
+
+Dextera does **not** use Accessibility services.
 
 OTP / verification codes use the **notification listener** only (text already shown in messaging-app notifications). Dextera does not read the SMS inbox.
 
