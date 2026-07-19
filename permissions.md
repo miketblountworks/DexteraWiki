@@ -1,74 +1,59 @@
 ---
 title: Permissions
-description: Why Dextera asks for each Android permission or system access — including Accessibility for App Locker.
+description: Why Dextera asks for access — in plain language.
 permalink: /permissions/
 ---
 
-Dextera only uses permissions needed for features you enable. Optional items can be deferred and enabled later in Settings or system Settings.
+Dextera only asks for access that matches features you turn on. You can skip most things at setup and enable them later.
 
-## Why Dextera uses Accessibility {#accessibility}
+## App lock and Accessibility {#accessibility}
 
-Dextera is **not** an accessibility tool for users with disabilities. The optional **Dextera App Locker** accessibility service exists only for **security**: app locking with biometrics or your device credential.
+Dextera is **not** an accessibility app for vision, hearing, or motor needs.
 
-| Topic | Detail |
-|-------|--------|
-| **Why** | Android does not provide a public API that reliably intercepts when a specific app opens (including from Recents). Accessibility is the supported system mechanism that lets Dextera detect a locked app coming to the foreground. |
-| **What it does** | Watches for locked apps opening, shows an opaque cover so content is not readable under the prompt, and requires biometric / device credential before the app is usable. |
-| **What it does not do** | Read passwords, keystrokes, or form fields; control other apps; scrape screen content for ads or analytics; send accessibility events or locked-app data off your device. |
-| **When it runs** | Only if you enable **Global app locker** and turn on the **Dextera App Locker** service in system Accessibility settings. Turn the service or feature off anytime to stop it. |
+If you use **App lock**, Android requires an **accessibility service** so Dextera can notice when a locked app opens (including from Recents) and show a lock screen first.
 
-**Purpose (plain language):** fraud prevention / security and compliance — keep selected apps private until you unlock them on this device.
+| | |
+|--|--|
+| **What it does** | Detects locked apps opening, covers the screen, asks for fingerprint / face / PIN |
+| **What it doesn’t do** | Read what you type, scrape passwords, control other apps, or send that data away |
+| **When it runs** | Only if **Global app locker** is on **and** you enable **Dextera App Locker** in system Accessibility settings |
 
-This page is the public disclosure for that use of Accessibility. Related: [Privacy policy — sensitive permissions]({{ '/privacy/#accessibility-device-admin-and-sensitive-permissions' | relative_url }}) and [Features — Global app locker]({{ '/features/' | relative_url }}).
+You can turn the service or the feature off anytime.
 
-## Photos, videos, and local files {#photos-files}
+More: [Privacy policy]({{ '/privacy/' | relative_url }}) and [Features — Security]({{ '/features/' | relative_url }}).
 
-Dextera is designed for **Google Play’s photo and video policy**:
+## Photos and files {#photos-files}
 
-| Need | How Dextera does it |
-|------|---------------------|
-| **Set a wallpaper photo** | System **photo picker** (one-time pick). Photos are copied into Dextera’s own storage (library of up to 7). **No** `READ_MEDIA_IMAGES` / `READ_MEDIA_VIDEO` permission. |
-| **Search local files** | **Add folder** with the system folder picker (Storage Access Framework). Only folders you grant stay readable. **No** broad media-library scan. |
-| **Older Android (API 32 and below)** | Optional legacy storage access may still help index Downloads/Documents-style locations; modern devices rely on folders you add. |
+| You want to… | What you do in Dextera |
+|--------------|-------------------------|
+| **Use your own wallpaper photo** | Pick a picture when setting wallpaper. Dextera saves up to **7** photos inside the app. |
+| **Search files from home** | Use **Add folder** and choose folders (Downloads, camera roll, etc.). Only those folders are included. |
 
-Dextera does **not** declare broad photo/video library permissions for the current beta.
+Dextera does **not** need all-photos / all-videos access for these features.
 
-## Reference
+## What each access is for
 
-| Permission / access | Used for |
-|---------------------|----------|
-| **Default home role** | Home button opens Dextera |
-| **Notification listener** | Notification center, badges, media, OTP from message notifications |
-| **Contacts** (read/write) | Contact page, search, delete |
-| **Location (approx.)** | Weather |
-| **Folder access (SAF)** | File search indexing for folders you pick |
-| **Usage access** | Frequently used apps |
+| Access | Why you might allow it |
+|--------|-------------------------|
+| **Home app** | Home button opens Dextera |
+| **Notification access** | Notification page, badges, music awareness, verification codes from message notifications |
+| **Contacts** | Contacts page and contact search |
+| **Location** | Weather near you |
+| **Folders you pick** | File search in those folders only |
+| **Usage access** | “Frequently used” apps |
 | **Device admin** | Uninstall protection |
-| **Accessibility (App Locker)** | [App lock intercept](#accessibility) |
-| **Draw over other apps** (optional) | Floating OTP popup |
-| **Set wallpaper** | Applying the chosen still/dynamic frame to the system wallpaper when selected |
+| **Accessibility (App Locker)** | [App lock](#accessibility) |
+| **Display over other apps** (optional) | Floating verification-code window |
+| **Set wallpaper** | Apply the wallpaper you chose to the system wallpaper |
 
-Dextera does **not** request the Android **SMS** or **Call Log** permission groups. Optional verification codes use the notification listener only.
+Dextera does **not** ask for SMS or call-log access. Verification codes come from **notifications**, not your SMS inbox.
 
-## Sensitive permissions explained
-
-| Access | Why Dextera may ask |
-|--------|---------------------|
-| **Notification listener** | Custom notification center, badges, media awareness, OTP from messaging notifications |
-| **Accessibility (Dextera App Locker)** | Detect when locked apps open so biometrics can be required — [full explanation](#accessibility) |
-| **Device admin** | Uninstallation protection (must be deactivated before uninstall) |
-| **Usage access** | Frequently used apps |
-| **Display over other apps** | Optional floating OTP popup |
-
-These are **optional** unless a feature requires them. Disabling them limits related features only.
-
-## Manage permissions
+## How to change access later
 
 - **Android Settings → Apps → Dextera → Permissions**  
-- Notification access, usage access, accessibility, and device admin live under their own system settings areas  
-- Feature toggles also exist inside **Dextera Settings**  
-- File search folders are managed under **Settings → Unified Search → Add folder**  
+- Notification access, usage access, accessibility, and device admin have their own system screens  
+- Inside Dextera: Settings toggles, and **Search → Add folder** for file locations  
 
-## Privacy note
+## Privacy
 
-Most processing stays on your device. Network is used only for optional features such as weather, Bing wallpaper, and web search suggestions. See the full [Privacy policy]({{ '/privacy/' | relative_url }}).
+Most work stays on your phone. Network is only for things like weather, Bing wallpaper, or web search if you use them. Full details: [Privacy policy]({{ '/privacy/' | relative_url }}).

@@ -1,24 +1,24 @@
 ---
 title: Launcher pages
-description: App list, contacts, recents, music, notifications, quick settings, widgets, and Scratch Board.
+description: What’s on each Dextera page and how to use page overview.
 permalink: /pages/
 ---
 
-Default pages (order configurable in **Settings → Launcher Pages**):
+You can turn pages on/off and reorder them under **Settings → Launcher Pages**.
 
-| Page | Role |
-|------|------|
-| **App List** | Main drawer + sidebar |
-| **Contacts** | Device + launcher contacts; call/message; pin; optional quick-scroll rail |
+| Page | What it’s for |
+|------|----------------|
+| **App List** | All your apps, letter rail, pins, frequently used |
+| **Contacts** | Call, message, pin contacts; optional letter rail |
 | **Recents** | Recent apps; swipe to close; long-press for menu |
-| **Music** | Now playing / media hub |
-| **Notifications** | Custom notification center |
-| **Scratch Board** | Notes, clipboard, pinned notifications |
-| **Quick Settings** | Fast toggles / system-adjacent controls (Pro for adding) |
-| **Custom / Widgets** | Free-form widget canvas pages (Pro for extras) |
+| **Music** | Now playing |
+| **Notifications** | Full notification center |
+| **Scratch Board** | Notes, clipboard, things you pin from notifications |
+| **Quick Settings** | Fast toggles (may require Pro to add) |
+| **Custom / Widgets** | Your own widget pages (extra pages may require Pro) |
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/03_page.png' | relative_url }}" alt="Launcher page example" width="320" />
+  <img class="shot" src="{{ '/assets/images/03_page.png' | relative_url }}" alt="A launcher page" width="320" />
 </p>
 
 ## Page overview
@@ -27,80 +27,79 @@ Default pages (order configurable in **Settings → Launcher Pages**):
   <img class="shot" src="{{ '/assets/images/07_page_overview.png' | relative_url }}" alt="Page overview" width="320" />
 </p>
 
-Open overview by:
+### How to open it
 
-- Pinch in or long-press empty home  
-- Tapping the **gear** on the floating search bar  
+- Pinch the home screen  
+- Long-press empty space on home  
+- Tap the **gear** on the search bar  
 
-From overview you can reorder pages, open **Page settings** for the centered card, toggle **sync wallpaper**, set **page wallpaper**, and manage widget pages (grid size presets, add widgets).
+### What you can do there
 
-**Back from Page settings** returns you to page overview (not straight to the home screen).
+- Reorder pages  
+- Open **Page settings** for the page in the middle  
+- Turn **sync wallpaper** on/off and set a **page wallpaper**  
+- Change widget grid size and add widgets  
 
-## Dynamic visibility
+When you open **Page settings** from overview, **Back** returns you to overview.
 
-Some pages hide when empty (for example no media session or no visible notifications), then reappear when content returns.
+## Pages that hide when empty
 
-## App list details
+Some pages disappear when there’s nothing to show (for example no music playing, or no notifications), and come back when there’s content again.
 
-- Alphabetical launchable apps  
-- Optional **pinned** apps at top  
-- Optional **Frequently used** (usage stats + limit)  
-- Category chips when folders have apps  
-- Notification badges  
-- Launch respects app lock and usage breaker if enabled  
+## App List
 
-### Sidebar (quick scroll)
+- All apps A–Z  
+- Optional **pinned** apps at the top  
+- Optional **frequently used** section  
+- Category filters when you use folders  
+- Badges for unread notifications  
 
-- Letters **A–Z** (or **dots** mode)  
-- Markers for pinned and frequently used  
-- Large letter/icon popup while scrubbing  
-- Letter size levels and optional idle fade  
+### Letter rail
 
-### Folders / categories
+- Drag letters (or dots) to jump  
+- Large letter popup while you drag  
+- Size and fade options in Appearance / page settings  
 
-Apps can be added to groups (Social, Utilities, Media, …) from the context menu **Folder** face. Home category row filters the list by group.
+### Folders
 
-## Contacts page
+Long-press an app → **Folder** to put it in a group (Social, Utilities, Media, …). Filter the list with the chips on home.
 
-- Merged system + launcher contacts  
-- Swipe for message shortcuts; long-press for contact menu  
-- Optional **quick-scroll rail** (can sync styling with the app list or use its own dots / fade / letter size)
+## Contacts
 
-## Notifications page
+- Phone book contacts plus any launcher contacts  
+- Swipe a row for messaging shortcuts  
+- Long-press for the contact menu  
+- Optional letter rail (can match the app list style or use its own)
 
-Requires notification listener access.
+## Notifications
 
-- Grouped stacks by app  
-- Expand, dismiss, inline actions, quick reply  
-- **Pin apps** to the top of the list (long-press app icon on a card)  
-- **Lock pinned notifications** (Page settings) — blocks swipe-dismiss and **Clear All** for those apps  
-- Category filters (Wellbeing / notification settings)  
-- Safe deep-link / pending-intent handling for modern Android  
+Needs notification access for Dextera.
 
-## Media page
+- Stacked by app  
+- Expand, dismiss, reply when available  
+- **Pin apps** so they stay at the top  
+- **Lock pinned** in Page settings so those can’t be cleared by accident  
+- Filters for notification categories in wellbeing-related settings  
 
-When a media session is active:
+## Music
 
-- Play/pause gestures with spring feedback  
-- Transport controls and marquee metadata  
-- Volume routing to local stream or cast session  
+When audio is playing: artwork, play/pause gesture, skip controls, and volume for the active output.
 
 ## Quick Settings
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/04_quick_settings.png' | relative_url }}" alt="Quick Settings page" width="320" />
+  <img class="shot" src="{{ '/assets/images/04_quick_settings.png' | relative_url }}" alt="Quick Settings" width="320" />
 </p>
 
-Fast system-adjacent toggles living as a first-class launcher page rather than only a status-bar shade. The panel scrolls if content is tall.
+Handy toggles on their own page. Scroll if the list is long.
 
 ## Widgets
 
-- Free-form canvas with snap grid and cell overlay while editing  
-- Resize, drag, landing highlight, auto-edit on add  
-- Per-page **grid size presets** (including dense layouts)  
-- Dextera widget picker with previews  
-- Custom page **rename** and cleanup of orphaned widgets  
+- Place widgets on a grid; drag and resize in edit mode  
+- Pick denser or roomier grids per page  
+- Use Dextera’s widget picker (with previews)  
+- Rename custom pages  
 
 ## Scratch Board
 
-Timeline of notes, clipboard captures, and notifications you pin. Optional share-into-Scratch-Board for files. Can open as a page or overlay.
+Notes, clipboard history, and notifications you’ve pinned. Open as a page or from shortcuts; you can share files into it when that option appears.

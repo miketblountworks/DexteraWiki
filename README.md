@@ -1,38 +1,38 @@
 # Dextera Wiki
 
-Public **user documentation** for **Dextera Launcher** by **Dextera Labs** — a modern Android home screen built with Kotlin and Jetpack Compose.
+Public **user help** for **Dextera Launcher** by **Dextera Labs** — how to use features and navigate the home screen.
 
-**Current app channel:** public beta (`0.4.0-beta`).
+**App status:** public beta.
 
-Dextera Launcher is **proprietary software** and is **not open source**. This repository (if public) hosts documentation only, not the app’s source code.
+This site is documentation only, not the app source. Dextera Launcher is **proprietary**.
 
 ## Live site
 
 **https://miketblountworks.github.io/DexteraWiki/**
 
-## Contents
+## Pages
 
-| Page | Path |
-|------|------|
+| Topic | File |
+|-------|------|
 | Home | `index.md` |
 | Getting started | `getting-started.md` |
 | Features | `features.md` |
 | Gestures | `gestures.md` |
-| Launcher pages | `pages.md` |
+| Pages | `pages.md` |
 | Settings | `settings.md` |
 | Permissions | `permissions.md` |
-| Privacy policy | `privacy.md` |
+| Privacy | `privacy.md` |
 
-## Local preview
+## Preview locally
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-Then open `http://127.0.0.1:4000/DexteraWiki/`.
+Open `http://127.0.0.1:4000/DexteraWiki/`.
 
 ## License
 
-- **App (Dextera Launcher):** proprietary — all rights reserved by Dextera Labs.  
-- **This wiki documentation:** may be viewed publicly for user help; redistribution of the docs without permission is not granted unless stated otherwise.  
+- **App:** proprietary — Dextera Labs.  
+- **This help wiki:** public reading for users; don’t republish without permission unless we say otherwise.  

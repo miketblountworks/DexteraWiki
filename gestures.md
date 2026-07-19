@@ -1,64 +1,64 @@
 ---
 title: Gestures
-description: Gesture and navigation reference for Dextera Launcher.
+description: How to navigate Dextera with your thumb — search bar, Home, and more.
 permalink: /gestures/
 ---
 
-## Primary gestures
+## Everyday gestures
 
-| Gesture | Action |
-|---------|--------|
-| **Flick search bar** left / right | Jump one adjacent page |
-| **Hold + drag** on search bar | Page **scrubber** (dots under thumb); large page name popup |
-| **Tap gear** on search bar | Open **page overview** |
-| **Drag A–Z sidebar** | Jump app list to letter / pin / frequently used |
-| **Drag Contacts rail** | Jump the contacts list (when enabled) |
-| **Long-press app / contact row** | Anchored context menu |
-| **Pinch in** or **long-press empty home** | Page overview (rearrange workspace) |
-| **System back** | Close menus, clear search; page cycle only when **not** in traditional swiping mode |
-| **Long-hold back** (optional) | Run the configured gesture action (page jump, first page, left-handed toggle, …) |
-| **Pull down** (reachability) | Slightly lowers workspace for one-handed use |
-| **Double-tap header** (optional) | Configured action (page, first page, left-handed, …) |
-| **Home button / home gesture** | Return to Dextera; see [Home action](#home-action) |
-| **Horizontal swipe** (traditional swiping mode) | Classic free-swipe between pages |
+| What you do | What happens |
+|-------------|----------------|
+| **Flick** the search bar left / right | Jump one page |
+| **Hold and drag** on the search bar | Scrub through pages (dots under your thumb) |
+| **Tap the gear** on the search bar | Open **page overview** |
+| **Drag the letter rail** | Jump the app list (or contacts rail, if enabled) |
+| **Long-press** an app or contact | Open the quick menu |
+| **Pinch in** or **long-press empty space** | Page overview |
+| **System back** | Close menus and search; may change page only if traditional swiping is off |
+| **Hold back** (if you turn it on) | Jump to a page or run the action you chose |
+| **Pull down** from the top area | Reachability — content moves closer to your thumb |
+| **Double-tap** the clock/header area (if set) | Runs your chosen action |
+| **Home** | Returns to Dextera — see [Home button](#home-button) |
+| **Swipe pages** (if traditional swiping is on) | Normal side-to-side paging |
 
-## Home action {#home-action}
+## Home button {#home-button}
 
-In **Settings → Touch & Gestures → Home button & gesture** you can assign an action. Special case for **First page**:
+In **Settings → Touch & Gestures → Home button & gesture** you can pick what Home does.
 
-1. **While in another app** — Home returns you to the **page you left** (continuity).  
-2. **Home again while already on Dextera** — jumps to the **first page**.  
+### First page (recommended if you jump around a lot)
 
-Default (no custom action) still uses continuity when returning from an app and reset-to-first when already home.
+1. You’re in another app → **Home** → back to **the page you left**.  
+2. **Home again** while already on Dextera → **first page**.  
 
-## Page scrubber
+If you leave Home on the default, Dextera still brings you back to the page you left when you leave an app, and goes to the first page when you press Home while you’re already home.
+
+## Scrubbing pages
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/05_page_scrubber.png' | relative_url }}" alt="Page scrubber" width="320" />
 </p>
 
-- Quick swipe = one page  
-- Sustained drag = continuous scrub with haptic feedback  
-- Scrub UI always clears on finger up (safety timeout so blur/dim cannot stick)  
+- Quick flick = one page  
+- Press and drag = pick any page; the large name helps you aim  
+- Lift your finger and the scrubber goes away  
 
-## Search keyboard & back
+## Search and back
 
-- Back closes context menus first (while open), then clears focus/query and restores home  
-- IME padding keeps results above the keyboard  
-- Native back-handler integration respects system swipe-to-go-back  
+- Back first closes a long-press menu if one is open  
+- Then it closes search / the keyboard and returns you to home content  
 
-## Configure gestures
+## Where to change this
 
-Open **Settings → Touch & Gestures** (or **Page settings** from overview for page-specific options):
+**Settings → Touch & Gestures** (or **Page settings** from overview for some page options):
 
-- Home screen gestures master switch  
-- **Home button & gesture** action (including **First page**)  
-- Double-tap header action  
-- Long-hold back + action  
-- Traditional swiping mode  
+- Turn gestures on/off  
+- Home action (including **First page**)  
+- Double-tap action  
+- Hold-back action  
+- Traditional swiping  
 
 ## Tips
 
-1. Keep your thumb on the search bar for multi-page navigation without reaching the top of the screen.  
-2. Use **page overview** (pinch, empty long-press, or the search **gear**) to reorder pages and open **Page settings**.  
-3. Prefer **First page** Home action if you want “back to where I was” once, then a second Home to land on the first page.  
+1. Stay on the bottom search bar for most page moving — less reaching.  
+2. Use the **gear**, pinch, or empty long-press when you need overview or page settings.  
+3. Try **First page** on Home if you want one press for “where I was” and a second for “home base.”  

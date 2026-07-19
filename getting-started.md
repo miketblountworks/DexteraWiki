@@ -1,69 +1,65 @@
 ---
 title: Getting started
-description: Install flow, onboarding, and first setup for Dextera Launcher.
+description: First setup and how to find your way around Dextera.
 permalink: /getting-started/
 ---
 
-## Onboarding (3 stages)
+## First launch
 
-First launch uses a short flow instead of many separate permission screens:
+You’ll see a short intro instead of a long permissions gauntlet:
 
-| Stage | What you do |
-|--------|-------------|
-| **Welcome** | Brief intro (public beta note when on a beta build) |
-| **Quick setup** | One checklist for optional access (home, notifications, contacts, weather, **add folders** for file search, usage) |
-| **How Dextera works** | Swipeable showcase of gestures and core features |
+| Step | What happens |
+|------|----------------|
+| **Welcome** | Quick intro (beta builds mention you’re on the public beta) |
+| **Quick setup** | Optional checklist — home app, notifications, contacts, weather, folders for file search, usage |
+| **How Dextera works** | Short tour of gestures |
 
-You can skip optional items and enable them later in **Settings**.
+Skip anything you don’t need; you can turn it on later in **Settings**.
 
-**Files / search:** Dextera does **not** ask for broad photo/video library access. For local file search, use **Add folder** and pick folders (e.g. Downloads, Documents, DCIM) via the system folder picker.
+### File search tip
 
-## Set as default home
+To search files from home, use **Add folder** and pick places like Downloads or Photos. Dextera only looks in folders you choose.
 
-Use **Settings** inside Dextera, or Android system settings:
+## Make Dextera your home app
 
 **Android Settings → Default apps → Home app → Dextera**
 
-Recommended so the home button and system gestures return to Dextera.
+Or finish setup from Dextera’s own prompts. Until this is set, the Home button may return you to your old launcher.
 
-## Recommended first permissions
+## What to turn on first
 
-For the full experience, enable these early:
-
-1. **Default home role** — home button opens Dextera  
-2. **Notification listener** — notification center, badges, media awareness  
-3. **Contacts** (optional) — contacts page and search  
+1. **Home app** — so Home always opens Dextera  
+2. **Notification access** — for the notification center, badges, and music awareness  
+3. **Contacts** (optional) — Contacts page and search  
 4. **Location** (optional) — weather  
-5. **Folders for file search** (optional) — only the folders you pick  
+5. **Folders** (optional) — so search can find files in those folders  
 
-Everything optional can wait until you need the related feature.
-
-## Home workspace at a glance
+## The home screen at a glance
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/01_home.png' | relative_url }}" alt="Dextera home screen" width="320" />
 </p>
 
-| Region | Contents |
-|--------|----------|
-| **Top** | Optional notification icon strip (fullscreen / status bar hidden) |
-| **Upper mid** | Clock, date, weather; optional network speeds in fullscreen |
-| **Main** | Current page (apps, contacts, recents, music, notifications, widgets, …) |
-| **Edge rail** | A–Z / pin / frequently-used index (App List); Contacts can use its own rail |
-| **Bottom** | Floating **Search** bar + **gear** (opens **page overview**) |
+| Area | What’s there |
+|------|----------------|
+| **Top** | Optional status icons when the system status bar is hidden |
+| **Upper mid** | Clock, date, weather |
+| **Center** | The current page (apps, contacts, music, notifications, widgets, …) |
+| **Side** | Letter rail to jump through the app list (Contacts can have its own rail) |
+| **Bottom** | **Search** bar — and the **gear**, which opens **page overview** |
 
-## Quick wins
+## Try these first
 
-1. Flick the search bar left/right to change pages.  
-2. Hold and drag the search bar to scrub across all pages.  
-3. Long-press an app for pin, lock, hide, folder, or uninstall.  
-4. Pinch in (or long-press empty home) — or tap the **gear** on the search bar — to open **page overview**.  
-5. From page overview, use **Page settings** for that page, or the wallpaper control for Appearance.  
-6. In Settings → Gestures, set **Home button & gesture** to **First page** for “return to the page you left, then Home again for first page.”
+1. **Flick** the search bar left or right to change page.  
+2. **Hold and drag** the search bar to scrub through all pages.  
+3. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
+4. **Pinch** the home screen, **long-press empty space**, or tap the **gear** to open **page overview**.  
+5. In overview, open **Page settings** for that page, or the wallpaper button for Appearance.  
+6. Under **Settings → Touch & Gestures**, set **Home button & gesture** to **First page** if you want: leave an app → back to the page you were on; Home again → first page.
 
-## Next steps
+## More help
 
-- [Features]({{ '/features/' | relative_url }}) — full feature guide  
-- [Gestures]({{ '/gestures/' | relative_url }}) — navigation reference  
-- [Permissions]({{ '/permissions/' | relative_url }}) — permission map  
-- [Privacy]({{ '/privacy/' | relative_url }}) — how data is handled  
+- [Features]({{ '/features/' | relative_url }})  
+- [Gestures]({{ '/gestures/' | relative_url }})  
+- [Permissions]({{ '/permissions/' | relative_url }})  
+- [Privacy]({{ '/privacy/' | relative_url }})  
