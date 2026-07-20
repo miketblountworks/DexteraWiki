@@ -6,7 +6,7 @@ permalink: /privacy/
 
 **Effective date:** July 10, 2026  
 **Last updated:** July 19, 2026  
-**Application:** Dextera Launcher (`com.dextera`)  
+**Application:** Dextera Launcher (`com.dexteralabs.launcher`)  
 **Developer:** Dextera Labs
 
 This Privacy Policy describes how **Dextera Labs** (“**Dextera Labs**,” “**we**,” or “**us**”) handles information when you install and use Dextera Launcher (“**Dextera**,” or “**the App**”) on your Android device.

@@ -4,7 +4,7 @@ description: How to delete Dextera Launcher data — uninstall, clear storage, o
 permalink: /data-deletion/
 ---
 
-**App:** Dextera Launcher (`com.dextera`)  
+**App:** Dextera Launcher (`com.dexteralabs.launcher`)  
 **Developer (Play Store):** Dextera Labs  
 **Last updated:** July 19, 2026
 
