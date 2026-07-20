@@ -4,6 +4,14 @@ description: First setup and how to find your way around Dextera.
 permalink: /getting-started/
 ---
 
+## Install
+
+Download **Dextera Launcher** from Google Play (public beta):
+
+**[Get it on Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.launcher)**
+
+Then open the app and continue with the steps below.
+
 ## First launch
 
 You’ll see a short intro instead of a long permissions gauntlet:
