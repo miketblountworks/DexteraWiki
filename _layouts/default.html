@@ -82,7 +82,16 @@
         <p class="muted">Documentation for Dextera Launcher by <strong>Dextera Labs</strong>. Proprietary software — not open source. Active development — features may change.</p>
       </div>
       <div class="footer-links">
-        <a href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">Google Play</a>
+        <a class="play-badge play-badge-footer"
+           href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}"
+               alt="Get it on Google Play"
+               width="135"
+               height="52"
+               loading="lazy" />
+        </a>
         <a href="{{ '/permissions/' | relative_url }}">Permissions</a>
         <a href="{{ '/privacy/' | relative_url }}">Privacy policy</a>
         <a href="{{ '/data-deletion/' | relative_url }}">Delete data</a>

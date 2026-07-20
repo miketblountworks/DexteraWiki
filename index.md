@@ -78,5 +78,12 @@ description: User help and feature guides for Dextera Launcher.
 
 Dextera is in **public beta**. The main experience is ready for everyday use; we’re polishing and fixing bugs based on feedback.
 
-**Get the app:** [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.launcher)  
-**Developer:** Dextera Labs 
+**Get the app:**
+
+<p class="play-badge-wrap">
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}" alt="Get it on Google Play" width="160" height="62" loading="lazy" />
+  </a>
+</p>
+
+**Developer:** Dextera Labs
