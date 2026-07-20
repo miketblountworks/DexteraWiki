@@ -8,7 +8,11 @@ permalink: /getting-started/
 
 Download **Dextera Launcher** from Google Play (public beta):
 
-**[Get it on Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.launcher)**
+<p class="play-badge-wrap">
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}" alt="Get it on Google Play" width="200" height="78" loading="lazy" />
+  </a>
+</p>
 
 Then open the app and continue with the steps below.
 

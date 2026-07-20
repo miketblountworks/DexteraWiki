@@ -11,8 +11,13 @@ description: User help and feature guides for Dextera Launcher.
 
 **Dextera** is a custom Android home screen from **Dextera Labs**. This wiki is for people using the app: what each feature does and how to find it.
 
-**Testers & new users:** install from  
-[**Google Play → Dextera Launcher**](https://play.google.com/store/apps/details?id=com.dexteralabs.launcher).
+**Testers & new users:** install from Google Play:
+
+<p class="play-badge-wrap">
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}" alt="Get it on Google Play" width="180" height="70" loading="lazy" />
+  </a>
+</p>
 
 ## What you can do
 

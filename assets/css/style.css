@@ -259,6 +259,37 @@ a:hover {
   background: var(--bg-soft);
 }
 
+/* Official Google Play badge (brand asset) */
+.play-badge {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  border-radius: 8px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.play-badge:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.play-badge img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  /* Official badge art includes large transparent padding */
+  margin: -0.35rem -0.55rem;
+}
+
+.play-badge-wrap {
+  margin: 0.75rem 0 1rem;
+}
+
+.play-badge-footer img {
+  margin: -0.25rem -0.4rem;
+}
+
 .page-header {
   margin-bottom: 1.75rem;
   padding-bottom: 1.25rem;
