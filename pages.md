@@ -1,105 +1,97 @@
 ---
 title: Launcher pages
-description: What’s on each Dextera page and how to use page overview.
+description: What’s on each Dextera page, widgets on built-in vs custom pages, and page overview.
 permalink: /pages/
 ---
 
-You can turn pages on/off and reorder them under **Settings → Launcher Pages**.
+Turn pages on/off and reorder them under **Settings → Pages**, or long-press-drag cards in **page overview**.
 
-| Page | What it’s for |
-|------|----------------|
-| **App List** | All your apps, letter rail, pins, frequently used |
-| **Contacts** | Call, message, pin contacts; optional letter rail |
-| **Recents** | Recent apps; swipe to close; long-press for menu |
-| **Music** | Now playing |
-| **Notifications** | Full notification center |
-| **Scratch Board** | Notes, clipboard, things you pin from notifications |
-| **Quick Settings** | Fast toggles (may require Pro to add) |
-| **Custom / Widgets** | Your own widget pages (extra pages may require Pro) |
+## Built-in pages
+
+| Page | What it’s for | Screenshot |
+|------|----------------|------------|
+| **App List** | All apps, letter rail, pins, frequently used | [Home]({{ '/features/#home--app-list' | relative_url }}) |
+| **Recents** | Recently used apps | [Recents]({{ '/features/#recents' | relative_url }}) |
+| **Contacts** | Call, message, pin contacts; optional letter rail | — |
+| **Music** | Now playing, seek, volume | [Music]({{ '/features/#music' | relative_url }}) |
+| **Notifications** | Full notification center, pin apps | [Notifications]({{ '/features/#notifications' | relative_url }}) |
+| **Scratch Board** | Notes, clipboard, pins, attachments | [Scratch Board]({{ '/features/#scratch-board' | relative_url }}) |
+| **Quick Settings** | Fast toggles (may require Pro to add) | — |
+| **Custom / Widgets** | Free-form widget canvas (extra pages may need Pro) | — |
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/03_page.png' | relative_url }}" alt="A launcher page" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_pages_panels.png' | relative_url }}" alt="Home panels list" width="320" />
 </p>
 
 ## Page overview
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/07_page_overview.png' | relative_url }}" alt="Page overview" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" width="320" />
 </p>
 
-### How to open it
+### How to open
 
+- Gear on the **search bar**  
 - Pinch the home screen  
-- Long-press empty space on home  
-- Tap the **gear** on the search bar  
+- Long-press empty space  
 
-### What you can do there
+### What you can do
 
-- Reorder pages  
-- Open **Page settings** for the page in the middle  
-- Turn **sync wallpaper** on/off and set a **page wallpaper**  
-- Change widget grid size and add widgets  
+- **Reorder** pages by long-press-dragging cards  
+- **+ Widget (n/3)** — stack up to **3** widgets on a **built-in** page  
+- **+ Add widgets** — free-form layout on a **custom** page  
+- **Settings** on a card — that page’s options (**Back** returns to overview)  
+- **Sync wallpaper across pages** — one look everywhere, or per-page  
+- Bottom **Wallpaper** / **Settings**  
 
-When you open **Page settings** from overview, **Back** returns you to overview.
+## Navigation style
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_pages_nav.png' | relative_url }}" alt="Page transitions" width="320" />
+</p>
+
+| Mode | Behavior |
+|------|----------|
+| **Default** | Flick / scrub the search bar; back can cycle pages |
+| **Traditional swiping** | Free page swipes; home is mostly App List + custom pages |
+
+**Page transitions:** Slide, Cube, Depth, Flip, Fade (**Settings → Pages**).
 
 ## Pages that hide when empty
 
-Some pages disappear when there’s nothing to show (for example no music playing, or no notifications), and come back when there’s content again.
+Music and Notifications can disappear when there’s nothing to show, and return when content appears again.
 
 ## App List
 
-- All apps A–Z  
-- Optional **pinned** apps at the top  
-- Optional **frequently used** section  
-- Category filters when you use folders  
-- Badges for unread notifications  
-
-### Letter rail
-
-- Drag letters (or dots) to jump  
-- Large letter popup while you drag  
-- Size and fade options in Appearance / page settings  
+- A–Z apps, optional **pinned** and **frequently used**  
+- **Letter rail** (size, dots, fade, left-handed)  
+- Category chips when folders have apps  
+- Notification badges  
 
 ### Folders
 
-Long-press an app → **Folder** to put it in a group (Social, Utilities, Media, …). Filter the list with the chips on home.
-
-## Contacts
-
-- Phone book contacts plus any launcher contacts  
-- Swipe a row for messaging shortcuts  
-- Long-press for the contact menu  
-- Optional letter rail (can match the app list style or use its own)
-
-## Notifications
-
-Needs notification access for Dextera.
-
-- Stacked by app  
-- Expand, dismiss, reply when available  
-- **Pin apps** so they stay at the top  
-- **Lock pinned** in Page settings so those can’t be cleared by accident  
-- Filters for notification categories in wellbeing-related settings  
-
-## Music
-
-When audio is playing: artwork, play/pause gesture, skip controls, and volume for the active output.
-
-## Quick Settings
-
-<p align="center">
-  <img class="shot" src="{{ '/assets/images/04_quick_settings.png' | relative_url }}" alt="Quick Settings" width="320" />
-</p>
-
-Handy toggles on their own page. Scroll if the list is long.
+Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
 
 ## Widgets
 
-- Place widgets on a grid; drag and resize in edit mode  
-- Pick denser or roomier grids per page  
-- Use Dextera’s widget picker (with previews)  
-- Rename custom pages  
+### On custom pages
+
+- Free-form grid; drag and resize in edit mode  
+- Grid size presets from overview when a custom page is centered  
+- Dextera widget picker with previews  
+
+### On built-in pages (overlay stack)
+
+- Up to **3** Android widgets (or app shortcuts) as a **stacked** card fan on that page  
+- Add from overview **+ Widget**  
+- Front card is interactive; peeks show which widget is underneath  
 
 ## Scratch Board
 
-Notes, clipboard history, and notifications you’ve pinned. Open as a page or from shortcuts; you can share files into it when that option appears.
+Notes, pinned notifications (with images when available), clipboard, and file attachments. Open as a page; compose with **Write a note…**
+
+## More
+
+- [Features]({{ '/features/' | relative_url }}) — full tour with screenshots  
+- [Gestures]({{ '/gestures/' | relative_url }})  
+- [Settings]({{ '/settings/' | relative_url }})  

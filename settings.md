@@ -1,6 +1,6 @@
 ---
 title: Settings
-description: Where to change wallpapers, gestures, security, search, and more.
+description: Where to change wallpapers, styles, gestures, search, pages, security, and more.
 permalink: /settings/
 ---
 
@@ -8,78 +8,118 @@ permalink: /settings/
 
 | Start here | What you get |
 |------------|----------------|
-| **Page overview → Page settings** | Options for that page (for example Notifications). **Back** goes to overview. |
-| **Page overview → wallpaper button** | Appearance: wallpapers, dim/blur, icons. Back can return to overview. |
-| **Settings inside the app** | Full list: Appearance, Gestures, Wellbeing, Security, Search, Pages, About, … |
+| **Page overview → Settings** (bottom) | Full Launcher Settings list |
+| **Page overview → Settings on a card** | Options for that page only. **Back** → overview |
+| **Page overview → Wallpaper** | Wallpaper picker (Wallpapers + Styles tabs) |
+| **Settings → Appearance** | Theme, icons, fonts, live preview |
 
 > The **gear on the search bar** opens **page overview**, not the main Settings list.
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/02_settings.png' | relative_url }}" alt="Settings" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_settings_root.png' | relative_url }}" alt="Launcher Settings" width="320" />
 </p>
 
 ## Appearance
 
-Live preview plus:
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" width="320" />
+</p>
 
-- **Wallpapers** — phone wallpaper, black, Bing Daily (Pro), built-in set  
-- **Day / night** packs — import a timed wallpaper folder, or use built-in Horizon  
-- **Your photos** — choose with the phone’s photo picker; keep up to **7**; tap to apply, long-press to delete  
-- **Per-page wallpaper** — turn sync off in page overview, then set each page  
-- Theme colors, clock styles, fonts, sizes  
-- Status bar hide, network speed, clock background, text invert  
-- Letter-rail look (dots, fade, size); Contacts can share or use its own  
-- 24-hour clock, Fahrenheit  
+- Live preview (dim badge, themed icons)  
+- Wallpaper: Custom, Pitch Black, Bing Daily (Pro)  
+- Apply wallpaper to Home & Lock / Home / Lock  
+- Theme colors (Auto from wallpaper + solid swatches)  
+- Themed icons + shapes  
+- Fonts (live preview) and font / icon size  
+
+Full wallpaper catalog, dynamic packs, and **Styles**: [Features → Wallpapers]({{ '/features/#wallpapers' | relative_url }}) · [Styles]({{ '/features/#styles' | relative_url }}).
+
+## Home
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_home_tasks.png' | relative_url }}" alt="Home tasks and clock" width="320" />
+</p>
+
+- **Tasks quote on home** + Google Tasks connect + fade timing  
+- Clock styles, hide status bar, network speed, clock background, invert text  
+- Weather: 24-hour, Fahrenheit  
+
+## App List
+
+Sidebar letter size, dots, idle fade; folder categories; related list options.
 
 ## Touch & Gestures
 
-- Master switch for home gestures  
-- **Home button & gesture** — Default, **First page**, left-handed mode, or jump to a page  
-- Double-tap on the clock/header  
-- Hold-back action  
-- Traditional page swiping  
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_gestures.png' | relative_url }}" alt="Gestures settings" width="320" />
+</p>
 
-How **First page** works: [Gestures → Home button]({{ '/gestures/#home-button' | relative_url }}).
+- Left-handed letter rail  
+- Home screen gestures master switch  
+- Long-hold back → page  
+- Double-tap header action  
+- Home button & gesture (**First page**, etc.)  
 
-## Digital Wellbeing
-
-- Calmer / declutter mode  
-- Frequently used section and limits  
-- Hidden apps  
-- Notification filters  
-
-## Security
-
-- Uninstall protection (device admin)  
-- App lock from the app menu (Pro) — biometrics when opening from Dextera  
-
-
-## Notifications (from Page settings)
-
-- Colored cards  
-- **Lock pinned notifications** — pinned apps can’t be swiped or cleared with Clear All  
+See [Gestures]({{ '/gestures/' | relative_url }}).
 
 ## Search
 
-- Web search engine  
-- Search history on/off and clear  
-- Verification codes from notifications  
-- How many results per category  
-- **File search → Add folder** — only folders you pick are searchable  
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_search_settings.png' | relative_url }}" alt="Search settings" width="320" />
+</p>
 
-## Launcher Pages
+- Colorized search  
+- Web engine  
+- Previous results / history limit / clear  
+- Verification codes (OTP from message notifications)  
+- Sources: Apps, Contacts, Files, Web, Settings  
+- File search: indexed folders, **Add folder**  
 
-Turn pages on/off, reorder, rename custom pages. Some extra pages need Pro.
+## Pages
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_pages_nav.png' | relative_url }}" alt="Pages settings" width="320" />
+</p>
+
+- Traditional swiping mode  
+- Page transitions (Slide, Cube, Depth, Flip, Fade)  
+- Enable / reorder / remove panels  
+- Add custom widget pages (Pro may apply)  
+
+## Digital Wellbeing
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_wellbeing.png' | relative_url }}" alt="Digital Wellbeing" width="320" />
+</p>
+
+- **Zen mode (declutter)** — hide labels and extra overlays  
+- Frequently used limits, hidden apps, and related filters where available  
+
+## Security & Privacy
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_security.png' | relative_url }}" alt="Security" width="320" />
+</p>
+
+- Uninstallation protection (device admin)  
+- App locking from the app menu (Pro)  
+
+## Notifications (page settings)
+
+From overview → **Settings** on the Notifications card:
+
+- Colored cards  
+- **Lock pinned notifications**  
 
 ## About
 
-- Version (beta builds show a public beta note)  
+- Version (beta note when applicable)  
 - Dextera Labs  
-- Dextera Pro (during beta, unlock may be a local test switch; paid billing comes later)  
-- Privacy policy and link to this help wiki  
+- Dextera Pro  
+- Privacy policy and this help wiki  
 
 ## Related
 
+- [Features]({{ '/features/' | relative_url }}) — screenshots and how-tos  
 - [Privacy]({{ '/privacy/' | relative_url }})  
 - [Permissions]({{ '/permissions/' | relative_url }})  
-- [Features]({{ '/features/' | relative_url }})  

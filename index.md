@@ -2,7 +2,7 @@
 title: Home
 hero: true
 hero_title: Help for Dextera Launcher
-hero_subtitle: Learn how to get around your home screen — search, pages, notifications, gestures, and settings.
+hero_subtitle: Learn how to get around your home screen — search, pages, wallpapers, styles, notifications, gestures, and settings.
 hero_ctas: true
 description: User help and feature guides for Dextera Launcher.
 ---
@@ -24,7 +24,7 @@ description: User help and feature guides for Dextera Launcher.
 <div class="card-grid">
   <div class="card">
     <h3>Notifications on home</h3>
-    <p>See messages in stacks by app, pin important apps to the top, and optionally lock those so they can’t be swiped away by accident.</p>
+    <p>See messages in stacks by app, pin important apps, and optionally lock those so they can’t be swiped away by accident.</p>
   </div>
   <div class="card">
     <h3>One search bar</h3>
@@ -32,11 +32,11 @@ description: User help and feature guides for Dextera Launcher.
   </div>
   <div class="card">
     <h3>Pages under your thumb</h3>
-    <p>Flick or scrub the search bar to move between apps, contacts, music, notifications, widgets, and more.</p>
+    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, widgets, and more.</p>
   </div>
   <div class="card">
-    <h3>Make it yours</h3>
-    <p>Wallpapers (including your own photos), themes, clocks, and page layout — without fighting one-handed use.</p>
+    <h3>Wallpapers & Styles</h3>
+    <p>Catalog photos, your own images, day/night packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
   </div>
 </div>
 
@@ -44,20 +44,20 @@ description: User help and feature guides for Dextera Launcher.
 
 <div class="shot-grid">
   <figure class="shot-card">
-    <img src="{{ '/assets/images/01_home.png' | relative_url }}" alt="Dextera home screen" />
-    <figcaption>Home with clock, weather, and app list</figcaption>
+    <img src="{{ '/assets/images/wiki_home_app_list.png' | relative_url }}" alt="Dextera home screen" />
+    <figcaption>Home — clock, weather, apps, search</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/06_search.png' | relative_url }}" alt="Search" />
-    <figcaption>Search from the bottom bar</figcaption>
+    <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notifications" />
+    <figcaption>Notification center page</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/07_page_overview.png' | relative_url }}" alt="Page overview" />
-    <figcaption>Page overview — also from the gear on the search bar</figcaption>
+    <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
+    <figcaption>Page overview — gear on the search bar</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/02_settings.png' | relative_url }}" alt="Settings" />
-    <figcaption>Settings and page options</figcaption>
+    <img src="{{ '/assets/images/wiki_styles.png' | relative_url }}" alt="Styles" />
+    <figcaption>Styles — one-tap looks</figcaption>
   </figure>
 </div>
 
@@ -66,12 +66,12 @@ description: User help and feature guides for Dextera Launcher.
 | Page | Use it when you want to… |
 |------|--------------------------|
 | [Getting started]({{ '/getting-started/' | relative_url }}) | Set Dextera as home and learn the layout |
-| [Features]({{ '/features/' | relative_url }}) | See what the app can do |
-| [Gestures]({{ '/gestures/' | relative_url }}) | Learn flicks, scrubbing, Home, and back |
-| [Pages]({{ '/pages/' | relative_url }}) | Understand each home page |
-| [Settings]({{ '/settings/' | relative_url }}) | Change appearance, gestures, and more |
-| [Permissions]({{ '/permissions/' | relative_url }}) | Know why Dextera asks for access |
-| [Privacy]({{ '/privacy/' | relative_url }}) | Read the privacy policy |
+| [Features]({{ '/features/' | relative_url }}) | Full feature list with screenshots and how-tos |
+| [Gestures]({{ '/gestures/' | relative_url }}) | Flicks, scrubbing, Home, left-handed mode |
+| [Pages]({{ '/pages/' | relative_url }}) | Each home page and widgets |
+| [Settings]({{ '/settings/' | relative_url }}) | Appearance, Home, Search, Pages, Security |
+| [Permissions]({{ '/permissions/' | relative_url }}) | Why Dextera asks for access |
+| [Privacy]({{ '/privacy/' | relative_url }}) | Privacy policy |
 | [Delete data]({{ '/data-deletion/' | relative_url }}) | Request deletion of your Dextera data |
 
 ## Status
