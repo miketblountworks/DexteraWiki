@@ -25,12 +25,15 @@ permalink: /settings/
   <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" width="320" />
 </p>
 
-- Live preview (dim badge, themed icons)  
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_fonts.png' | relative_url }}" alt="Font picker" width="320" />
+</p>
+
+- Live **Home** and **Lock** preview (sync lock when you want the same look)  
 - Wallpaper: Custom, Pitch Black, Bing Daily (Pro)  
-- Apply wallpaper to Home & Lock / Home / Lock  
-- Theme colors (Auto from wallpaper + solid swatches)  
+- Theme color swatches (including Auto from your wallpaper)  
 - Themed icons + shapes  
-- Fonts (live preview) and font / icon size  
+- **Font** picker (live preview) and font / icon size sliders  
 
 Full wallpaper catalog, dynamic packs, and **Styles**: [Features → Wallpapers]({{ '/features/#wallpapers' | relative_url }}) · [Styles]({{ '/features/#styles' | relative_url }}).
 
@@ -111,12 +114,29 @@ From overview → **Settings** on the Notifications card:
 - Colored cards  
 - **Lock pinned notifications**  
 
+## Extensions
+
+Optional add-ons such as **Walkie-Talkie**. Shown when a plugin is available on the device.
+
 ## About
 
-- Version (beta note when applicable)  
-- Dextera Labs  
-- Dextera Pro  
+- Version  
+- Dextera Labs and **Dextera Pro** (buy / restore on Play)  
+- **Save backup**, **Share backup**, **Import backup** — see [Features → Backup]({{ '/features/#backup--restore' | relative_url }})  
 - Privacy policy and this help wiki  
+
+## Help
+
+- Whether Dextera is the default home app  
+- Change the system home app  
+
+## Search from home
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Unified search" width="320" />
+</p>
+
+Tap the bar for apps, contacts, settings, files, and the web. Filter chips: All · Contacts · Apps · Web · Settings.
 
 ## Related
 

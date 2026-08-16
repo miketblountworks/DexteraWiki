@@ -6,17 +6,19 @@ permalink: /features/
 
 Dextera is a custom **home screen** for Android: one-handed navigation, unified search, pages for apps and more, and deep customization — without getting in your way.
 
-> **Public beta** — the core experience is ready for everyday use; we keep polishing from feedback.
+> **On [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** — the core experience is ready for everyday use; we keep shipping polish and new tools like backup.
 
 ## Feature map
 
 | Area | What it is |
 |------|------------|
 | [Home & App List](#home--app-list) | Clock, weather, apps, letter rail, search bar |
+| [Contacts](#contacts) | Call or message people from a home page |
 | [Recents](#recents) | Apps you used recently |
 | [Music](#music) | Now playing on a dedicated page |
 | [Notifications](#notifications) | Full notification center on a page |
 | [Scratch Board](#scratch-board) | Notes, pins, clipboard, attachments |
+| [Backup](#backup--restore) | Save, share, and restore a Dextera zip |
 | [Page overview](#page-overview) | Reorder pages, wallpapers, widgets |
 | [Wallpapers](#wallpapers) | Catalog, photos, day/night packs, blur/dim |
 | [Styles](#styles) | One-tap looks (wallpaper + theme + fonts + icons) |
@@ -47,6 +49,26 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 2. Hold and drag the search bar to **scrub** all pages.  
 3. Drag the **letter rail** to jump the list.  
 4. Long-press an app for pin, hide, folder, lock (Pro), uninstall.  
+
+---
+
+## Contacts
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_contacts.png' | relative_url }}" alt="Contacts page" width="320" />
+</p>
+
+A full **Contacts** page on home — not only search results.
+
+- Rows with **call** and **message**
+- Optional letter rail
+- Grant **Contacts** permission once (Quick setup or Settings)
+
+### How to
+
+1. Enable the **Contacts** page under **Settings → Pages** if it is hidden.  
+2. Grant Contacts access when asked.  
+3. Tap the phone or message button, or long-press a row to pin.  
 
 ---
 
@@ -232,8 +254,9 @@ Categories such as **Nature**, Abstract, Minimal, Space, Dark, Urban, and more (
 | **Pages** | Panels, order, transitions, traditional swipe |
 | **Digital Wellbeing** | Zen / declutter |
 | **Security & Privacy** | Uninstall protection, app lock |
-| **Backup & Restore** | Export / import (when shown) |
-| **About** | Version, legal, wiki link |
+| **Extensions** | Optional add-ons (for example Walkie-Talkie) |
+| **About** | Version, Pro, **Save / Share / Import backup**, legal, wiki |
+| **Help** | Default home app / switch launcher |
 
 > The search-bar **gear** opens **page overview**. Full Settings are from overview → **Settings**, or from in-app Settings entry points.
 
@@ -306,7 +329,15 @@ Full gesture list: [Gestures]({{ '/gestures/' | relative_url }}).
 
 ### From the home bar
 
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Unified search" width="320" />
+</p>
+
 Tap **Search…** for apps, contacts, settings, files (in folders you add), and web suggestions. Filter chips: All · Contacts · Apps · Web · Settings.
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_search_results.png' | relative_url }}" alt="Search results" width="320" />
+</p>
 
 ### Search settings
 
@@ -385,6 +416,53 @@ Plus **custom widget pages** (extra pages may need Pro). Long-press a row and dr
 | **App locking** (Pro) | Long-press app → Lock; open from Dextera asks for biometrics. Does **not** use Accessibility or intercept apps only from system Recents |
 
 Also: optional OTP from notifications (Search settings) without reading SMS.
+
+---
+
+## Backup & restore
+
+Save your Dextera layout as a zip, then restore it on this phone or another install.
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_settings_root.png' | relative_url }}" alt="Settings — About includes backup" width="320" />
+</p>
+
+**Settings → About:**
+
+| Action | What it does |
+|--------|----------------|
+| **Save backup** | System Save As picker — Downloads, Drive, SD card |
+| **Share backup** | Share sheet (Files, email, Drive, …) |
+| **Import backup** | Pick a zip, preview it, then restore and restart |
+
+Play, Dev, and sideload builds write **different file names** so you can tell them apart:
+
+- `dextera_play_backup_….zip`
+- `dextera_dev_backup_….zip`
+- `dextera_sideload_backup_….zip`
+
+### What is in the zip
+
+Pages, folders, wallpapers and style presets, app shortcuts, Scratch Board, search history and ranking, pinned and hidden apps, notification settings, and coach-mark “already seen” flags.
+
+### What is not
+
+- Android permissions (Contacts, notifications, usage, default home, file folders) — you grant those again  
+- App lock PIN and locked apps  
+- Dextera Pro (comes back from Play, or the Dev unlock)  
+- Google Tasks login  
+- Live notification shade  
+- System widgets (device-bound IDs)
+
+### First-run restore
+
+After **Quick setup**, Dextera offers **Restore from backup** or **Start without a backup**. A successful restore marks setup done and restarts into the restored home — without replaying the first-run tour.
+
+---
+
+## Dextera Pro
+
+One-time unlock on Google Play (**Settings → About**). Pro gates extras such as app lock, hide apps, Bing Daily, extra widget pages, and deeper search. Restore purchases if you reinstall. A backup does **not** copy Pro — Play does.
 
 ---
 

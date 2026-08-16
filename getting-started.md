@@ -16,15 +16,16 @@ Download **Dextera Launcher** from [Google Play](https://play.google.com/store/a
 
 ## First launch
 
-You’ll see a short intro instead of a long permissions gauntlet:
+First-run is two short steps — no long permissions gauntlet:
 
 | Step | What happens |
 |------|----------------|
-| **Welcome** | Quick intro (beta builds mention public beta) |
-| **Quick setup** | Optional checklist — home app, notifications, contacts, weather, folders for file search, usage |
-| **How Dextera works** | Short tour of gestures |
+| **Quick setup** | Optional checklist — default home, notifications, contacts, weather, file-search folders, usage insights |
+| **Restore from backup** | Restore a Dextera zip, or **Start without a backup** |
 
-Skip anything you don’t need; you can turn it on later in **Settings**.
+Skip any permission you don’t need; you can turn it on later in **Settings**. A backup cannot grant Android permissions — those still need a tap.
+
+After you finish setup, a one-time **coach-mark tour** walks the home screen. Restoring a backup also restores “already seen” flags so that tour does not play again.
 
 ### File search tip
 
@@ -64,8 +65,9 @@ Until this is set, the Home button may return you to your old launcher.
 2. **Hold and drag** the search bar to scrub through all pages.  
 3. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
 4. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
-5. In overview, open **Wallpaper** (try **Styles**) or **Settings**.  
-6. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
+5. In overview, open **Appearance** (wallpapers, theme, fonts) or **Settings**.  
+6. Under **Settings → About**, use **Save backup** / **Share backup** / **Import backup**.  
+7. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
 
 ## Feature tour
 

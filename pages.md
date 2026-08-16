@@ -12,7 +12,7 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 |------|----------------|------------|
 | **App List** | All apps, letter rail, pins, frequently used | [Home]({{ '/features/#home--app-list' | relative_url }}) |
 | **Recents** | Recently used apps | [Recents]({{ '/features/#recents' | relative_url }}) |
-| **Contacts** | Call, message, pin contacts; optional letter rail | — |
+| **Contacts** | Call, message, pin contacts; optional letter rail | [Contacts]({{ '/features/#contacts' | relative_url }}) |
 | **Music** | Now playing, seek, volume | [Music]({{ '/features/#music' | relative_url }}) |
 | **Notifications** | Full notification center, pin apps | [Notifications]({{ '/features/#notifications' | relative_url }}) |
 | **Scratch Board** | Notes, clipboard, pins, attachments | [Scratch Board]({{ '/features/#scratch-board' | relative_url }}) |
@@ -27,6 +27,10 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" width="320" />
+</p>
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_page_overview_contacts.png' | relative_url }}" alt="Page overview on Contacts" width="320" />
 </p>
 
 ### How to open

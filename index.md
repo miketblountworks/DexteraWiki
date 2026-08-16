@@ -7,7 +7,7 @@ hero_ctas: true
 description: User help and feature guides for Dextera Launcher.
 ---
 
-<p><span class="status-pill">● Public beta</span></p>
+<p><span class="status-pill">● On Google Play</span></p>
 
 **Dextera** is a custom Android home screen from **Dextera Labs**. This wiki is for people using the app: what each feature does and how to find it.
 
@@ -35,8 +35,12 @@ description: User help and feature guides for Dextera Launcher.
     <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, widgets, and more.</p>
   </div>
   <div class="card">
-    <h3>Wallpapers & Styles</h3>
+    <h3>Wallpapers &amp; Styles</h3>
     <p>Catalog photos, your own images, day/night packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
+  </div>
+  <div class="card">
+    <h3>Backup &amp; restore</h3>
+    <p>Save a zip to Downloads or Drive, share it, or restore during first-run setup. Play, Dev, and sideload files use different names.</p>
   </div>
 </div>
 
@@ -48,16 +52,16 @@ description: User help and feature guides for Dextera Launcher.
     <figcaption>Home — clock, weather, apps, search</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notifications" />
-    <figcaption>Notification center page</figcaption>
+    <img src="{{ '/assets/images/wiki_contacts.png' | relative_url }}" alt="Contacts page" />
+    <figcaption>Contacts — call or message from home</figcaption>
   </figure>
   <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
     <figcaption>Page overview — gear on the search bar</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_styles.png' | relative_url }}" alt="Styles" />
-    <figcaption>Styles — one-tap looks</figcaption>
+    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" />
+    <figcaption>Appearance — live Home and Lock preview</figcaption>
   </figure>
 </div>
 
@@ -76,7 +80,7 @@ description: User help and feature guides for Dextera Launcher.
 
 ## Status
 
-Dextera is in **public beta**. The main experience is ready for everyday use; we’re polishing and fixing bugs based on feedback.
+Dextera is on **[Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)**. The main experience is ready for everyday use; we keep shipping polish, backup, and customization updates.
 
 **Get the app:**
 
