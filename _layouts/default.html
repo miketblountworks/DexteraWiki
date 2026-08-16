@@ -9,6 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon-32.png' | relative_url }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/dextera-icon.png' | relative_url }}" sizes="512x512">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
   {% seo %}
 </head>
 <body>
@@ -17,7 +21,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">
-        <span class="brand-mark" aria-hidden="true">◇</span>
+        <img class="brand-mark" src="{{ '/assets/images/dextera-icon.png' | relative_url }}" alt="" width="28" height="28">
         <span class="brand-text">Dextera <span class="muted">Wiki</span></span>
       </a>
 

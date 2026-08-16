@@ -115,12 +115,10 @@ a:hover {
 .brand-mark {
   width: 1.75rem;
   height: 1.75rem;
-  display: grid;
-  place-items: center;
+  display: block;
   border-radius: 8px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #0b0d12;
-  font-size: 0.95rem;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .site-nav {
