@@ -14,7 +14,7 @@ permalink: /gestures/
 | **Drag the letter rail** | Jump the app list (or contacts rail, if enabled) |
 | **Long-press** an app or contact | Open the quick menu |
 | **Pinch in** or **long-press empty space** | Page overview |
-| **System back** | Close menus and search; may change page only if traditional swiping is off |
+| **System back** | Close menus and search first; on home it **cycles pages** (unless traditional swiping is on) |
 | **Hold back** (if on) | Jump to the page you chose in settings |
 | **Pull down** from the top area | Reachability — content moves closer to your thumb |
 | **Double-tap** the clock/header (if set) | Runs your chosen action |

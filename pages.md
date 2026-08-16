@@ -16,7 +16,7 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 | **Music** | Now playing, seek, volume | [Music]({{ '/features/#music' | relative_url }}) |
 | **Notifications** | Full notification center, pin apps | [Notifications]({{ '/features/#notifications' | relative_url }}) |
 | **Scratch Board** | Notes, clipboard, pins, attachments | [Scratch Board]({{ '/features/#scratch-board' | relative_url }}) |
-| **Quick Settings** | Fast toggles (may require Pro to add) | — |
+| **Quick Settings** | Fast toggles (may require Pro to add) | [Quick Settings]({{ '/features/#quick-settings' | relative_url }}) |
 | **Custom / Widgets** | Free-form widget canvas (extra pages may need Pro) | — |
 
 <p align="center">

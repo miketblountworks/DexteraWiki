@@ -62,12 +62,13 @@ Until this is set, the Home button may return you to your old launcher.
 ## Try these first
 
 1. **Flick** the search bar left or right to change page.  
-2. **Hold and drag** the search bar to scrub through all pages.  
-3. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
-4. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
-5. In overview, open **Appearance** (wallpapers, theme, fonts) or **Settings**.  
-6. Under **Settings → About**, use **Save backup** / **Share backup** / **Import backup**.  
-7. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
+2. **Back** while already on home also cycles pages (when traditional swiping is off).  
+3. **Hold and drag** the search bar to scrub through all pages.  
+4. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
+5. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
+6. In overview, open **Appearance** (wallpapers, theme, fonts) or **Settings**.  
+7. Under **Settings → About**, use **Save backup** / **Share backup** / **Import backup**.  
+8. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
 
 ## Feature tour
 

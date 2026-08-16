@@ -18,6 +18,7 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 | [Music](#music) | Now playing on a dedicated page |
 | [Notifications](#notifications) | Full notification center on a page |
 | [Scratch Board](#scratch-board) | Notes, pins, clipboard, attachments |
+| [Quick Settings](#quick-settings) | Toggles on a home page |
 | [Backup](#backup--restore) | Save, share, and restore a Dextera zip |
 | [Page overview](#page-overview) | Reorder pages, wallpapers, widgets |
 | [Wallpapers](#wallpapers) | Catalog, photos, day/night packs, blur/dim |
@@ -145,6 +146,22 @@ A place for **notes**, **pinned notifications** (with photos when available), **
 2. Type in **Write a note…** and send.  
 3. Use the image / attach / clipboard controls on the page.  
 4. Share files into Scratch Board when Android’s share sheet offers Dextera.  
+
+---
+
+## Quick Settings
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings page" width="320" />
+</p>
+
+Toggles on a dedicated home page: Wi‑Fi, Bluetooth, flashlight, airplane, DND, brightness, and shortcuts into system settings.
+
+### How to
+
+1. Enable **Quick Settings** under **Settings → Pages** if it is hidden.  
+2. Tap a tile to toggle; hold a tile for the system details screen.  
+3. Brightness needs the **Modify system settings** grant the first time.  
 
 ---
 

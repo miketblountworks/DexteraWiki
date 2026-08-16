@@ -63,6 +63,14 @@ description: User help and feature guides for Dextera Launcher.
     <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" />
     <figcaption>Appearance — live Home and Lock preview</figcaption>
   </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notification center" />
+    <figcaption>Notification center on a home page</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" />
+    <figcaption>Scratch Board — notes, pins, clipboard</figcaption>
+  </figure>
 </div>
 
 ## Browse the help
