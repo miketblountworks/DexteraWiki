@@ -6,7 +6,7 @@ permalink: /data-deletion/
 
 **App:** Dextera Launcher (`com.dexteralabs.home`)  
 **Developer (Play Store):** Dextera Labs  
-**Last updated:** July 19, 2026
+**Last updated:** August 16, 2026
 
 This page explains how to request deletion of data related to **Dextera Launcher**, published by **Dextera Labs** on Google Play.
 
@@ -48,7 +48,7 @@ In Android **Settings → Apps → Dextera Launcher → Permissions**, deny any 
 
 If you want a written request on record, or believe some data may have been processed off-device through a feature you used, email:
 
-**Email:** [mike.t.blount@gmail.com](mailto:mike.t.blount@gmail.com)
+**Email:** [privacy@dexteralabs.io](mailto:privacy@dexteralabs.io)
 
 **Subject line (suggested):** `Dextera Launcher — data deletion request`
 
@@ -101,7 +101,7 @@ Because we do not operate a Dextera cloud account of user home data, **clearing 
 
 1. **Deactivate device admin** if uninstall protection is on.  
 2. **Uninstall** Dextera Launcher **or** **Clear storage**.  
-3. Optionally email **mike.t.blount@gmail.com** with subject `Dextera Launcher — data deletion request`.
+3. Optionally email **[privacy@dexteralabs.io](mailto:privacy@dexteralabs.io)** with subject `Dextera Launcher — data deletion request`.
 
 ---
 
@@ -109,5 +109,6 @@ Because we do not operate a Dextera cloud account of user home data, **clearing 
 
 - [Privacy policy]({{ '/privacy/' | relative_url }})  
 - [Permissions]({{ '/permissions/' | relative_url }})  
+- [Contact]({{ '/contact/' | relative_url }})  
 
 *Google Play developer name: **Dextera Labs**. App name: **Dextera Launcher**.*

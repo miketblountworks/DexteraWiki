@@ -5,7 +5,7 @@ permalink: /privacy/
 ---
 
 **Effective date:** July 10, 2026  
-**Last updated:** July 19, 2026  
+**Last updated:** August 16, 2026  
 **Application:** Dextera Launcher (`com.dexteralabs.home`)  
 **Developer:** Dextera Labs
 
@@ -185,10 +185,11 @@ For privacy questions about Dextera Launcher:
 
 - **Developer:** Dextera Labs  
 - **Website / documentation:** [https://dexteralabs.io/](https://dexteralabs.io/)  
-- **Email:** [mike.t.blount@gmail.com](mailto:mike.t.blount@gmail.com)  
+- **Privacy email:** [privacy@dexteralabs.io](mailto:privacy@dexteralabs.io)  
 - **Data deletion requests:** [https://dexteralabs.io/data-deletion/](https://dexteralabs.io/data-deletion/)  
+- **All contact addresses:** [https://dexteralabs.io/contact/](https://dexteralabs.io/contact/)  
 
-The Play Store developer name **Dextera Labs** and any store listing contact email for that account are also valid contact channels.
+The Play Store developer name **Dextera Labs** and the store listing contact channel are also valid.
 
 ---
 

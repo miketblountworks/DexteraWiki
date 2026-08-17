@@ -81,3 +81,4 @@ See [Features]({{ '/features/' | relative_url }}) for screenshots and how-tos fo
 - [Settings]({{ '/settings/' | relative_url }})  
 - [Permissions]({{ '/permissions/' | relative_url }})  
 - [Privacy]({{ '/privacy/' | relative_url }})  
+- [Contact]({{ '/contact/' | relative_url }})  

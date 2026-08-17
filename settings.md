@@ -143,3 +143,4 @@ Tap the bar for apps, contacts, settings, files, and the web. Filter chips: All 
 - [Features]({{ '/features/' | relative_url }}) — screenshots and how-tos  
 - [Privacy]({{ '/privacy/' | relative_url }})  
 - [Permissions]({{ '/permissions/' | relative_url }})  
+- [Contact]({{ '/contact/' | relative_url }})  

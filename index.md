@@ -85,6 +85,7 @@ description: User help and feature guides for Dextera Launcher.
 | [Permissions]({{ '/permissions/' | relative_url }}) | Why Dextera asks for access |
 | [Privacy]({{ '/privacy/' | relative_url }}) | Privacy policy |
 | [Delete data]({{ '/data-deletion/' | relative_url }}) | Request deletion of your Dextera data |
+| [Contact]({{ '/contact/' | relative_url }}) | Features, bugs, support, and privacy mail |
 
 ## Status
 

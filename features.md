@@ -490,3 +490,4 @@ One-time unlock on Google Play (**Settings → About**). Pro gates extras such a
 - [Pages]({{ '/pages/' | relative_url }}) — each page in more detail  
 - [Settings]({{ '/settings/' | relative_url }}) — where every toggle lives  
 - [Permissions]({{ '/permissions/' | relative_url }}) · [Privacy]({{ '/privacy/' | relative_url }})  
+- [Contact]({{ '/contact/' | relative_url }}) — [features@](mailto:features@dexteralabs.io) for ideas, [bugs@](mailto:bugs@dexteralabs.io) if something is broken  
