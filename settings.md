@@ -22,27 +22,33 @@ permalink: /settings/
 ## Appearance
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance live preview" width="320" />
 </p>
 
-- Live preview (dim badge, themed icons)  
+- **Live preview** (dim badge, themed icons) as you adjust  
 - Wallpaper: Custom, Pitch Black, Bing Daily (Pro)  
 - Apply wallpaper to Home & Lock / Home / Lock  
 - Theme colors (Auto from wallpaper + solid swatches)  
-- Themed icons + shapes  
-- Fonts (live preview) and font / icon size  
+- Themed icons + shapes + **icon packs** (DuoTone, Wireframe, Frosted Glass, Dot Matrix, Neon Glow, Silhouette, …)  
+- Optional **frosted glass** surfaces  
+- **Google Fonts** picker (live preview) and font / icon size  
 
-Full wallpaper catalog, dynamic packs, and **Styles**: [Features → Wallpapers]({{ '/features/#wallpapers' | relative_url }}) · [Styles]({{ '/features/#styles' | relative_url }}).
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_icon_packs.png' | relative_url }}" alt="Icon packs" width="320" />
+</p>
+
+Full wallpaper catalog, GNOME day/night packs, per-page wallpapers, and **Styles** (including **Match my wardrobe**): [Features → Wallpapers]({{ '/features/#wallpapers' | relative_url }}) · [Styles]({{ '/features/#styles' | relative_url }}).
 
 ## Home
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_home_tasks.png' | relative_url }}" alt="Home tasks and clock" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_clock_styles.png' | relative_url }}" alt="Clock styles" width="320" />
 </p>
 
 - **Tasks quote on home** + Google Tasks connect + fade timing  
-- Clock styles, hide status bar, network speed, clock background, invert text  
-- Weather: 24-hour, Fahrenheit  
+- **Clock styles** (Dextera, Minimal, Bold, Analog, and more — some Pro)  
+- Hide status bar, network speed, clock background, invert text  
+- Weather: 24-hour, Fahrenheit; optional weather overlay + Pro vignettes  
 
 ## App List
 
@@ -65,13 +71,14 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 ## Search
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_search_settings.png' | relative_url }}" alt="Search settings" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_search_sources.png' | relative_url }}" alt="Search" width="320" />
 </p>
 
 - Colorized search  
 - Web engine  
 - Previous results / history limit / clear  
-- Verification codes (OTP from message notifications)  
+- **Verification codes (OTP chip)** from message notifications — **no SMS permission**  
+- Inline **calculator** when you type math into search  
 - Sources: Apps, Contacts, Files, Web, Settings  
 - File search: indexed folders, **Add folder**  
 
@@ -82,9 +89,10 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 </p>
 
 - Traditional swiping mode  
-- Page transitions (Slide, Cube, Depth, Flip, Fade)  
-- Enable / reorder / remove panels  
+- **Page transitions** (Slide, Cube, Depth, Flip, Fade)  
+- Enable / reorder / remove panels (including **Scratch Board** and **Quick Settings**)  
 - Add custom widget pages (Pro may apply)  
+- Overlay widgets (up to 3 on built-in pages) via page overview  
 
 ## Digital Wellbeing
 
@@ -94,6 +102,7 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 
 - **Zen mode (declutter)** — hide labels and extra overlays  
 - Frequently used limits, hidden apps, and related filters where available  
+- **Adaptive dimming** / OLED-friendly options  
 
 ## Security & Privacy
 
@@ -103,6 +112,7 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 
 - Uninstallation protection (device admin)  
 - App locking from the app menu (Pro)  
+- Hide apps from the visible list  
 
 ## Notifications (page settings)
 
@@ -113,10 +123,10 @@ From overview → **Settings** on the Notifications card:
 
 ## About
 
-- Version (beta note when applicable)  
-- Dextera Labs  
+- Version and update channel  
+- Dextera Labs (Play display name) / Dextera Labs LLC  
 - Dextera Pro  
-- Privacy policy and this help wiki  
+- Privacy policy and this help wiki at [https://dexteralabs.io/](https://dexteralabs.io/)  
 
 ## Related
 

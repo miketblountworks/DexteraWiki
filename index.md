@@ -7,14 +7,14 @@ hero_ctas: true
 description: User help and feature guides for Dextera Launcher.
 ---
 
-<p><span class="status-pill">● Public beta</span></p>
+<p><span class="status-pill">● On Google Play</span></p>
 
-**Dextera** is a custom Android home screen from **Dextera Labs**. This wiki is for people using the app: what each feature does and how to find it.
+**Dextera** is a custom Android home screen from **Dextera Labs LLC**, a veteran-owned business based in Montgomery, Texas. This wiki is for people using the app: what each feature does and how to find it.
 
-**Testers & new users:** install from Google Play:
+**Get the app on Google Play:**
 
 <p class="play-badge-wrap">
-  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.home" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}" alt="Get it on Google Play" width="180" height="70" loading="lazy" />
   </a>
 </p>
@@ -28,15 +28,15 @@ description: User help and feature guides for Dextera Launcher.
   </div>
   <div class="card">
     <h3>One search bar</h3>
-    <p>Find apps, contacts, settings, files from folders you add, and the web — from the bar at the bottom of the screen.</p>
+    <p>Find apps, contacts, settings, files from folders you add, calculator math, and the web — from the bar at the bottom of the screen.</p>
   </div>
   <div class="card">
     <h3>Pages under your thumb</h3>
-    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, widgets, and more.</p>
+    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more.</p>
   </div>
   <div class="card">
     <h3>Wallpapers & Styles</h3>
-    <p>Catalog photos, your own images, day/night packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
+    <p>Catalog photos, your own images, day/night packs, icon packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
   </div>
 </div>
 
@@ -48,16 +48,32 @@ description: User help and feature guides for Dextera Launcher.
     <figcaption>Home — clock, weather, apps, search</figcaption>
   </figure>
   <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_search_sources.png' | relative_url }}" alt="Search" />
+    <figcaption>Search — apps, contacts, files, web</figcaption>
+  </figure>
+  <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notifications" />
     <figcaption>Notification center page</figcaption>
   </figure>
   <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings" />
+    <figcaption>Quick Settings — toggles on a page</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" />
+    <figcaption>Scratch Board — notes and pins</figcaption>
+  </figure>
+  <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
-    <figcaption>Page overview — gear on the search bar</figcaption>
+    <figcaption>Page overview — reorder and widgets</figcaption>
   </figure>
   <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_styles.png' | relative_url }}" alt="Styles" />
     <figcaption>Styles — one-tap looks</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance live preview" />
+    <figcaption>Appearance — live preview</figcaption>
   </figure>
 </div>
 
@@ -76,14 +92,14 @@ description: User help and feature guides for Dextera Launcher.
 
 ## Status
 
-Dextera is in **public beta**. The main experience is ready for everyday use; we’re polishing and fixing bugs based on feedback.
+Dextera is **on Google Play** and updated often — expect shipping polish and frequent improvements (often daily). The main experience is ready for everyday use.
 
 **Get the app:**
 
 <p class="play-badge-wrap">
-  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.home" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}" alt="Get it on Google Play" width="160" height="62" loading="lazy" />
   </a>
 </p>
 
-**Developer:** Dextera Labs
+**Developer:** Dextera Labs LLC — veteran-owned, Montgomery, Texas

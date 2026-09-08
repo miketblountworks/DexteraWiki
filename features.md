@@ -4,9 +4,7 @@ description: Everything Dextera can do — home, pages, wallpapers, styles, sear
 permalink: /features/
 ---
 
-Dextera is a custom **home screen** for Android: one-handed navigation, unified search, pages for apps and more, and deep customization — without getting in your way.
-
-> **Public beta** — the core experience is ready for everyday use; we keep polishing from feedback.
+Dextera is a custom **home screen** for Android: one-handed navigation, unified search, pages for apps and more, and deep customization — without getting in your way. It’s **on Google Play** and updated often with shipping polish.
 
 ## Feature map
 
@@ -17,13 +15,15 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 | [Music](#music) | Now playing on a dedicated page |
 | [Notifications](#notifications) | Full notification center on a page |
 | [Scratch Board](#scratch-board) | Notes, pins, clipboard, attachments |
+| [Quick Settings](#quick-settings) | Fast toggles on a home page |
 | [Page overview](#page-overview) | Reorder pages, wallpapers, widgets |
-| [Wallpapers](#wallpapers) | Catalog, photos, day/night packs, blur/dim |
+| [Wallpapers](#wallpapers) | Catalog, photos, day/night packs, blur/dim, per-page |
 | [Styles](#styles) | One-tap looks (wallpaper + theme + fonts + icons) |
+| [Icon packs & clock](#icon-packs--clock-styles) | DuoTone, Wireframe, Frosted Glass, and more |
 | [Settings](#settings-overview) | Appearance, Home, Gestures, Search, Pages, more |
-| [Search](#search) | Apps, files, web, settings from the bottom bar |
-| [Security](#security) | Uninstall protection and app lock |
-| [Wellbeing](#digital-wellbeing) | Zen / declutter mode |
+| [Search](#search) | Apps, files, calculator, web, OTP chip |
+| [Security](#security) | Uninstall protection, app lock / hide |
+| [Wellbeing](#digital-wellbeing) | Zen / declutter, adaptive dimming |
 
 ---
 
@@ -36,10 +36,12 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 **What you see**
 
 - **Clock, date, weather** at the top (tap weather for forecast when set up)
+- Optional **weather overlay** and **Pro vignettes** for a richer look
 - **Frequently used** apps when usage access is on
 - **Alphabetical app list** with optional **letter rail** on the side
 - **Search bar** at the bottom (thumb-friendly)
 - **Gear** on the search bar → **page overview** (not full Settings)
+- Optional **frosted glass** surfaces for cards and panels
 
 ### How to
 
@@ -47,6 +49,14 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 2. Hold and drag the search bar to **scrub** all pages.  
 3. Drag the **letter rail** to jump the list.  
 4. Long-press an app for pin, hide, folder, lock (Pro), uninstall.  
+
+### Weather forecast
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_weather_forecast.png' | relative_url }}" alt="Weather forecast" width="320" />
+</p>
+
+Tap the weather on home for a forecast card (needs location when enabled). Adjust units under **Settings → Home**.
 
 ---
 
@@ -112,7 +122,7 @@ A full **Notification Center** as a home page (not only the system shade).
 ## Scratch Board
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board empty state" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" width="320" />
 </p>
 
 A place for **notes**, **pinned notifications** (with photos when available), **clipboard**, and **attachments**.
@@ -126,13 +136,29 @@ A place for **notes**, **pinned notifications** (with photos when available), **
 
 ---
 
+## Quick Settings
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings page" width="320" />
+</p>
+
+A dedicated **Quick Settings** page for fast toggles without diving into the system shade.
+
+### How to
+
+1. Enable **Quick Settings** under **Settings → Pages** (Pro may apply to add).  
+2. Flick or scrub to the page.  
+3. Tap tiles to toggle; long-press where Android exposes a deeper settings jump.  
+
+---
+
 ## Page overview
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" width="320" />
 </p>
 
-Mission control for your pages.
+Mission control for your pages — including foldable-friendly **spreads** when your device supports a wider canvas.
 
 ### How to open
 
@@ -145,10 +171,10 @@ Mission control for your pages.
 | Control | Action |
 |---------|--------|
 | **Long-press drag** a card | Reorder pages |
-| **+ Widget (n/3)** on built-in pages | Add stacked overlay widgets (up to 3 per page) |
+| **+ Widget (n/3)** on built-in pages | Add stacked **overlay widgets** (up to 3 per page) |
 | **+ Add widgets** on custom pages | Free-form widget canvas |
 | **Settings** on a card | That page’s settings (Back returns to overview) |
-| **Sync wallpaper across pages** | One wallpaper everywhere, or per-page |
+| **Sync wallpaper across pages** | One wallpaper everywhere, or **per-page wallpapers** |
 | **Wallpaper** / **Settings** at bottom | Appearance or full settings |
 
 ---
@@ -167,6 +193,7 @@ Open from overview → **Wallpaper**, or **Settings → Appearance → Custom**.
 - **Icon pack** and **themed icons** (recolor to theme accent)  
 - Shapes: System, Circle, Squircle, Square  
 - **Blur** and **Dim** so icons stay readable  
+- Optional **adaptive dimming** / OLED-friendly options to keep blacks deep and text readable  
 
 ### Dynamic & your photos
 
@@ -174,7 +201,7 @@ Open from overview → **Wallpaper**, or **Settings → Appearance → Custom**.
   <img class="shot" src="{{ '/assets/images/wiki_wallpapers_dynamic.png' | relative_url }}" alt="Dynamic wallpapers and local photos" width="320" />
 </p>
 
-- **Dynamic (day / night)** — import GNOME timed packs, or use built-in **Horizon**  
+- **Dynamic (day / night)** — import **GNOME** timed packs, or use built-in **Horizon**  
 - **Local images** — add up to **7** photos from gallery/files; tap to apply, long-press to remove  
 
 ### Built-in catalog
@@ -216,6 +243,31 @@ Categories such as **Nature**, Abstract, Minimal, Space, Dark, Urban, and more (
 
 ---
 
+## Icon packs & clock styles
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_icon_packs.png' | relative_url }}" alt="Icon packs" width="320" />
+</p>
+
+Built-in **icon packs** include looks such as:
+
+- **DuoTone**  
+- **Wireframe**  
+- **Frosted Glass**  
+- **Dot Matrix**  
+- **Neon Glow**  
+- **Silhouette**  
+
+Pick a pack from wallpaper / Appearance icon options, then optionally enable **themed icons**.
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_clock_styles.png' | relative_url }}" alt="Clock styles" width="320" />
+</p>
+
+**Clock styles** under **Settings → Home** include **Dextera**, Minimal, Bold, Analog, and more (some Pro). Pair with weather overlay and optional network-speed next to the clock.
+
+---
+
 ## Settings overview
 
 <p align="center">
@@ -224,14 +276,14 @@ Categories such as **Nature**, Abstract, Minimal, Space, Dark, Urban, and more (
 
 | Category | Covers |
 |----------|--------|
-| **Appearance** | Wallpaper, theme, icons, fonts |
-| **Home** | Clock, weather, status bar, Tasks quote |
+| **Appearance** | Wallpaper, theme, icons, fonts, live preview, frosted glass |
+| **Home** | Clock styles, weather, status bar, Tasks quote, overlays |
 | **App List** | Sidebar, folders, organization |
 | **Touch & Gestures** | Left-handed rail, Home, double-tap, hold-back |
-| **Search** | Engine, history, sources, file folders |
+| **Search** | Engine, history, sources, file folders, OTP, calculator |
 | **Pages** | Panels, order, transitions, traditional swipe |
-| **Digital Wellbeing** | Zen / declutter |
-| **Security & Privacy** | Uninstall protection, app lock |
+| **Digital Wellbeing** | Zen / declutter, adaptive dimming |
+| **Security & Privacy** | Uninstall protection, app lock / hide |
 | **Backup & Restore** | Export / import (when shown) |
 | **About** | Version, legal, wiki link |
 
@@ -244,20 +296,21 @@ More detail: [Settings]({{ '/settings/' | relative_url }}).
 ## Appearance (detail)
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance settings" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance settings with live preview" width="320" />
 </p>
 
-- Live preview of wallpaper + dim  
+- **Live preview** of wallpaper + dim as you adjust  
 - Quick picks: Custom, Pitch Black, Bing Daily (Pro)  
 - Theme color swatches (including Auto from your wallpaper)  
-- Themed icons toggle  
+- Themed icons toggle and icon packs  
+- Optional **frosted glass** treatment for UI surfaces  
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_appearance_type.png' | relative_url }}" alt="Fonts and icon size" width="320" />
 </p>
 
 - Icon shapes  
-- **Font** picker (including free Google fonts with live preview)  
+- **Google Fonts** picker (free fonts with live preview)  
 - Font scale and icon size sliders  
 
 ---
@@ -280,6 +333,7 @@ More detail: [Settings]({{ '/settings/' | relative_url }}).
 - Network speed next to the clock  
 - Clock background / invert text  
 - 24-hour time, Fahrenheit  
+- Weather overlay + Pro vignettes where available  
 
 ---
 
@@ -306,7 +360,7 @@ Full gesture list: [Gestures]({{ '/gestures/' | relative_url }}).
 
 ### From the home bar
 
-Tap **Search…** for apps, contacts, settings, files (in folders you add), and web suggestions. Filter chips: All · Contacts · Apps · Web · Settings.
+Tap **Search…** for apps, contacts, settings, files (in folders you add), **calculator** math, and web suggestions. Filter chips: All · Contacts · Apps · Web · Settings.
 
 ### Search settings
 
@@ -317,13 +371,14 @@ Tap **Search…** for apps, contacts, settings, files (in folders you add), and 
 - Colorized search bar  
 - Web search engine  
 - Previous search results + history limit  
-- **Verification codes** — OTP from message notifications as a home chip  
+- **Verification codes** — OTP from message **notifications** as a home chip (**no SMS permission**; Dextera does not read the SMS inbox)  
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_search_sources.png' | relative_url }}" alt="Search sources and file search" width="320" />
+  <img class="shot" src="{{ '/assets/images/wiki_search_sources.png' | relative_url }}" alt="Search on home" width="320" />
 </p>
 
 - Toggle sources: Apps, Contacts, Files, Web, Settings  
+- Type an expression (e.g. `12*8`) for an inline **calculator** result when enabled  
 - **File search → Add folder** — only folders you pick are indexed (Android may block phone root / Downloads)  
 
 ---
@@ -358,7 +413,9 @@ Plus **custom widget pages** (extra pages may need Pro). Long-press a row and dr
 | Kind | Behavior |
 |------|----------|
 | **Custom page** | Free-form grid; drag/resize; Dextera widget picker with previews |
-| **Built-in page** | Up to **3** stacked overlay widgets (e.g. on App List) via overview **+ Widget** |
+| **Built-in page** | Up to **3** stacked **overlay widgets** (e.g. on App List) via overview **+ Widget** |
+
+Foldable devices can use wider **spreads** in overview / pages when the hardware allows.
 
 ---
 
@@ -370,6 +427,7 @@ Plus **custom widget pages** (extra pages may need Pro). Long-press a row and dr
 
 - **Zen mode (declutter)** — hide labels and extra visual overlays for a calmer home  
 - Related options: frequently used limits, hidden apps, notification filters (elsewhere in settings / Pro where noted)  
+- **Adaptive dimming** / OLED-friendly options to reduce eye strain and keep deep blacks  
 
 ---
 
@@ -383,8 +441,9 @@ Plus **custom widget pages** (extra pages may need Pro). Long-press a row and dr
 |---------|----------------|
 | **Uninstallation protection** | Device admin so Dextera can’t be removed casually — turn admin off before uninstalling |
 | **App locking** (Pro) | Long-press app → Lock; open from Dextera asks for biometrics. Does **not** use Accessibility or intercept apps only from system Recents |
+| **Hide apps** | Keep selected apps off the visible list until you choose to show them again |
 
-Also: optional OTP from notifications (Search settings) without reading SMS.
+Also: optional OTP from notifications (Search settings) without reading SMS — **no SMS permission**.
 
 ---
 

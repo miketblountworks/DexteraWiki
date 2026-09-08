@@ -6,10 +6,10 @@ permalink: /getting-started/
 
 ## Install
 
-Download **Dextera Launcher** from Google Play (public beta):
+Download **Dextera Launcher** from Google Play:
 
 <p class="play-badge-wrap">
-  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.launcher" target="_blank" rel="noopener noreferrer">
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.home" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/google-play-badge.png' | relative_url }}" alt="Get it on Google Play" width="200" height="78" loading="lazy" />
   </a>
 </p>
@@ -20,7 +20,7 @@ You’ll see a short intro instead of a long permissions gauntlet:
 
 | Step | What happens |
 |------|----------------|
-| **Welcome** | Quick intro (beta builds mention public beta) |
+| **Welcome** | Quick intro to Dextera |
 | **Quick setup** | Optional checklist — home app, notifications, contacts, weather, folders for file search, usage |
 | **How Dextera works** | Short tour of gestures |
 
@@ -54,7 +54,7 @@ Until this is set, the Home button may return you to your old launcher.
 |------|----------------|
 | **Top** | Optional status icons when the system status bar is hidden |
 | **Upper mid** | Clock, date, weather (and optional Tasks quote) |
-| **Center** | Current page (apps, recents, music, notifications, Scratch Board, widgets, …) |
+| **Center** | Current page (apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, …) |
 | **Side** | Letter rail on the app list |
 | **Bottom** | **Search** bar — **gear** opens **page overview** |
 
@@ -69,7 +69,7 @@ Until this is set, the Home button may return you to your old launcher.
 
 ## Feature tour
 
-See [Features]({{ '/features/' | relative_url }}) for screenshots and how-tos for every major area (Music, Notifications, Scratch Board, Styles, Search, Security, and more).
+See [Features]({{ '/features/' | relative_url }}) for screenshots and how-tos for every major area (Music, Notifications, Scratch Board, Quick Settings, Styles, Search, Security, and more).
 
 ## More help
 
