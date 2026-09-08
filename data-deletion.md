@@ -5,16 +5,17 @@ permalink: /data-deletion/
 ---
 
 **App:** Dextera Launcher (`com.dexteralabs.home`)  
-**Developer (Play Store):** Dextera Labs  
-**Last updated:** August 16, 2026
+**Developer:** Dextera Labs LLC (Play Store developer name: Dextera Labs)  
+**Mailing address:** 923 Youth Water Rd, Montgomery, TX 77316, United States  
+**Last updated:** September 8, 2026
 
-This page explains how to request deletion of data related to **Dextera Launcher**, published by **Dextera Labs** on Google Play.
+This page explains how to request deletion of data related to **Dextera Launcher**, published by **Dextera Labs LLC** on Google Play.
 
 ---
 
 ## Important: most data is only on your device
 
-Dextera is a **device-local home launcher**. Dextera Labs does **not** run a Dextera user account system and does **not** operate a cloud backup of your home layout, contacts, locked apps, or notification contents.
+Dextera is a **device-local home launcher**. Dextera Labs LLC does **not** run a Dextera user account system and does **not** operate a cloud backup of your home layout, contacts, locked apps, or notification contents.
 
 Almost all app data lives **only on your phone** until you remove it.
 
@@ -111,4 +112,4 @@ Because we do not operate a Dextera cloud account of user home data, **clearing 
 - [Permissions]({{ '/permissions/' | relative_url }})  
 - [Contact]({{ '/contact/' | relative_url }})  
 
-*Google Play developer name: **Dextera Labs**. App name: **Dextera Launcher**.*
+*Legal entity: **Dextera Labs LLC** (Texas). Google Play developer name: **Dextera Labs**. App name: **Dextera Launcher**.*

@@ -16,7 +16,7 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 | **Music** | Now playing, seek, volume | [Music]({{ '/features/#music' | relative_url }}) |
 | **Notifications** | Full notification center, pin apps | [Notifications]({{ '/features/#notifications' | relative_url }}) |
 | **Scratch Board** | Notes, clipboard, pins, attachments | [Scratch Board]({{ '/features/#scratch-board' | relative_url }}) |
-| **Quick Settings** | Fast toggles (may require Pro to add) | [Quick Settings]({{ '/features/#quick-settings' | relative_url }}) |
+| **Quick Settings** | Fast toggles on a dedicated page (may require Pro to add) | [Quick Settings]({{ '/features/#quick-settings' | relative_url }}) |
 | **Custom / Widgets** | Free-form widget canvas (extra pages may need Pro) | — |
 
 <p align="center">
@@ -42,11 +42,12 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 ### What you can do
 
 - **Reorder** pages by long-press-dragging cards  
-- **+ Widget (n/3)** — stack up to **3** widgets on a **built-in** page  
+- **+ Widget (n/3)** — stack up to **3** **overlay widgets** on a **built-in** page  
 - **+ Add widgets** — free-form layout on a **custom** page  
 - **Settings** on a card — that page’s options (**Back** returns to overview)  
-- **Sync wallpaper across pages** — one look everywhere, or per-page  
+- **Sync wallpaper across pages** — one look everywhere, or **per-page wallpapers**  
 - Bottom **Wallpaper** / **Settings**  
+- On foldables, overview can show wider **spreads** when the display allows  
 
 ## Navigation style
 
@@ -76,6 +77,22 @@ Music and Notifications can disappear when there’s nothing to show, and return
 
 Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
 
+## Quick Settings
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings page" width="320" />
+</p>
+
+Enable under **Settings → Pages**, then flick to the page for fast toggles without opening the full system shade. Long-press a tile when Android exposes a deeper settings jump.
+
+## Scratch Board
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" width="320" />
+</p>
+
+Notes, pinned notifications (with images when available), clipboard, and file attachments. Open as a page; compose with **Write a note…**
+
 ## Widgets
 
 ### On custom pages
@@ -89,10 +106,6 @@ Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
 - Up to **3** Android widgets (or app shortcuts) as a **stacked** card fan on that page  
 - Add from overview **+ Widget**  
 - Front card is interactive; peeks show which widget is underneath  
-
-## Scratch Board
-
-Notes, pinned notifications (with images when available), clipboard, and file attachments. Open as a page; compose with **Write a note…**
 
 ## More
 

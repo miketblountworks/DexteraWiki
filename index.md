@@ -9,9 +9,9 @@ description: User help and feature guides for Dextera Launcher.
 
 <p><span class="status-pill">● On Google Play</span></p>
 
-**Dextera** is a custom Android home screen from **Dextera Labs**. This wiki is for people using the app: what each feature does and how to find it.
+**Dextera** is a custom Android home screen from **Dextera Labs LLC**, a veteran-owned business based in Montgomery, Texas. This wiki is for people using the app: what each feature does and how to find it.
 
-**Get Dextera on Google Play:**
+**Get the app on Google Play:**
 
 <p class="play-badge-wrap">
   <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.home" target="_blank" rel="noopener noreferrer">
@@ -28,15 +28,15 @@ description: User help and feature guides for Dextera Launcher.
   </div>
   <div class="card">
     <h3>One search bar</h3>
-    <p>Find apps, contacts, settings, files from folders you add, and the web — from the bar at the bottom of the screen.</p>
+    <p>Find apps, contacts, settings, files from folders you add, calculator math, and the web — from the bar at the bottom of the screen.</p>
   </div>
   <div class="card">
     <h3>Pages under your thumb</h3>
-    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, widgets, and more.</p>
+    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more.</p>
   </div>
   <div class="card">
     <h3>Wallpapers &amp; Styles</h3>
-    <p>Catalog photos, your own images, day/night packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
+    <p>Catalog photos, your own images, day/night packs, icon packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
   </div>
   <div class="card">
     <h3>Backup &amp; restore</h3>
@@ -56,20 +56,28 @@ description: User help and feature guides for Dextera Launcher.
     <figcaption>Contacts — call or message from home</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
-    <figcaption>Page overview — gear on the search bar</figcaption>
+    <img src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Search" />
+    <figcaption>Search — apps, contacts, files, web</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" />
-    <figcaption>Appearance — live Home and Lock preview</figcaption>
+    <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notifications" />
+    <figcaption>Notification center page</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notification center" />
-    <figcaption>Notification center on a home page</figcaption>
+    <img src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings" />
+    <figcaption>Quick Settings — toggles on a page</figcaption>
   </figure>
   <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" />
     <figcaption>Scratch Board — notes, pins, clipboard</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
+    <figcaption>Page overview — reorder and widgets</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" />
+    <figcaption>Appearance — live Home and Lock preview</figcaption>
   </figure>
 </div>
 
@@ -89,7 +97,7 @@ description: User help and feature guides for Dextera Launcher.
 
 ## Status
 
-Dextera is on **[Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)**. The main experience is ready for everyday use; we keep shipping polish, backup, and customization updates.
+Dextera is **on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** and updated often — expect shipping polish and frequent improvements. The main experience is ready for everyday use; we keep shipping backup, customization, and polish updates.
 
 **Get the app:**
 
@@ -99,4 +107,4 @@ Dextera is on **[Google Play](https://play.google.com/store/apps/details?id=com.
   </a>
 </p>
 
-**Developer:** Dextera Labs
+**Developer:** Dextera Labs LLC — veteran-owned, Montgomery, Texas

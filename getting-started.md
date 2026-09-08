@@ -16,12 +16,14 @@ Download **Dextera Launcher** from [Google Play](https://play.google.com/store/a
 
 ## First launch
 
-First-run is two short steps — no long permissions gauntlet:
+First-run is a few short steps — no long permissions gauntlet:
 
 | Step | What happens |
 |------|----------------|
+| **Welcome** | Quick intro to Dextera |
 | **Quick setup** | Optional checklist — default home, notifications, contacts, weather, file-search folders, usage insights |
 | **Restore from backup** | Restore a Dextera zip, or **Start without a backup** |
+| **How Dextera works** | Short tour of gestures |
 
 Skip any permission you don’t need; you can turn it on later in **Settings**. A backup cannot grant Android permissions — those still need a tap.
 
@@ -55,7 +57,7 @@ Until this is set, the Home button may return you to your old launcher.
 |------|----------------|
 | **Top** | Optional status icons when the system status bar is hidden |
 | **Upper mid** | Clock, date, weather (and optional Tasks quote) |
-| **Center** | Current page (apps, recents, music, notifications, Scratch Board, widgets, …) |
+| **Center** | Current page (apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, …) |
 | **Side** | Letter rail on the app list |
 | **Bottom** | **Search** bar — **gear** opens **page overview** |
 
@@ -66,13 +68,13 @@ Until this is set, the Home button may return you to your old launcher.
 3. **Hold and drag** the search bar to scrub through all pages.  
 4. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
 5. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
-6. In overview, open **Appearance** (wallpapers, theme, fonts) or **Settings**.  
+6. In overview, open **Appearance** / **Wallpaper** (try **Styles**) or **Settings**.  
 7. Under **Settings → About**, use **Save backup** / **Share backup** / **Import backup**.  
 8. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
 
 ## Feature tour
 
-See [Features]({{ '/features/' | relative_url }}) for screenshots and how-tos for every major area (Music, Notifications, Scratch Board, Styles, Search, Security, and more).
+See [Features]({{ '/features/' | relative_url }}) for screenshots and how-tos for every major area (Music, Notifications, Scratch Board, Quick Settings, Styles, Search, Security, and more).
 
 ## More help
 

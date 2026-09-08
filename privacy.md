@@ -5,11 +5,11 @@ permalink: /privacy/
 ---
 
 **Effective date:** July 10, 2026  
-**Last updated:** August 16, 2026  
+**Last updated:** September 8, 2026  
 **Application:** Dextera Launcher (`com.dexteralabs.home`)  
-**Developer:** Dextera Labs
+**Developer:** Dextera Labs LLC
 
-This Privacy Policy describes how **Dextera Labs** (“**Dextera Labs**,” “**we**,” or “**us**”) handles information when you install and use Dextera Launcher (“**Dextera**,” or “**the App**”) on your Android device.
+This Privacy Policy describes how **Dextera Labs LLC**, a Texas limited liability company (“**Dextera Labs**,” “**we**,” or “**us**”), handles information when you install and use Dextera Launcher (“**Dextera**,” or “**the App**”) on your Android device.
 
 Dextera does **not** request the Android SMS or Call Log permission groups (`READ_SMS`, call log, etc.).
 
@@ -183,7 +183,8 @@ We may update this Privacy Policy from time to time. The **Last updated** date a
 
 For privacy questions about Dextera Launcher:
 
-- **Developer:** Dextera Labs  
+- **Data controller:** Dextera Labs LLC (a Texas limited liability company)  
+- **Mailing address:** 923 Youth Water Rd, Montgomery, TX 77316, United States  
 - **Website / documentation:** [https://dexteralabs.io/](https://dexteralabs.io/)  
 - **Privacy email:** [privacy@dexteralabs.io](mailto:privacy@dexteralabs.io)  
 - **Data deletion requests:** [https://dexteralabs.io/data-deletion/](https://dexteralabs.io/data-deletion/)  
@@ -195,7 +196,7 @@ The Play Store developer name **Dextera Labs** and the store listing contact cha
 
 ## 14. Proprietary software
 
-Dextera Launcher is **proprietary software** developed and owned by **Dextera Labs**. It is **not** open source. The app’s source code is not publicly available for inspection, modification, or redistribution. This policy describes product behavior in plain language for users and store review.
+Dextera Launcher is **proprietary software** developed and owned by **Dextera Labs LLC**. It is **not** open source. The app’s source code is not publicly available for inspection, modification, or redistribution. This policy describes product behavior in plain language for users and store review.
 
 Public materials such as this Privacy Policy and the Dextera Wiki are documentation only; they do not grant rights to the app’s source code.
 
