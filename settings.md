@@ -25,13 +25,17 @@ permalink: /settings/
   <img class="shot" src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance live preview" width="320" />
 </p>
 
-- **Live preview** (dim badge, themed icons) as you adjust  
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_fonts.png' | relative_url }}" alt="Font picker" width="320" />
+</p>
+
+- Live **Home** and **Lock** preview (dim badge, themed icons) as you adjust  
 - Wallpaper: Custom, Pitch Black, Bing Daily (Pro)  
 - Apply wallpaper to Home & Lock / Home / Lock  
 - Theme colors (Auto from wallpaper + solid swatches)  
 - Themed icons + shapes + **icon packs** (DuoTone, Wireframe, Frosted Glass, Dot Matrix, Neon Glow, Silhouette, …)  
 - Optional **frosted glass** surfaces  
-- **Google Fonts** picker (live preview) and font / icon size  
+- **Google Fonts** picker (live preview) and font / icon size sliders  
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_icon_packs.png' | relative_url }}" alt="Icon packs" width="320" />
@@ -121,15 +125,34 @@ From overview → **Settings** on the Notifications card:
 - Colored cards  
 - **Lock pinned notifications**  
 
+## Extensions
+
+Optional add-ons such as **Walkie-Talkie**. Shown when a plugin is available on the device.
+
 ## About
 
 - Version and update channel  
 - Dextera Labs (Play display name) / Dextera Labs LLC  
-- Dextera Pro  
+- Dextera Pro (buy / restore on Play)  
+- **Save backup**, **Share backup**, **Import backup** — see [Features → Backup]({{ '/features/#backup--restore' | relative_url }})  
 - Privacy policy and this help wiki at [https://dexteralabs.io/](https://dexteralabs.io/)  
+
+## Help
+
+- Whether Dextera is the default home app  
+- Change the system home app  
+
+## Search from home
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Unified search" width="320" />
+</p>
+
+Tap the bar for apps, contacts, settings, files, calculator math, and the web. Filter chips: All · Contacts · Apps · Web · Settings.
 
 ## Related
 
 - [Features]({{ '/features/' | relative_url }}) — screenshots and how-tos  
 - [Privacy]({{ '/privacy/' | relative_url }})  
 - [Permissions]({{ '/permissions/' | relative_url }})  
+- [Contact]({{ '/contact/' | relative_url }})  

@@ -3,6 +3,7 @@ description: Official documentation and wiki for Dextera Launcher by Dextera Lab
 baseurl: ""
 url: "https://dexteralabs.io"
 lang: en
+logo: /assets/images/dextera-icon.png
 
 plugins:
   - jekyll-seo-tag

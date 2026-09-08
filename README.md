@@ -15,6 +15,7 @@ Public user documentation for **Dextera Launcher** (Jekyll site → [dexteralabs
 | `permissions.md` | Permissions |
 | `privacy.md` | Privacy policy |
 | `data-deletion.md` | Data deletion |
+| `contact.md` | Feature, bug, support, and privacy email |
 
 ## Screenshots
 

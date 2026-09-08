@@ -35,8 +35,12 @@ description: User help and feature guides for Dextera Launcher.
     <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more.</p>
   </div>
   <div class="card">
-    <h3>Wallpapers & Styles</h3>
+    <h3>Wallpapers &amp; Styles</h3>
     <p>Catalog photos, your own images, day/night packs, icon packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
+  </div>
+  <div class="card">
+    <h3>Backup &amp; restore</h3>
+    <p>Save a zip to Downloads or Drive, share it, or restore during first-run setup. Play, Dev, and sideload files use different names.</p>
   </div>
 </div>
 
@@ -48,7 +52,11 @@ description: User help and feature guides for Dextera Launcher.
     <figcaption>Home — clock, weather, apps, search</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_search_sources.png' | relative_url }}" alt="Search" />
+    <img src="{{ '/assets/images/wiki_contacts.png' | relative_url }}" alt="Contacts page" />
+    <figcaption>Contacts — call or message from home</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Search" />
     <figcaption>Search — apps, contacts, files, web</figcaption>
   </figure>
   <figure class="shot-card">
@@ -61,19 +69,15 @@ description: User help and feature guides for Dextera Launcher.
   </figure>
   <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" />
-    <figcaption>Scratch Board — notes and pins</figcaption>
+    <figcaption>Scratch Board — notes, pins, clipboard</figcaption>
   </figure>
   <figure class="shot-card">
     <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
     <figcaption>Page overview — reorder and widgets</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_styles.png' | relative_url }}" alt="Styles" />
-    <figcaption>Styles — one-tap looks</figcaption>
-  </figure>
-  <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance live preview" />
-    <figcaption>Appearance — live preview</figcaption>
+    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" />
+    <figcaption>Appearance — live Home and Lock preview</figcaption>
   </figure>
 </div>
 
@@ -89,10 +93,11 @@ description: User help and feature guides for Dextera Launcher.
 | [Permissions]({{ '/permissions/' | relative_url }}) | Why Dextera asks for access |
 | [Privacy]({{ '/privacy/' | relative_url }}) | Privacy policy |
 | [Delete data]({{ '/data-deletion/' | relative_url }}) | Request deletion of your Dextera data |
+| [Contact]({{ '/contact/' | relative_url }}) | Features, bugs, support, and privacy mail |
 
 ## Status
 
-Dextera is **on Google Play** and updated often — expect shipping polish and frequent improvements (often daily). The main experience is ready for everyday use.
+Dextera is **on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** and updated often — expect shipping polish and frequent improvements. The main experience is ready for everyday use; we keep shipping backup, customization, and polish updates.
 
 **Get the app:**
 

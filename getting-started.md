@@ -6,7 +6,7 @@ permalink: /getting-started/
 
 ## Install
 
-Download **Dextera Launcher** from Google Play:
+Download **Dextera Launcher** from [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home):
 
 <p class="play-badge-wrap">
   <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dexteralabs.home" target="_blank" rel="noopener noreferrer">
@@ -16,15 +16,18 @@ Download **Dextera Launcher** from Google Play:
 
 ## First launch
 
-You’ll see a short intro instead of a long permissions gauntlet:
+First-run is a few short steps — no long permissions gauntlet:
 
 | Step | What happens |
 |------|----------------|
 | **Welcome** | Quick intro to Dextera |
-| **Quick setup** | Optional checklist — home app, notifications, contacts, weather, folders for file search, usage |
+| **Quick setup** | Optional checklist — default home, notifications, contacts, weather, file-search folders, usage insights |
+| **Restore from backup** | Restore a Dextera zip, or **Start without a backup** |
 | **How Dextera works** | Short tour of gestures |
 
-Skip anything you don’t need; you can turn it on later in **Settings**.
+Skip any permission you don’t need; you can turn it on later in **Settings**. A backup cannot grant Android permissions — those still need a tap.
+
+After you finish setup, a one-time **coach-mark tour** walks the home screen. Restoring a backup also restores “already seen” flags so that tour does not play again.
 
 ### File search tip
 
@@ -61,11 +64,13 @@ Until this is set, the Home button may return you to your old launcher.
 ## Try these first
 
 1. **Flick** the search bar left or right to change page.  
-2. **Hold and drag** the search bar to scrub through all pages.  
-3. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
-4. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
-5. In overview, open **Wallpaper** (try **Styles**) or **Settings**.  
-6. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
+2. **Back** while already on home also cycles pages (when traditional swiping is off).  
+3. **Hold and drag** the search bar to scrub through all pages.  
+4. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
+5. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
+6. In overview, open **Appearance** / **Wallpaper** (try **Styles**) or **Settings**.  
+7. Under **Settings → About**, use **Save backup** / **Share backup** / **Import backup**.  
+8. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
 
 ## Feature tour
 
@@ -78,3 +83,4 @@ See [Features]({{ '/features/' | relative_url }}) for screenshots and how-tos fo
 - [Settings]({{ '/settings/' | relative_url }})  
 - [Permissions]({{ '/permissions/' | relative_url }})  
 - [Privacy]({{ '/privacy/' | relative_url }})  
+- [Contact]({{ '/contact/' | relative_url }})  
