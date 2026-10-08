@@ -45,9 +45,23 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 - **+ Widget (n/3)** — stack up to **3** **overlay widgets** on a **built-in** page  
 - **+ Add widgets** — free-form layout on a **custom** page  
 - **Settings** on a card — that page’s options (**Back** returns to overview)  
+- **Date, time & weather** — show or hide the clock area on that page  
+- **Chain with …** — link a page with its neighbor so both open side by side on a foldable  
 - **Sync wallpaper across pages** — one look everywhere, or **per-page wallpapers**  
 - Bottom **Wallpaper** / **Settings**  
-- On foldables, overview can show wider **spreads** when the display allows  
+
+## Linked pages (foldables)
+
+With the phone open, two linked pages fill one half each and move together when you change pages.
+
+- Link them from page overview (**Chain with …**). A page that uses both screens or has widgets on the other half can't be linked until you move them.  
+- Swap their order: swipe up on the search bar and tap **Switch positions**, or tap the up-and-down arrows next to the link in **Settings → Pages**.  
+- The page you're on keeps the date, time and weather. Each half has its own line for moving the page up or down.  
+- Folded, each page shows on its own on the cover screen.  
+
+## Page indicator
+
+A row of dots under the search bar shows where you are; tap one to jump there. **Settings → Pages → Page indicator** switches between **Dots**, **Icons**, or **Off**, and **Background** sets how see-through the strip behind it is.
 
 ## Navigation style
 
@@ -57,8 +71,8 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 
 | Mode | Behavior |
 |------|----------|
-| **Default** | Flick / scrub the search bar; back can cycle pages |
-| **Traditional swiping** | Free page swipes; home is mostly App List + custom pages |
+| **Default** | Swipe the search bar, or hold it and slide; Back can cycle pages |
+| **Traditional swiping** (Beta) | Swipe anywhere on the screen to change pages |
 
 **Page transitions:** Slide, Cube, Depth, Flip, Fade (**Settings → Pages**).
 
@@ -70,12 +84,16 @@ Music and Notifications can disappear when there’s nothing to show, and return
 
 - A–Z apps, optional **pinned** and **frequently used**  
 - **Letter rail** (size, dots, fade, left-handed)  
-- Category chips when folders have apps  
+- Folder buttons (or folder icons) when folders have apps  
 - Notification badges  
 
 ### Folders
 
 Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
+
+- **Show folders as icons** (Settings → App List): press and hold a folder icon to fan out its first apps, then slide to one to open it.  
+- An open folder shows only its own apps, as a grid or a list.  
+- **Hide apps in folders** keeps filed apps out of the A–Z list; search still finds them.
 
 ## Quick Settings
 
@@ -91,7 +109,7 @@ Enable under **Settings → Pages**, then flick to the page for fast toggles wit
   <img class="shot" src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" width="320" />
 </p>
 
-Notes, pinned notifications (with images when available), clipboard, and file attachments. Open as a page; compose with **Write a note…**
+Notes, checklists, drawings, pinned notifications (with images when available), clipboard, and file attachments. Open as a page; compose with **Write a note…** Star notes, search the board, and restore deleted items from the trash for 30 days. See [Features → Scratch Board]({{ '/features/#scratch-board' | relative_url }}).
 
 ## Widgets
 

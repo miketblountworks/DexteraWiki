@@ -30,7 +30,8 @@ permalink: /settings/
 </p>
 
 - Live **Home** and **Lock** preview (dim badge, themed icons) as you adjust  
-- Wallpaper: Custom, Pitch Black, Bing Daily (Pro)  
+- Wallpaper: Custom, Pitch Black, Bing Daily (free)  
+- **Effects:** Blur, Dim, Adaptive dimming, **Bottom shade**, OLED mode, unlock animation (wallpaper zoom, content entrance), and the fold close **Code rain** (Pro)  
 - Apply wallpaper to Home & Lock / Home / Lock  
 - Theme colors (Auto from wallpaper + solid swatches)  
 - Themed icons + shapes + **icon packs** (DuoTone, Wireframe, Frosted Glass, Dot Matrix, Neon Glow, Silhouette, …)  
@@ -56,7 +57,9 @@ Full wallpaper catalog, GNOME day/night packs, per-page wallpapers, and **Styles
 
 ## App List
 
-Sidebar letter size, dots, idle fade; folder categories; related list options.
+- Sidebar letter size, dots, idle fade; **Big letter while scrubbing** with size and opacity  
+- Folders: **Show folders as icons**, **Inside a folder, show apps as** (Grid / List), **Hide apps in folders**  
+- Live previews of each option
 
 ## Touch & Gestures
 
@@ -69,6 +72,7 @@ Sidebar letter size, dots, idle fade; folder categories; related list options.
 - Long-hold back → page  
 - Double-tap header action  
 - Home button & gesture (**First page**, etc.)  
+- Double-tap, Home, and hold-back can also open Settings or Appearance, or **reveal** items hidden on rest  
 
 See [Gestures]({{ '/gestures/' | relative_url }}).
 
@@ -82,7 +86,7 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 - Web engine  
 - Previous results / history limit / clear  
 - **Verification codes (OTP chip)** from message notifications — **no SMS permission**  
-- Inline **calculator** when you type math into search  
+- **Calculator** above the search bar when you type math  
 - Sources: Apps, Contacts, Files, Web, Settings  
 - File search: indexed folders, **Add folder**  
 
@@ -92,9 +96,10 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
   <img class="shot" src="{{ '/assets/images/wiki_pages_nav.png' | relative_url }}" alt="Pages settings" width="320" />
 </p>
 
-- Traditional swiping mode  
+- Traditional swiping mode (Beta)  
 - **Page transitions** (Slide, Cube, Depth, Flip, Fade)  
-- Enable / reorder / remove panels (including **Scratch Board** and **Quick Settings**)  
+- **Page indicator** (Dots, Icons, Off) and its **Background** slider  
+- Enable / reorder / remove panels (including **Scratch Board** and **Quick Settings**); linked pairs move together, and the up-and-down arrows next to the link swap their order  
 - Add custom widget pages (Pro may apply)  
 - Overlay widgets (up to 3 on built-in pages) via page overview  
 
@@ -105,6 +110,7 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 </p>
 
 - **Zen mode (declutter)** — hide labels and extra overlays  
+- **Hide on rest** — time, date, weather, search bar, or a collapsed app list fade when the phone is at rest; choose whether a touch or a reveal gesture brings them back, and the timeout  
 - Frequently used limits, hidden apps, and related filters where available  
 - **Adaptive dimming** / OLED-friendly options  
 
@@ -122,8 +128,10 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 
 From overview → **Settings** on the Notifications card:
 
-- Colored cards  
+- Colored cards, **frosted notification cards** with an opacity slider  
 - **Lock pinned notifications**  
+
+Music, Scratch Board, and Quick Settings pages have their own **frosted** options; Music also has the **seek bar style**.
 
 ## Extensions
 
@@ -131,10 +139,11 @@ Optional add-ons such as **Walkie-Talkie**. Shown when a plugin is available on 
 
 ## About
 
-- Version and update channel  
+- Version and What's new  
 - Dextera Labs (Play display name) / Dextera Labs LLC  
-- Dextera Pro (buy / restore on Play)  
-- **Save backup**, **Share backup**, **Import backup** — see [Features → Backup]({{ '/features/#backup--restore' | relative_url }})  
+- Dextera Pro (buy / restore on Play), **Support Dextera**, **Send feedback**  
+- **Back up to Google Drive**, daily backups, **Save / Share / Import backup** — see [Features → Backup]({{ '/features/#backup--restore' | relative_url }})  
+- Downloaded from our site? Tap the version 5 times for **APK updates** and the **Update channel** (Beta / Stable)  
 - Privacy policy and this help wiki at [https://dexteralabs.io/](https://dexteralabs.io/)  
 
 ## Help
