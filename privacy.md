@@ -5,7 +5,7 @@ permalink: /privacy/
 ---
 
 **Effective date:** July 10, 2026  
-**Last updated:** September 8, 2026  
+**Last updated:** October 7, 2026  
 **Application:** Dextera Launcher (`com.dexteralabs.home`)  
 **Developer:** Dextera Labs LLC
 
@@ -66,6 +66,11 @@ Dextera may contact third-party services when you use related features:
 | **Weather** | Providers such as Open-Meteo, weather.gov (US), USNO | Coordinates or location-derived requests |
 | **Web search suggestions** | Suggestion services (e.g. Google, DuckDuckGo) | Search query text you type |
 | **Web search open** | Your selected engine (Google, Bing, DuckDuckGo, Brave, etc.) | Query when you open a web result |
+| **Google sign-in** (optional: Google Tasks on home, Google Drive backup, Pro trial) | Google (accounts.google.com, Google Tasks API, Google Drive API) | Your Google account sign-in; read-only access to your task lists; access only to Dextera's own hidden app-data folder in your Drive |
+| **Google Drive backup** (optional) | Your own Google Drive | A backup of your Dextera settings, pages, Scratch Board (with its files), and wallpapers, stored in a hidden folder only Dextera can open |
+| **Pro trial** (optional) | Your own Google Drive | A small record of when your trial started, so reinstalling does not start a second trial |
+| **Scratch Board link previews** | The website a saved link points to | A request for that page, to read its title and preview image |
+| **App updates** (only for copies installed from our download page, when you turn updates on) | Dextera Labs download server | A request for the list of available versions and the update file |
 | **General connectivity** | As needed for the above | Standard network/device headers |
 
 Those third parties have their own privacy policies. Dextera does not control how they retain or use request data.
@@ -74,7 +79,7 @@ Those third parties have their own privacy policies. Dextera does not control ho
 
 As of this policy, Dextera is not designed to:
 
-- Create Dextera user profiles on our servers  
+- Create Dextera user profiles on our servers (optional Google Drive backups and the Pro trial record live in **your own** Google Drive, not on Dextera Labs servers, and Dextera Labs cannot read them)  
 - Sync your contacts, SMS, notification contents, or locked-app lists to a Dextera backend  
 - Sell your personal information  
 - Show third-party ads based on a Dextera advertising profile  
@@ -112,7 +117,7 @@ You can withdraw optional permissions in Android Settings at any time (some feat
 - **Storage:** Preferences and indexes are stored on your device. Sensitive launcher lists (e.g. locked/hidden/pinned packages) may use encrypted storage on-device.  
 - **Retention:** Data remains until you clear app data, uninstall Dextera, or revoke permissions / delete related content on the device.  
 - **Security:** Device admin and biometric app lock (when launching from Dextera) are optional protections. No method is 100% secure; physical access and OS vulnerabilities can still pose risks.  
-- **Backups:** Android backup systems (if enabled on your device) may include app data according to your OS backup settings.
+- **Backups:** Android backup systems (if enabled on your device) may include app data according to your OS backup settings. If you turn on **Back up to Google Drive**, backups are stored in a hidden app folder in your own Google Drive; Dextera keeps the newest 5 and deletes older ones. You can turn this off at any time and delete the stored data from Google Drive (see [Delete data]({{ '/data-deletion/' | relative_url }})).
 
 ---
 

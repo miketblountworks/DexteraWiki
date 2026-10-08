@@ -59,18 +59,19 @@ Until this is set, the Home button may return you to your old launcher.
 | **Upper mid** | Clock, date, weather (and optional Tasks quote) |
 | **Center** | Current page (apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, …) |
 | **Side** | Letter rail on the app list |
-| **Bottom** | **Search** bar — **gear** opens **page overview** |
+| **Bottom** | **Search** bar — **gear** opens **page overview**; page dots underneath |
 
 ## Try these first
 
-1. **Flick** the search bar left or right to change page.  
+1. **Swipe** the search bar left or right to change page, or tap a dot under it.  
 2. **Back** while already on home also cycles pages (when traditional swiping is off).  
-3. **Hold and drag** the search bar to scrub through all pages.  
-4. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
-5. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
-6. In overview, open **Appearance** / **Wallpaper** (try **Styles**) or **Settings**.  
-7. Under **Settings → About**, use **Save backup** / **Share backup** / **Import backup**.  
-8. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
+3. **Press and hold** the search bar, then slide your finger to move through all pages.  
+4. **Hold and drag the line** above your page to move the page up or down.  
+5. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
+6. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
+7. In overview, open **Appearance** / **Wallpaper** (try **Styles**) or **Settings**.  
+8. Under **Settings → About**, turn on **Back up to Google Drive**, or use **Save backup** / **Share backup** / **Import backup**.  
+9. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
 
 ## Feature tour
 

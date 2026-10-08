@@ -28,19 +28,23 @@ description: User help and feature guides for Dextera Launcher.
   </div>
   <div class="card">
     <h3>One search bar</h3>
-    <p>Find apps, contacts, settings, files from folders you add, calculator math, and the web — from the bar at the bottom of the screen.</p>
+    <p>Find apps, contacts, settings, files from folders you add, and the web — from the bar at the bottom of the screen. Type a sum and a calculator slides up.</p>
   </div>
   <div class="card">
     <h3>Pages under your thumb</h3>
-    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more.</p>
+    <p>Swipe or slide along the search bar to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more. Drag the line above any page to move it within thumb reach.</p>
+  </div>
+  <div class="card">
+    <h3>Made for foldables</h3>
+    <p>Link two pages to open side by side when your phone is unfolded, each with its own layout. Folded, every page fits the cover screen.</p>
   </div>
   <div class="card">
     <h3>Wallpapers &amp; Styles</h3>
-    <p>Catalog photos, your own images, day/night packs, icon packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
+    <p>Catalog photos, free daily Bing photos, your own images, day/night packs, icon packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
   </div>
   <div class="card">
     <h3>Backup &amp; restore</h3>
-    <p>Save a zip to Downloads or Drive, share it, or restore during first-run setup. Play, Dev, and sideload files use different names.</p>
+    <p>Back up to Google Drive every day, or save a zip you can share. Restore on a new phone during first-run setup.</p>
   </div>
 </div>
 

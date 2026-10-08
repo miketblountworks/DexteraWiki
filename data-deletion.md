@@ -7,7 +7,7 @@ permalink: /data-deletion/
 **App:** Dextera Launcher (`com.dexteralabs.home`)  
 **Developer:** Dextera Labs LLC (Play Store developer name: Dextera Labs)  
 **Mailing address:** 923 Youth Water Rd, Montgomery, TX 77316, United States  
-**Last updated:** September 8, 2026
+**Last updated:** October 7, 2026
 
 This page explains how to request deletion of data related to **Dextera Launcher**, published by **Dextera Labs LLC** on Google Play.
 
@@ -15,7 +15,9 @@ This page explains how to request deletion of data related to **Dextera Launcher
 
 ## Important: most data is only on your device
 
-Dextera is a **device-local home launcher**. Dextera Labs LLC does **not** run a Dextera user account system and does **not** operate a cloud backup of your home layout, contacts, locked apps, or notification contents.
+Dextera is a **device-local home launcher**. Dextera Labs LLC does **not** run a Dextera user account system and does **not** keep a copy of your home layout, contacts, locked apps, or notification contents on its servers.
+
+If you chose **Back up to Google Drive** or started a **Pro trial**, a copy is also kept in a hidden Dextera folder in **your own** Google Drive. See [Delete Dextera data from Google Drive](#delete-dextera-data-from-google-drive).
 
 Almost all app data lives **only on your phone** until you remove it.
 
@@ -94,7 +96,19 @@ We aim to respond within **30 days**.
 | Email you send to request deletion | Up to **90 days** for support/compliance, then deleted or anonymized unless law requires longer |
 | No Dextera cloud profile | We do **not** keep a server-side copy of your contacts, notification contents, or home layout |
 
-Because we do not operate a Dextera cloud account of user home data, **clearing app data or uninstalling is the complete deletion of Dextera-held app data on the device.**
+Because we do not operate a Dextera cloud account of user home data, **clearing app data or uninstalling is the complete deletion of Dextera-held app data on the device.** Copies you chose to keep in your own Google Drive stay there until you [delete them from Google Drive](#delete-dextera-data-from-google-drive).
+
+---
+
+## Delete Dextera data from Google Drive
+
+Only needed if you used **Back up to Google Drive** or a **Pro trial**. Dextera Labs cannot see or delete this data for you; it lives in your Google account.
+
+1. On a computer, open **[drive.google.com](https://drive.google.com)** → **Settings** (gear) → **Manage apps**.  
+2. Find **Dextera Launcher** → **Options** → **Delete hidden app data**.  
+3. Optionally choose **Disconnect from Drive**.  
+
+Deleting the trial record means a later trial may not be offered on that account.
 
 ---
 
@@ -102,7 +116,8 @@ Because we do not operate a Dextera cloud account of user home data, **clearing 
 
 1. **Deactivate device admin** if uninstall protection is on.  
 2. **Uninstall** Dextera Launcher **or** **Clear storage**.  
-3. Optionally email **[privacy@dexteralabs.io](mailto:privacy@dexteralabs.io)** with subject `Dextera Launcher — data deletion request`.
+3. If you used Google Drive backup or a Pro trial, **delete Dextera's hidden app data** from Google Drive.  
+4. Optionally email **[privacy@dexteralabs.io](mailto:privacy@dexteralabs.io)** with subject `Dextera Launcher — data deletion request`.
 
 ---
 
