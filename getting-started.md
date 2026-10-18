@@ -16,18 +16,20 @@ Download **Dextera Launcher** from [Google Play](https://play.google.com/store/a
 
 ## First launch
 
-First-run is a few short steps — no long permissions gauntlet:
+First-run is a few short screens, one question each:
 
 | Step | What happens |
 |------|----------------|
-| **Welcome** | Quick intro to Dextera |
-| **Quick setup** | Optional checklist — default home, notifications, contacts, weather, file-search folders, usage insights |
-| **Restore from backup** | Restore a Dextera zip, or **Start without a backup** |
-| **How Dextera works** | Short tour of gestures |
+| **Welcome** | Short slides that wait for you, ask which thumb you use, and show the search button in action |
+| **Setup** | Make Dextera your home app, then allow notifications, contacts, music, and weather if you want them. One **Allow access** button covers Contacts, Music, and Notifications. Anything you already allowed is skipped |
+| **How you change pages** | Swipe or slide along the search button |
+| **Your folders** | Pick up to 4 things you use your phone for, and each becomes a folder with those apps in it. Or skip and start with none |
+| **Wallpaper** | Pick a wallpaper and see it behind a preview of your home, or keep your phone's own |
+| **Restore from backup** | Restore a Dextera backup, or start fresh |
 
-Skip any permission you don’t need; you can turn it on later in **Settings**. A backup cannot grant Android permissions — those still need a tap.
+Skip any permission you don’t need; you can turn it on later in **Settings**. After you allow something in your phone's Settings, Dextera comes back on its own. A backup cannot grant Android permissions — those still need a tap.
 
-After you finish setup, a one-time **coach-mark tour** walks the home screen. Restoring a backup also restores “already seen” flags so that tour does not play again.
+After setup, small tips show up the first time you reach something new, as a short note beside the search button.
 
 ### File search tip
 
@@ -50,26 +52,26 @@ Until this is set, the Home button may return you to your old launcher.
 ## The home screen at a glance
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_home_app_list.png' | relative_url }}" alt="Dextera home screen" width="320" />
+  <img class="shot" src="{{ '/assets/images/v4_home.png' | relative_url }}" alt="Dextera home screen" width="320" />
 </p>
 
 | Area | What’s there |
 |------|----------------|
 | **Top** | Optional status icons when the system status bar is hidden |
-| **Upper mid** | Clock, date, weather (and optional Tasks quote) |
+| **Upper mid** | Clock, date, weather, and your **folder row**, with **All apps** first |
 | **Center** | Current page (apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, …) |
 | **Side** | Letter rail on the app list |
-| **Bottom** | **Search** bar — **gear** opens **page overview**; page dots underneath |
+| **Bottom corner** | The **search button** on your thumb's side, with your page icons beside it |
 
 ## Try these first
 
-1. **Swipe** the search bar left or right to change page, or tap a dot under it.  
-2. **Back** while already on home also cycles pages (when traditional swiping is off).  
-3. **Press and hold** the search bar, then slide your finger to move through all pages.  
-4. **Hold and drag the line** above your page to move the page up or down.  
-5. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
-6. **Pinch**, **long-press empty space**, or tap the **gear** for **page overview**.  
-7. In overview, open **Appearance** / **Wallpaper** (try **Styles**) or **Settings**.  
+1. **Tap** anywhere in the corner around the search button to search.  
+2. **Swipe** the search button left or right to change page, or tap a page icon beside it.  
+3. **Hold** the search button for a short menu: **Pages & wallpaper**, **Dextera settings**, and **Android settings**. Keep holding, slide up to a choice, and let go.  
+4. **Tap a folder** to fan out its first apps, then tap one. Tap the folder again to open all of it.  
+5. **Drag the All apps tile** up or down to move your page closer to your thumb.  
+6. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
+7. **Pinch** or **long-press empty space** for **page overview**, then open **Appearance** (try **Styles**) or **Settings**.  
 8. Under **Settings → About**, turn on **Back up to Google Drive**, or use **Save backup** / **Share backup** / **Import backup**.  
 9. Under **Touch & Gestures**, set **Home button** to **First page** if you want: leave an app → page you were on; Home again → first page.  
 

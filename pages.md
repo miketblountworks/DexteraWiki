@@ -10,7 +10,8 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 
 | Page | What it’s for | Screenshot |
 |------|----------------|------------|
-| **App List** | All apps, letter rail, pins, frequently used | [Home]({{ '/features/#home--app-list' | relative_url }}) |
+| **App List** | All apps, letter rail, pins, frequently used |
+| **Timer** | Timer and stopwatch | [Home]({{ '/features/#home--app-list' | relative_url }}) |
 | **Recents** | Recently used apps | [Recents]({{ '/features/#recents' | relative_url }}) |
 | **Contacts** | Call, message, pin contacts; optional letter rail | [Contacts]({{ '/features/#contacts' | relative_url }}) |
 | **Music** | Now playing, seek, volume | [Music]({{ '/features/#music' | relative_url }}) |
@@ -35,7 +36,7 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 
 ### How to open
 
-- Gear on the **search bar**  
+- Hold the **search button** and choose **Pages & wallpaper**  
 - Pinch the home screen  
 - Long-press empty space  
 
@@ -55,13 +56,14 @@ Turn pages on/off and reorder them under **Settings → Pages**, or long-press-d
 With the phone open, two linked pages fill one half each and move together when you change pages.
 
 - Link them from page overview (**Chain with …**). A page that uses both screens or has widgets on the other half can't be linked until you move them.  
-- Swap their order: swipe up on the search bar and tap **Switch positions**, or tap the up-and-down arrows next to the link in **Settings → Pages**.  
+- Swap their order: swipe up on the search button and tap **Switch positions**. In **Settings → Pages**, tap the chain between two pages to link or unlink them.  
+- Unfolded, the page overview shows three pages side by side.  
 - The page you're on keeps the date, time and weather. Each half has its own line for moving the page up or down.  
 - Folded, each page shows on its own on the cover screen.  
 
 ## Page indicator
 
-A row of dots under the search bar shows where you are; tap one to jump there. **Settings → Pages → Page indicator** switches between **Dots**, **Icons**, or **Off**, and **Background** sets how see-through the strip behind it is.
+Page icons (or dots) beside the search button show where you are; tap one to jump there. **Settings → Pages → Page indicator** switches between **Dots**, **Icons**, or **Off**, and **Background** sets how see-through the strip behind it is.
 
 ## Navigation style
 
@@ -69,10 +71,7 @@ A row of dots under the search bar shows where you are; tap one to jump there. *
   <img class="shot" src="{{ '/assets/images/wiki_pages_nav.png' | relative_url }}" alt="Page transitions" width="320" />
 </p>
 
-| Mode | Behavior |
-|------|----------|
-| **Default** | Swipe the search bar, or hold it and slide; Back can cycle pages |
-| **Traditional swiping** (Beta) | Swipe anywhere on the screen to change pages |
+Swipe the search button, or hold it and slide sideways, to change pages. You can also swipe sideways on the small line under your folders. Turn any of these swipes off under **Settings → Touch and gestures**.
 
 **Page transitions:** Slide, Cube, Depth, Flip, Fade (**Settings → Pages**).
 
@@ -84,14 +83,16 @@ Music and Notifications can disappear when there’s nothing to show, and return
 
 - A–Z apps, optional **pinned** and **frequently used**  
 - **Letter rail** (size, dots, fade, left-handed)  
-- Folder buttons (or folder icons) when folders have apps  
+- Folder buttons, or a folder row under the date, when folders have apps  
 - Notification badges  
 
 ### Folders
 
 Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
 
-- **Show folders as icons** (Settings → App List): press and hold a folder icon to fan out its first apps, then slide to one to open it.  
+- **Show folders as icons** (Settings → App List): tap a folder to fan out its first apps right beside your thumb, then tap one. Tap it again to open the whole folder. Holding and sliding still works.  
+- Drag the folder row sideways to reach far folders. Tap **All apps** to tuck them away.  
+- In an open folder, hold an app and drag it to change the order.  
 - An open folder shows only its own apps, as a grid or a list.  
 - **Hide apps in folders** keeps filed apps out of the A–Z list; search still finds them.
 
@@ -101,7 +102,7 @@ Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
   <img class="shot" src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings page" width="320" />
 </p>
 
-Enable under **Settings → Pages**, then flick to the page for fast toggles without opening the full system shade. Long-press a tile when Android exposes a deeper settings jump.
+Enable under **Settings → Pages**, then swipe to the page for fast toggles without opening the full system shade. Pull down on the page and it slides to your thumb. Long-press a tile when Android exposes a deeper settings jump.
 
 ## Scratch Board
 

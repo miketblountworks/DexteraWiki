@@ -13,7 +13,7 @@ permalink: /settings/
 | **Page overview → Wallpaper** | Wallpaper picker (Wallpapers + Styles tabs) |
 | **Settings → Appearance** | Theme, icons, fonts, live preview |
 
-> The **gear on the search bar** opens **page overview**, not the main Settings list.
+> **Hold the search button** for **Pages & wallpaper** (page overview), **Dextera settings**, or **Android settings**.
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_settings_root.png' | relative_url }}" alt="Launcher Settings" width="320" />
@@ -86,7 +86,7 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 - Web engine  
 - Previous results / history limit / clear  
 - **Verification codes (OTP chip)** from message notifications — **no SMS permission**  
-- **Calculator** above the search bar when you type math  
+- **Calculator** above the search field when you type math  
 - Sources: Apps, Contacts, Files, Web, Settings  
 - File search: indexed folders, **Add folder**  
 
@@ -96,7 +96,6 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
   <img class="shot" src="{{ '/assets/images/wiki_pages_nav.png' | relative_url }}" alt="Pages settings" width="320" />
 </p>
 
-- Traditional swiping mode (Beta)  
 - **Page transitions** (Slide, Cube, Depth, Flip, Fade)  
 - **Page indicator** (Dots, Icons, Off) and its **Background** slider  
 - Enable / reorder / remove panels (including **Scratch Board** and **Quick Settings**); linked pairs move together, and the up-and-down arrows next to the link swap their order  
@@ -110,7 +109,7 @@ See [Gestures]({{ '/gestures/' | relative_url }}).
 </p>
 
 - **Zen mode (declutter)** — hide labels and extra overlays  
-- **Hide on rest** — time, date, weather, search bar, or a collapsed app list fade when the phone is at rest; choose whether a touch or a reveal gesture brings them back, and the timeout  
+- **Hide on rest** — time, date, weather, search button, or a collapsed app list fade when the phone is at rest; choose whether a touch or a reveal gesture brings them back, and the timeout  
 - Frequently used limits, hidden apps, and related filters where available  
 - **Adaptive dimming** / OLED-friendly options  
 
