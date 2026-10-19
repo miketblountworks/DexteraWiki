@@ -19,28 +19,41 @@ description: User help and feature guides for Dextera Launcher.
   </a>
 </p>
 
+## New in Dextera 4.0
+
+- **Folders under your thumb.** Tap a folder and its first apps fan out right beside your thumb. Drag the folder row sideways to bring a far folder close.
+- **Room as you scroll.** Scroll down a list and the date and folders slide away so more fits, then come back on their own.
+- **Frosted glass everywhere** with Dextera Pro, and text that stays readable over any wallpaper.
+- **A calmer setup** that asks one thing per screen and can make your first folders for you.
+
+See everything in [What's new in 4.0]({{ '/features/#new-in-dextera-40' | relative_url }}).
+
 ## What you can do
 
 <div class="card-grid">
   <div class="card">
-    <h3>Notifications on home</h3>
-    <p>See messages in stacks by app, pin important apps, and optionally lock those so they can’t be swiped away by accident.</p>
+    <h3>Search on your side</h3>
+    <p>Search is a circle on your thumb's side. Tap anywhere in that corner to find apps, contacts, settings, files from folders you add, and the web. Type a sum and a calculator slides up.</p>
   </div>
   <div class="card">
-    <h3>One search bar</h3>
-    <p>Find apps, contacts, settings, files from folders you add, calculator math, and the web — from the bar at the bottom of the screen.</p>
+    <h3>Folders that fan out</h3>
+    <p>Tap a folder and its first apps fan out under your thumb. Hold an app in an open folder to change the order. Tap All apps to tuck your folders away.</p>
   </div>
   <div class="card">
     <h3>Pages under your thumb</h3>
-    <p>Flick or scrub the search bar to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more.</p>
+    <p>Swipe or slide along the search button to move between apps, recents, music, notifications, Scratch Board, Quick Settings, widgets, and more. Hold the search button for pages, wallpaper and settings.</p>
+  </div>
+  <div class="card">
+    <h3>Notifications on home</h3>
+    <p>Tidy, optionally frosted cards grouped by app. Hold a notification's picture to pin that app to the top.</p>
+  </div>
+  <div class="card">
+    <h3>Made for foldables</h3>
+    <p>Link two pages to open side by side when your phone is unfolded, and see three pages at once in the page overview. Folded, every page fits the cover screen.</p>
   </div>
   <div class="card">
     <h3>Wallpapers &amp; Styles</h3>
-    <p>Catalog photos, your own images, day/night packs, icon packs, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
-  </div>
-  <div class="card">
-    <h3>Backup &amp; restore</h3>
-    <p>Save a zip to Downloads or Drive, share it, or restore during first-run setup. Play, Dev, and sideload files use different names.</p>
+    <p>Catalog photos, daily Bing photos, your own images, day/night packs, icon packs, Blush Bloom flower icons, and one-tap Styles that apply wallpaper, theme, font, and icons together.</p>
   </div>
 </div>
 
@@ -48,36 +61,36 @@ description: User help and feature guides for Dextera Launcher.
 
 <div class="shot-grid">
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_home_app_list.png' | relative_url }}" alt="Dextera home screen" />
-    <figcaption>Home — clock, weather, apps, search</figcaption>
+    <img src="{{ '/assets/images/v4_home.png' | relative_url }}" alt="Dextera home screen with folders" />
+    <figcaption>Home — date, folders, apps, and the search button</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_contacts.png' | relative_url }}" alt="Contacts page" />
+    <img src="{{ '/assets/images/v4_folder_fan.png' | relative_url }}" alt="Folder apps fanned out" />
+    <figcaption>Tap a folder and its apps fan out</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/v4_hold_menu.png' | relative_url }}" alt="Search button hold menu" />
+    <figcaption>Hold the search button for pages and settings</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/v4_notifications.png' | relative_url }}" alt="Notifications page" />
+    <figcaption>Notifications in tidy cards</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/v4_calculator.png' | relative_url }}" alt="Search with calculator" />
+    <figcaption>Search — with a calculator for sums</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/v4_quick_settings.png' | relative_url }}" alt="Quick Settings page" />
+    <figcaption>Quick Settings by your thumb</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/v4_contacts.png' | relative_url }}" alt="Contacts page" />
     <figcaption>Contacts — call or message from home</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Search" />
-    <figcaption>Search — apps, contacts, files, web</figcaption>
-  </figure>
-  <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_notifications.png' | relative_url }}" alt="Notifications" />
-    <figcaption>Notification center page</figcaption>
-  </figure>
-  <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_quick_settings.png' | relative_url }}" alt="Quick Settings" />
-    <figcaption>Quick Settings — toggles on a page</figcaption>
-  </figure>
-  <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" />
-    <figcaption>Scratch Board — notes, pins, clipboard</figcaption>
-  </figure>
-  <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_page_overview.png' | relative_url }}" alt="Page overview" />
-    <figcaption>Page overview — reorder and widgets</figcaption>
-  </figure>
-  <figure class="shot-card">
-    <img src="{{ '/assets/images/wiki_appearance.png' | relative_url }}" alt="Appearance" />
-    <figcaption>Appearance — live Home and Lock preview</figcaption>
+    <img src="{{ '/assets/images/v4_setup_folders.png' | relative_url }}" alt="Setup folder picker" />
+    <figcaption>Setup builds your first folders</figcaption>
   </figure>
 </div>
 
@@ -87,7 +100,7 @@ description: User help and feature guides for Dextera Launcher.
 |------|--------------------------|
 | [Getting started]({{ '/getting-started/' | relative_url }}) | Set Dextera as home and learn the layout |
 | [Features]({{ '/features/' | relative_url }}) | Full feature list with screenshots and how-tos |
-| [Gestures]({{ '/gestures/' | relative_url }}) | Flicks, scrubbing, Home, left-handed mode |
+| [Gestures]({{ '/gestures/' | relative_url }}) | Search button, folders, Home, left-handed mode |
 | [Pages]({{ '/pages/' | relative_url }}) | Each home page and widgets |
 | [Settings]({{ '/settings/' | relative_url }}) | Appearance, Home, Search, Pages, Security |
 | [Permissions]({{ '/permissions/' | relative_url }}) | Why Dextera asks for access |
@@ -97,7 +110,7 @@ description: User help and feature guides for Dextera Launcher.
 
 ## Status
 
-Dextera is **on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** and updated often — expect shipping polish and frequent improvements. The main experience is ready for everyday use; we keep shipping backup, customization, and polish updates.
+**Dextera 4.0** is **on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** and ready for everyday use. It's updated often, and What's new opens in the app after each update.
 
 **Get the app:**
 

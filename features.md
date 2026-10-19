@@ -6,26 +6,64 @@ permalink: /features/
 
 Dextera is a custom **home screen** for Android: one-handed navigation, unified search, pages for apps and more, and deep customization — without getting in your way. It’s **on Google Play** and updated often with shipping polish.
 
-> **On [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** — the core experience is ready for everyday use; we keep shipping polish and new tools like backup.
+> **Dextera 4.0 is on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** — ready for everyday use and updated often.
+
+## New in Dextera 4.0
+
+**Folders**
+- Tap a folder to fan out its first apps right beside your thumb, then tap the one you want. Tap the folder again to open all of it. Holding and sliding still works too.
+- In an open folder, hold an app and drag it to change the order. The apps at the top are the ones that fan out.
+- Drag the folder row sideways to bring a far folder to your thumb. You feel a light tick as each one passes.
+- Tap **All apps** to tuck your folders inside it, and tap again to bring them back.
+- The **All apps** tile has a small bar under it. Drag the tile up or down to move everything below it.
+- Setup can make your first folders: pick up to 4 things you use your phone for.
+
+**Home screen**
+- Scroll down a list, like the app list, Notifications or Contacts, and the date and folders slide away so more fits. They come back at the top, with Back, or after a few seconds.
+- Double-tap any bare part of the wallpaper to run your double-tap action.
+- Tap anywhere in the corner around the search button to search.
+- Notifications only move for a straight sideways swipe, so scrolling doesn't swipe cards away. Hold a notification's picture to pin it.
+- New switches in **Settings → Touch and gestures** turn off individual swipes.
+
+**Looks**
+- **Frosted glass** (Pro) for the search circle, folders, music player, Quick Settings and Scratch Board, each with its own strength. Text stays readable over light and dark wallpaper without flickering.
+- **Blush Bloom** gives icons a flower shape and tints notification cards to match.
+- Many more apps have their own built-in icon instead of letters or a plain box.
+- While charging, the battery ring around the search button burns like a lit fuse.
+
+**Music and Quick Settings**
+- Music shows the time played around the record. The mini player shows progress; drag its bar to move through the song.
+- Pull down on Quick Settings and the page slides down to your thumb.
+
+**Foldables and tablets**
+- Unfolded or on a tablet, the page overview shows three pages side by side. In **Settings → Pages**, tap the chain between two pages to link them.
+- On a tablet, choose how wide pages are: **Thumb**, **Wider**, or **Half the screen**.
+- **Appearance** keeps Styles, Font, Effects and Colors in one floating bar on every screen.
+
+**Setup**
+- Setup asks one thing per screen, skips anything you already allowed, and comes back on its own after you allow something in your phone's Settings.
+- Small tips show up the first time you reach something new, as a short note beside the search button.
 
 ## Feature map
 
 | Area | What it is |
 |------|------------|
-| [Home & App List](#home--app-list) | Clock, weather, apps, letter rail, search bar |
+| [Home & App List](#home--app-list) | Clock, weather, folders, apps, letter rail, search button |
+| [Moving your page](#moving-your-page-up-and-down) | Drag the All apps tile (or the line) to move a page up or down |
+| [Foldables & linked pages](#foldables--linked-pages) | Two pages side by side on an opened fold |
 | [Contacts](#contacts) | Call or message people from a home page |
 | [Recents](#recents) | Apps you used recently |
 | [Music](#music) | Now playing on a dedicated page |
 | [Notifications](#notifications) | Full notification center on a page |
 | [Scratch Board](#scratch-board) | Notes, pins, clipboard, attachments |
 | [Quick Settings](#quick-settings) | Fast toggles on a home page |
-| [Backup](#backup--restore) | Save, share, and restore a Dextera zip |
+| [Backup](#backup--restore) | Google Drive, daily backups, or a zip you save and share |
 | [Page overview](#page-overview) | Reorder pages, wallpapers, widgets |
 | [Wallpapers](#wallpapers) | Catalog, photos, day/night packs, blur/dim, per-page |
 | [Styles](#styles) | One-tap looks (wallpaper + theme + fonts + icons) |
 | [Icon packs & clock](#icon-packs--clock-styles) | DuoTone, Wireframe, Frosted Glass, and more |
 | [Settings](#settings-overview) | Appearance, Home, Gestures, Search, Pages, more |
-| [Search](#search) | Apps, files, calculator, web, OTP chip |
+| [Search](#search) | Apps, contacts, files, calculator, web, OTP chip |
 | [Security](#security) | Uninstall protection, app lock / hide |
 | [Wellbeing](#digital-wellbeing) | Zen / declutter, adaptive dimming |
 
@@ -34,7 +72,7 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 ## Home & App List
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_home_app_list.png' | relative_url }}" alt="Dextera home with app list" width="320" />
+  <img class="shot" src="{{ '/assets/images/v4_home.png' | relative_url }}" alt="Dextera home with app list" width="320" />
 </p>
 
 **What you see**
@@ -43,16 +81,32 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 - Optional **weather overlay** and **Pro vignettes** for a richer look
 - **Frequently used** apps when usage access is on
 - **Alphabetical app list** with optional **letter rail** on the side
-- **Search bar** at the bottom (thumb-friendly)
-- **Gear** on the search bar → **page overview** (not full Settings)
+- **Folder row** under the date, with **All apps** first
+- **Search button**: a circle in the bottom corner on your thumb's side. Tap anywhere in that corner to search
+- **Page icons** (or dots) beside the search button show which page you're on — tap one to jump there
+- **Hold the search button** for **Pages & wallpaper**, **Dextera settings**, and **Android settings**
 - Optional **frosted glass** surfaces for cards and panels
 
 ### How to
 
-1. Flick the **search bar** left/right to change page.  
-2. Hold and drag the search bar to **scrub** all pages.  
-3. Drag the **letter rail** to jump the list.  
-4. Long-press an app for pin, hide, folder, lock (Pro), uninstall.  
+1. Swipe the **search button** left or right to change page.  
+2. Hold the search button and slide sideways to move through all your pages. Lift to stay on a page.  
+3. Slide along the **letter rail** to jump the list. A big, faint letter shows where you are.  
+4. Press and hold an app for pin, hide, folder, lock (Pro), uninstall. If an app lights up under your finger, keep holding to open its menu.  
+5. Hold the letter rail, slide into your apps, and rest on the app that lights up to open its menu — or lift without pausing to open the app.  
+
+### Folders
+
+- Long-press an app → **Folder** to file it (Social, Media, Productivity, Utilities, …).  
+- Folders show as buttons above your apps. With **Show folders as icons** (Settings → App List), each folder is an icon in a row under the date: tap it to fan out its first apps right beside your thumb, then tap one. Tap the folder again to open all of it. You can also press and hold, slide to an app, and let go.  
+- Drag the folder row sideways to bring a far folder to your thumb. Tap **All apps** to tuck your folders inside it; tap again to bring them back.  
+- In an open folder, hold an app and drag it to change the order. The apps at the top are the ones that fan out. "Empty folder" sits after the apps, away from your thumb.  
+- An open folder shows only its own apps, as a **grid** or a **list** (Settings → App List → Inside a folder, show apps as).  
+- **Hide apps in folders** keeps filed apps out of the A–Z list; search still finds them.  
+
+<p align="center">
+  <img class="shot" src="{{ '/assets/images/v4_folder_fan.png' | relative_url }}" alt="A folder's apps fanned out" width="320" />
+</p>
 
 ### Weather forecast
 
@@ -61,6 +115,37 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 </p>
 
 Tap the weather on home for a forecast card (needs location when enabled). Adjust units under **Settings → Home**.
+
+---
+
+## Moving your page up and down
+
+With folders shown as icons, the **All apps** tile has a small bar under it: drag the tile up or down to move everything below it, and tap it to tuck your folders away. Otherwise a thin line sits between the clock and your page. Either one lets you choose how much of the screen the page uses.
+
+| What you do | What happens |
+|-------------|----------------|
+| Press and hold the line, then drag up or down | The page moves with your finger; each page remembers its own spot |
+| Drag up past the time and weather | They shrink like a spring, and bounce back when you let go |
+| Drag all the way up | The page stays up for a few seconds; your phone rumbles just before the time and weather spring back |
+| Hold, drag, then slide sideways toward the edge until you feel a double bump | **Locks** the line where you left it, even over the time and weather |
+| Swipe the other way | Hides the long line and keeps only a small pill |
+| Leave it alone | It folds into a small **dash** at the side. Tap the dash to bring the line back, or swipe left or right on it to change pages |
+
+If you hide the time and weather on a page, you can drag the line up into that space and it stays there.
+
+---
+
+## Foldables & linked pages
+
+Dextera is built for book-style foldables such as the Galaxy Z Fold.
+
+- **Two pages side by side.** In page overview, turn on **Chain with …** on a page to link it with the page next to it. Linked pages open together, one on each half, when the phone is open. Folded, each page fills the cover screen on its own.  
+- **Swap a linked pair.** Swipe up on the search button and tap **Switch positions**. In **Settings → Pages**, tap the chain between two pages to link or unlink them. The page you were on keeps the date, time and weather.  
+- **A divider on each half.** Each linked page has its own line for moving it up or down, so the two halves move independently. The line never goes under the status bar.  
+- **Search button stays put.** Swiping sideways low on the screen moves only the search button to the other half. Single pages remember which half they sit on.  
+- **Turn the open phone to portrait** to get one full-width page; turn it back for two side by side.  
+- **Fold and unfold** keeps the same pages, widgets, and wallpaper on both screens.  
+- **Fold close animation (Pro):** as you close the phone, falling code in your theme color fills the screen (**Appearance → Effects → Code rain**).  
 
 ---
 
@@ -94,7 +179,7 @@ A full **Contacts** page on home — not only search results.
 
 ### How to
 
-1. Scrub or flick to the **Recents** page (enable it under **Settings → Pages** if missing).  
+1. Swipe the search button to the **Recents** page (enable it under **Settings → Pages** if missing).  
 2. Tap an app to open it.  
 3. Swipe to dismiss; long-press for the app menu.  
 
@@ -108,16 +193,21 @@ A full **Contacts** page on home — not only search results.
 
 When audio is playing (or a media session is active):
 
-- Large artwork and track title  
-- Play / pause and seek  
-- Volume for the active output  
-- Seek bar **styles** and button-mode layout in Music page settings  
+- Artwork, track title and artist (long titles scroll while you look at them)  
+- A spinning record with the time played on either side — minutes on the left, seconds on the right  
+- Seek bar and volume for the active output  
+- Seek bar **styles**: Classic, Wave, Segmented, Minimal, and **Glow** (soft glowing waves over the part you've played)  
+- Optional **frosted player** and button-mode layout in the Music page settings  
+- Works with music casting to your phone from other devices (for example KDE Connect)  
 
 ### How to
 
 1. Start music or a podcast in any app.  
-2. Flick to the **Music** page (it can hide when nothing is playing).  
-3. Use the card controls; open **⋯** for session options when available.  
+2. Go to the **Music** page (it appears while something is playing).  
+3. On the record or artwork: **swipe down** to play or pause, **swipe left or right** to change songs, **tap** to open the player app.  
+4. On small screens the **mini player** has taps instead: left, middle, or right for previous, play/pause, next; slide sideways to move through the song; slide up or down for volume.  
+
+The Music page only animates while music plays and you can see it, so it doesn't use battery in the background.
 
 ---
 
@@ -130,6 +220,8 @@ When audio is playing (or a media session is active):
 A full **Notification Center** as a home page (not only the system shade).
 
 - Cards by app; expand, reply, dismiss when the app allows  
+- **Swipe right** to save a notification to Scratch Board, **swipe left** to delete it  
+- A notification that arrives while the page is open scrolls into view with a short wiggle and glow  
 - **Pin** apps so they stay high in the list  
 - **Lock pinned** (Page settings) so pinned apps can’t be swiped away or cleared with Clear All  
 - Optional pin toward **Scratch Board** when that page is available  
@@ -149,13 +241,21 @@ A full **Notification Center** as a home page (not only the system shade).
   <img class="shot" src="{{ '/assets/images/wiki_scratch_board.png' | relative_url }}" alt="Scratch Board" width="320" />
 </p>
 
-A place for **notes**, **pinned notifications** (with photos when available), **clipboard**, and **attachments**.
+A place for **notes**, **checklists**, **drawings**, **pinned notifications** (with photos when available), **clipboard**, and **attachments**.
+
+- **Checklists** — tap the checklist button, press Enter for the next item, tap a box to tick it off  
+- **Bold, italic, strikethrough** from the edit window; misspelled words are underlined with suggestions  
+- **Star** a note to keep it at the front; **search** the whole board from the ⋮ menu  
+- **Copy** a note with its formatting and checkboxes; **share** any note, photo, or file from its ⋮ menu  
+- **Link previews** show a picture and title, like in a text message  
+- **Trash** keeps deleted items for 30 days so you can bring them back  
+- Tap the **Scratch Board** title to open it full screen  
 
 ### How to
 
-1. Open the **Scratch Board** page (or pin items from notifications).  
+1. Open the **Scratch Board** page (or swipe a notification right to save it here).  
 2. Type in **Write a note…** and send.  
-3. Use the image / attach / clipboard controls on the page.  
+3. Use the picture, drawing, checklist, attach, and clipboard buttons. Changed your mind about a list or drawing? Tap **Close** to go back to your note.  
 4. Share files into Scratch Board when Android’s share sheet offers Dextera.  
 
 ---
@@ -171,8 +271,8 @@ A dedicated **Quick Settings** page for fast toggles without diving into the sys
 ### How to
 
 1. Enable **Quick Settings** under **Settings → Pages** (Pro may apply to add).  
-2. Flick or scrub to the page.  
-3. Tap tiles to toggle; hold a tile for the system details screen.  
+2. Swipe the search button to the page.  
+3. Pull down on the page and it slides down to your thumb. Tap tiles to toggle; hold a tile for the system details screen.  
 4. Brightness needs the **Modify system settings** grant the first time.  
 
 ---
@@ -187,7 +287,7 @@ Mission control for your pages — including foldable-friendly **spreads** when 
 
 ### How to open
 
-- Tap the **gear** on the search bar  
+- Hold the search button and choose **Pages & wallpaper**  
 - **Pinch in** on home  
 - **Long-press empty space**  
 
@@ -199,6 +299,8 @@ Mission control for your pages — including foldable-friendly **spreads** when 
 | **+ Widget (n/3)** on built-in pages | Add stacked **overlay widgets** (up to 3 per page) |
 | **+ Add widgets** on custom pages | Free-form widget canvas |
 | **Settings** on a card | That page’s settings (Back returns to overview) |
+| **Date, time & weather** | Show or hide the clock area on that page |
+| **Chain with …** | Link a page with its neighbor so they open side by side on a foldable |
 | **Sync wallpaper across pages** | One wallpaper everywhere, or **per-page wallpapers** |
 | **Wallpaper** / **Settings** at bottom | Appearance or full settings |
 
@@ -218,7 +320,10 @@ Open from overview → **Wallpaper**, or **Settings → Appearance → Custom**.
 - **Icon pack** and **themed icons** (recolor to theme accent)  
 - Shapes: System, Circle, Squircle, Square  
 - **Blur** and **Dim** so icons stay readable  
-- Optional **adaptive dimming** / OLED-friendly options to keep blacks deep and text readable  
+- **Adaptive dimming** — dims more after sunset and less after sunrise  
+- **Bottom shade** — a dark fade up from the bottom of the screen, behind everything, so the search button and page icons stand out on bright wallpapers (strength slider)  
+- **OLED mode** — pure black with high contrast, on a schedule if you like  
+- **Unlock animation** — wallpaper zoom and the clock, apps and search button blooming in on unlock  
 
 ### Dynamic & your photos
 
@@ -235,7 +340,9 @@ Open from overview → **Wallpaper**, or **Settings → Appearance → Custom**.
   <img class="shot" src="{{ '/assets/images/wiki_wallpapers_catalog.png' | relative_url }}" alt="Wallpaper catalog" width="320" />
 </p>
 
-Categories such as **Nature**, Abstract, Minimal, Space, Dark, Urban, and more (drawn and photo sets). Heart items to mark favorites.
+Categories such as **Nature**, Abstract, Minimal, Space, Dark, Urban, and more (drawn and photo sets). Each wallpaper sits in one category, so they don't repeat. Heart items to mark favorites.
+
+**Bing** — free for everyone: today's Bing photo (changes daily) plus the last week's photos, each credited to the photographer.
 
 ### How to set a wallpaper
 
@@ -306,7 +413,7 @@ Pick a pack from wallpaper / Appearance icon options, then optionally enable **t
 | **App List** | Sidebar, folders, organization |
 | **Touch & Gestures** | Left-handed rail, Home, double-tap, hold-back |
 | **Search** | Engine, history, sources, file folders, OTP, calculator |
-| **Pages** | Panels, order, transitions, traditional swipe |
+| **Pages** | Panels, order, linking, transitions |
 | **Digital Wellbeing** | Zen / declutter, adaptive dimming |
 | **Security & Privacy** | Uninstall protection, app lock / hide |
 | **Extensions** | Optional add-ons (for example Walkie-Talkie) |
@@ -314,7 +421,7 @@ Pick a pack from wallpaper / Appearance icon options, then optionally enable **t
 | **About** | Version, Pro, **Save / Share / Import backup**, legal, wiki |
 | **Help** | Default home app / switch launcher |
 
-> The search-bar **gear** opens **page overview**. Full Settings are from overview → **Settings**, or from in-app Settings entry points.
+> Hold the search button for **Pages & wallpaper**, **Dextera settings**, or **Android settings**.
 
 More detail: [Settings]({{ '/settings/' | relative_url }}).
 
@@ -327,7 +434,7 @@ More detail: [Settings]({{ '/settings/' | relative_url }}).
 </p>
 
 - **Live preview** of wallpaper + dim as you adjust  
-- Quick picks: Custom, Pitch Black, Bing Daily (Pro)  
+- Quick picks: Custom, Pitch Black, Bing Daily  
 - Theme color swatches (including Auto from your wallpaper)  
 - Themed icons toggle and icon packs  
 - Optional **frosted glass** treatment for UI surfaces  
@@ -388,10 +495,18 @@ Full gesture list: [Gestures]({{ '/gestures/' | relative_url }}).
 ### From the home bar
 
 <p align="center">
-  <img class="shot" src="{{ '/assets/images/wiki_search.png' | relative_url }}" alt="Unified search" width="320" />
+  <img class="shot" src="{{ '/assets/images/v4_search.png' | relative_url }}" alt="Unified search" width="320" />
 </p>
 
 Tap **Search…** for apps, contacts, settings, files (in folders you add), **calculator** math, and web suggestions. Filter chips: All · Contacts · Apps · Web · Settings.
+
+- The **best match** appears right above the search button, exact names first.  
+- **Contacts** that match show next to the search button, within thumb reach: tap the photo or name to open the contact; Call and Message sit on your thumb side.  
+- On an opened fold, extra results fill the other half; tap that half to close search.  
+
+### Calculator
+
+Type a number followed by + − × ÷ or %, or start with a bracket, and a calculator slides up above the search field. Your sum shows in large numbers with the answer underneath, updating as you type. Buttons for ( ) ÷ × − + % and = sit just above the bar, so you don't have to switch keyboards. Tap **=** or press Enter to swap the sum for its answer, or tap **Copy**.
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_search_results.png' | relative_url }}" alt="Search results" width="320" />
@@ -403,7 +518,7 @@ Tap **Search…** for apps, contacts, settings, files (in folders you add), **ca
   <img class="shot" src="{{ '/assets/images/wiki_search_settings.png' | relative_url }}" alt="Search settings" width="320" />
 </p>
 
-- Colorized search bar  
+- Colorized search button  
 - Web search engine  
 - Previous search results + history limit  
 - **Verification codes** — OTP from message **notifications** as a home chip (**no SMS permission**; Dextera does not read the SMS inbox)  
@@ -413,7 +528,7 @@ Tap **Search…** for apps, contacts, settings, files (in folders you add), **ca
 </p>
 
 - Toggle sources: Apps, Contacts, Files, Web, Settings  
-- Type an expression (e.g. `12*8`) for an inline **calculator** result when enabled  
+- Type an expression (e.g. `12×8`) to open the **calculator** above the search field  
 - **File search → Add folder** — only folders you pick are indexed (Android may block phone root / Downloads)  
 
 ---
@@ -424,8 +539,9 @@ Tap **Search…** for apps, contacts, settings, files (in folders you add), **ca
   <img class="shot" src="{{ '/assets/images/wiki_pages_nav.png' | relative_url }}" alt="Page navigation style" width="320" />
 </p>
 
-- **Traditional swiping mode** — free page swipes; home slims to App List + custom pages  
 - **Page transition**: Slide, Cube, Depth, Flip, Fade  
+- **Page indicator**: Dots, Icons, or Off, with a **Background** slider from clear to solid  
+- **Linked pages**: two pages shown side by side on a foldable; tap the chain between two pages to link them  
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_pages_panels.png' | relative_url }}" alt="Home panels list" width="320" />
@@ -450,7 +566,7 @@ Plus **custom widget pages** (extra pages may need Pro). Long-press a row and dr
 | **Custom page** | Free-form grid; drag/resize; Dextera widget picker with previews |
 | **Built-in page** | Up to **3** stacked **overlay widgets** (e.g. on App List) via overview **+ Widget** |
 
-Foldable devices can use wider **spreads** in overview / pages when the hardware allows.
+On foldables, linked pages show side by side — see [Foldables & linked pages](#foldables--linked-pages).
 
 ---
 
@@ -461,6 +577,7 @@ Foldable devices can use wider **spreads** in overview / pages when the hardware
 </p>
 
 - **Zen mode (declutter)** — hide labels and extra visual overlays for a calmer home  
+- **Hide on rest** — when your phone is at rest, fade the time, date, weather, search button, or app list. Bring them back with a touch or a reveal gesture (you choose), on every page  
 - Related options: frequently used limits, hidden apps, notification filters (elsewhere in settings / Pro where noted)  
 - **Adaptive dimming** / OLED-friendly options to reduce eye strain and keep deep blacks  
 
@@ -484,7 +601,17 @@ Also: optional OTP from notifications (Search settings) without reading SMS — 
 
 ## Backup & restore
 
-Save your Dextera layout as a zip, then restore it on this phone or another install.
+Keep a copy of your pages, settings, and Scratch Board, and restore it on this phone or a new one.
+
+### Google Drive
+
+**Settings → About → Back up to Google Drive** — sign in once, then back up now or turn on **Back up to Drive every day** (runs on Wi-Fi). Backups go to a hidden Dextera folder in **your own** Google Drive that only Dextera can open; the newest 5 are kept and count toward your Drive storage. Restore them on a new phone.
+
+### Daily backups to a folder
+
+Choose a folder on your device or in Google Drive and Dextera saves a backup every day, keeping the latest 7.
+
+### A zip you save yourself
 
 <p align="center">
   <img class="shot" src="{{ '/assets/images/wiki_settings_root.png' | relative_url }}" alt="Settings — About includes backup" width="320" />
@@ -525,14 +652,26 @@ After **Quick setup**, Dextera offers **Restore from backup** or **Start without
 
 ## Dextera Pro
 
-One-time unlock on Google Play (**Settings → About**). Pro gates extras such as app lock, hide apps, Bing Daily, extra widget pages, and deeper search. Restore purchases if you reinstall. A backup does **not** copy Pro — Play does.
+One-time unlock on Google Play (**Settings → About**). Pro adds extras such as app lock, hide apps, uninstall protection, Zen mode, search history and verification codes, file search, the wallpaper catalog, wallpaper blur, frosted glass, OLED mode, adaptive dimming, icon packs, extra clock styles and fonts, weather animations, the Quick Settings page, widget pages, page transitions, the hold-back gesture, and the fold close animation. Bing wallpapers are free for everyone. Restore purchases if you reinstall. A backup does **not** copy Pro — Play does.
+
+**Support Dextera** (Settings → About) lets you give a little more if you'd like; supporters' feature requests go first. **Send feedback** emails us a problem or idea.
+
+## Updates outside Google Play
+
+If you installed Dextera from the download page, it can update itself:
+
+1. In **Settings → About**, tap the version number **5 times** to turn on experimental features.  
+2. Turn on **APK updates**.  
+3. Pick an **Update channel** — **Beta** for test versions or **Stable** — and Dextera only offers updates from that channel.  
+
+Every update, from Play or the download page, shows **What's new** once, in plain language.
 
 ---
 
 ## More help
 
 - [Getting started]({{ '/getting-started/' | relative_url }}) — install and first setup  
-- [Gestures]({{ '/gestures/' | relative_url }}) — flick, scrub, Home, reachability  
+- [Gestures]({{ '/gestures/' | relative_url }}) — search button, folders, Home, moving your page  
 - [Pages]({{ '/pages/' | relative_url }}) — each page in more detail  
 - [Settings]({{ '/settings/' | relative_url }}) — where every toggle lives  
 - [Permissions]({{ '/permissions/' | relative_url }}) · [Privacy]({{ '/privacy/' | relative_url }})  
