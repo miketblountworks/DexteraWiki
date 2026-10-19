@@ -24,7 +24,7 @@ permalink: /gestures/
 | **Long-press** an app or contact | Open the quick menu (keep holding when it lights up) |
 | **Hold** a notification's picture | Pin that app's notifications to the top |
 | **Pinch in** or **long-press empty space** | Page overview |
-| **System back** | Close menus and search first |
+| **System back** | Closes menus and search first; on home it goes to the next page |
 | **Hold back** (if on) | Jump to the page you chose in settings |
 | **Swipe sideways low on the screen** (opened fold) | Moves the search button to the other half |
 | **Double-tap** any bare part of the wallpaper (if set) | Runs your chosen action |
