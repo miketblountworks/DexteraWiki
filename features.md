@@ -6,7 +6,59 @@ permalink: /features/
 
 Dextera is a custom **home screen** for Android: one-handed navigation, unified search, pages for apps and more, and deep customization — without getting in your way. It’s **on Google Play** and updated often with shipping polish.
 
-> **Dextera 4.0 is on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** — ready for everyday use and updated often.
+> **Dextera 5 is on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** — ready for everyday use and updated often.
+
+## New in Dextera 5.0
+
+Dextera 5 moves a lot around, and new things take some getting used to. Here's what changed.
+
+**The cloud look**
+- Pages, folders and pop-ups rise as soft cloud cards in your theme's colours, in light and dark mode.
+- Every page takes your theme's colours, and cards inside pages match.
+
+**Folders**
+- Tap a folder and its apps open in a row right under it, on the same cloud as the folder. Tap an app to open it.
+- If a folder has more apps than fit, the row's last spot shows how many more; tap it to open the whole folder.
+- Drag the row anywhere on the screen. Drag it back onto its folder and it shrinks into it and closes.
+- Hold the first square in the folder bar to hide or show your folders.
+- Press and hold a folder, slide to an app and let go still works too.
+
+<figure class="shot-card shot-inline">
+  <img src="{{ '/assets/images/v5_folder_row.png' | relative_url }}" alt="A folder opened as a row of apps" loading="lazy" />
+  <figcaption>Tap a folder and its apps open in a row under it</figcaption>
+</figure>
+
+**Notifications**
+- Notifications show as cards with the newest at the bottom, nearest your thumb.
+- When a new one arrives, its card's outline glows for a moment.
+
+**Setting up your folders**
+- Setup shows all your apps in a pile: the ones you've used most in the last two weeks are biggest. Without usage access, the apps most people use are biggest instead.
+- Tap apps to pick them (you can pick several), then drag them into a folder, or tap a folder to drop them in.
+- Similar apps sit together under their folder. Slide the pile with one finger, or pinch to zoom in and out.
+- **Choose for me** fills each folder with up to six of its most used apps. **New** makes a folder of your own.
+- If Dextera closes part way through setup, it picks up where you were.
+
+<figure class="shot-card shot-inline">
+  <img src="{{ '/assets/images/v5_setup_pile.png' | relative_url }}" alt="Setup: all your apps in a pile" loading="lazy" />
+  <figcaption>Your apps in a pile, biggest for the ones you use most</figcaption>
+</figure>
+
+**A desktop on tablets and open Folds**
+- With a mouse or keyboard, home becomes a desktop: folders run down one edge, your pages sit along the bottom beside Search, and a page rises as a card when you click it.
+- Place apps and widgets anywhere on the desktop, and add more desktop pages, like workspaces.
+- Search on the desktop is Dextera's full search, and lists every folder and app.
+- Right-click the wallpaper for widgets and settings, or to go back to the normal home. You can choose what turns the desktop on in **Settings → Home → Desktop mode**.
+
+<figure class="shot-card shot-inline shot-wide">
+  <img src="{{ '/assets/images/v5_desktop_page.png' | relative_url }}" alt="Desktop mode with Quick Settings open as a card" loading="lazy" />
+  <figcaption>Desktop mode: a page rises as a card</figcaption>
+</figure>
+
+**Pages and home**
+- Pages, folders, the line under them and the search button keep clear of the screen's edges, so the back swipe doesn't get in the way.
+- While a page is dimmed for moving, **−** and **+** beside Search make it smaller or bigger.
+- With Shizuku running, Quick Settings tiles switch settings directly.
 
 ## New in Dextera 4.0
 
@@ -98,7 +150,7 @@ Dextera is a custom **home screen** for Android: one-handed navigation, unified 
 ### Folders
 
 - Long-press an app → **Folder** to file it (Social, Media, Productivity, Utilities, …).  
-- Folders show as buttons above your apps. With **Show folders as icons** (Settings → App List), each folder is an icon in a row under the date: tap it to fan out its first apps right beside your thumb, then tap one. Tap the folder again to open all of it. You can also press and hold, slide to an app, and let go.  
+- Folders show as buttons above your apps. With **Show folders as icons** (Settings → App List), each folder is an icon in a row under the date: tap it and its apps open in a row under it, then tap one. Drag the row anywhere, or back onto its folder to close it. You can also press and hold, slide to an app, and let go.  
 - Drag the folder row sideways to bring a far folder to your thumb. Tap **All apps** to tuck your folders inside it; tap again to bring them back.  
 - In an open folder, hold an app and drag it to change the order. The apps at the top are the ones that fan out. "Empty folder" sits after the apps, away from your thumb.  
 - An open folder shows only its own apps, as a **grid** or a **list** (Settings → App List → Inside a folder, show apps as).  
