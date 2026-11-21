@@ -90,7 +90,7 @@ Music and Notifications can disappear when there’s nothing to show, and return
 
 Long-press app → **Folder** → pick a group (Social, Utilities, Media, …).
 
-- **Show folders as icons** (Settings → App List): tap a folder to fan out its first apps right beside your thumb, then tap one. Tap it again to open the whole folder. Holding and sliding still works.  
+- **Show folders as icons** (Settings → App List): tap a folder and its apps open in a row under it, then tap one. Drag the row anywhere, or back onto its folder to close it. Holding and sliding still works.  
 - Drag the folder row sideways to reach far folders. Tap **All apps** to tuck them away.  
 - In an open folder, hold an app and drag it to change the order.  
 - An open folder shows only its own apps, as a grid or a list.  

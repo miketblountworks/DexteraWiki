@@ -23,7 +23,7 @@ First-run is a few short screens, one question each:
 | **Welcome** | Short slides that wait for you, ask which thumb you use, and show the search button in action |
 | **Setup** | Make Dextera your home app, then allow notifications, contacts, music, and weather if you want them. One **Allow access** button covers Contacts, Music, and Notifications. Anything you already allowed is skipped |
 | **How you change pages** | Swipe or slide along the search button |
-| **Your folders** | Pick up to 4 things you use your phone for, and each becomes a folder with those apps in it. Or skip and start with none |
+| **Your folders** | All your apps sit in a pile, biggest for the ones you use most. Tap apps and drag them into folders, or tap **Choose for me** |
 | **Wallpaper** | Pick a wallpaper and see it behind a preview of your home, or keep your phone's own |
 | **Restore from backup** | Restore a Dextera backup, or start fresh |
 
@@ -68,7 +68,7 @@ Until this is set, the Home button may return you to your old launcher.
 1. **Tap** anywhere in the corner around the search button to search.  
 2. **Swipe** the search button left or right to change page, or tap a page icon beside it.  
 3. **Hold** the search button for a short menu: **Pages & wallpaper**, **Dextera settings**, and **Android settings**. Keep holding, slide up to a choice, and let go.  
-4. **Tap a folder** to fan out its first apps, then tap one. Tap the folder again to open all of it.  
+4. **Tap a folder** and its apps open in a row under it; tap one. Drag the row back onto the folder to close it.  
 5. **Drag the All apps tile** up or down to move your page closer to your thumb.  
 6. **Long-press** an app for pin, lock, hide, folder, or uninstall.  
 7. **Pinch** or **long-press empty space** for **page overview**, then open **Appearance** (try **Styles**) or **Settings**.  

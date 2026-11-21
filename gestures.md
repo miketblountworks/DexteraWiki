@@ -14,7 +14,7 @@ permalink: /gestures/
 | **Hold and slide sideways** along the search button | Move through all your pages; lift to stay on one |
 | **Swipe up** on the search button (opened fold) | Shows **Switch positions** to swap two linked pages |
 | **Tap a page icon** beside the search button | Jump straight to that page |
-| **Tap a folder** | Its first apps fan out right beside your thumb; tap one to open it. Tap the folder again to open all of it |
+| **Tap a folder** | Its apps open in a row under it; tap one to open it. Drag the row anywhere, or back onto its folder to close it |
 | **Hold a folder and slide** | Fan out its apps and slide to one; let go to open it |
 | **Drag the folder row** sideways | Bring a far folder to your thumb, with a light tick as each one passes |
 | **Tap All apps** | Tuck your folders inside it; tap again to bring them back |

@@ -19,14 +19,18 @@ description: User help and feature guides for Dextera Launcher.
   </a>
 </p>
 
-## New in Dextera 4.0
+## New in Dextera 5.0
 
-- **Folders under your thumb.** Tap a folder and its first apps fan out right beside your thumb. Drag the folder row sideways to bring a far folder close.
-- **Room as you scroll.** Scroll down a list and the date and folders slide away so more fits, then come back on their own.
-- **Frosted glass everywhere** with Dextera Pro, and text that stays readable over any wallpaper.
-- **A calmer setup** that asks one thing per screen and can make your first folders for you.
+Dextera 5 moves a lot around, and new things take some getting used to. Here's what changed:
 
-See everything in [What's new in 4.0]({{ '/features/#new-in-dextera-40' | relative_url }}).
+- **Soft cloud look.** Pages, folders and pop-ups rise as soft cards in your theme's colours, in light and dark mode.
+- **Folders open in a row.** Tap a folder and its apps open in a row right under it. Drag the row anywhere, or drag it back onto the folder to close it.
+- **Notification cards.** Notifications show as cards with the newest at the bottom, and a new one glows when it arrives.
+- **A desktop on big screens.** On a tablet or an open Fold, a mouse or keyboard turns home into a desktop: pages open as cards, folders run down one edge, and you can place apps and widgets anywhere.
+- **Organize your apps at setup.** All your apps sit in a pile, biggest for the ones you use most. Tap apps and drag them into folders, or tap **Choose for me**.
+- **Clear of the back swipe.** Pages, folders and the search button keep away from the screen's edges, so the back swipe doesn't get in the way.
+
+See everything in [What's new in 5.0]({{ '/features/#new-in-dextera-50' | relative_url }}).
 
 ## What you can do
 
@@ -36,8 +40,8 @@ See everything in [What's new in 4.0]({{ '/features/#new-in-dextera-40' | relati
     <p>Search is a circle on your thumb's side. Tap anywhere in that corner to find apps, contacts, settings, files from folders you add, and the web. Type a sum and a calculator slides up.</p>
   </div>
   <div class="card">
-    <h3>Folders that fan out</h3>
-    <p>Tap a folder and its first apps fan out under your thumb. Hold an app in an open folder to change the order. Tap All apps to tuck your folders away.</p>
+    <h3>Folders in a row</h3>
+    <p>Tap a folder and its apps open in a row under it, on a soft cloud. Drag the row anywhere, or back onto its folder to close it. Hold the first square in the folder bar to hide or show your folders.</p>
   </div>
   <div class="card">
     <h3>Pages under your thumb</h3>
@@ -45,11 +49,11 @@ See everything in [What's new in 4.0]({{ '/features/#new-in-dextera-40' | relati
   </div>
   <div class="card">
     <h3>Notifications on home</h3>
-    <p>Tidy, optionally frosted cards grouped by app. Hold a notification's picture to pin that app to the top.</p>
+    <p>Cards grouped by app, newest at the bottom, and a new one glows as it arrives. Hold a notification's picture to pin that app to the top.</p>
   </div>
   <div class="card">
-    <h3>Made for foldables</h3>
-    <p>Link two pages to open side by side when your phone is unfolded, and see three pages at once in the page overview. Folded, every page fits the cover screen.</p>
+    <h3>Made for foldables and tablets</h3>
+    <p>Link two pages to open side by side when your phone is unfolded. Use a mouse or keyboard and home becomes a desktop: pages rise as cards and folders run down the edge. Folded, every page fits the cover screen.</p>
   </div>
   <div class="card">
     <h3>Wallpapers &amp; Styles</h3>
@@ -61,36 +65,40 @@ See everything in [What's new in 4.0]({{ '/features/#new-in-dextera-40' | relati
 
 <div class="shot-grid">
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_home.png' | relative_url }}" alt="Dextera home screen with folders" />
+    <img src="{{ '/assets/images/v5_home.png' | relative_url }}" alt="Dextera home screen with folders" loading="lazy" />
     <figcaption>Home — date, folders, apps, and the search button</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_folder_fan.png' | relative_url }}" alt="Folder apps fanned out" />
-    <figcaption>Tap a folder and its apps fan out</figcaption>
+    <img src="{{ '/assets/images/v5_folder_row.png' | relative_url }}" alt="A folder opened as a row of apps" loading="lazy" />
+    <figcaption>Tap a folder and its apps open in a row</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_hold_menu.png' | relative_url }}" alt="Search button hold menu" />
-    <figcaption>Hold the search button for pages and settings</figcaption>
+    <img src="{{ '/assets/images/v5_notifications.png' | relative_url }}" alt="Notification card on home" loading="lazy" />
+    <figcaption>Notifications as cards, with Reply</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_notifications.png' | relative_url }}" alt="Notifications page" />
-    <figcaption>Notifications in tidy cards</figcaption>
+    <img src="{{ '/assets/images/v5_scratch_board.png' | relative_url }}" alt="Scratch Board page" loading="lazy" />
+    <figcaption>Scratch Board — notes, pins and the clipboard</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_calculator.png' | relative_url }}" alt="Search with calculator" />
-    <figcaption>Search — with a calculator for sums</figcaption>
+    <img src="{{ '/assets/images/v5_setup_pile.png' | relative_url }}" alt="Setup: all your apps in a pile" loading="lazy" />
+    <figcaption>Setup — your apps in a pile, biggest used most</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_quick_settings.png' | relative_url }}" alt="Quick Settings page" />
-    <figcaption>Quick Settings by your thumb</figcaption>
+    <img src="{{ '/assets/images/v5_setup_picked.png' | relative_url }}" alt="Setup: two apps picked" loading="lazy" />
+    <figcaption>Tap apps to pick them</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_contacts.png' | relative_url }}" alt="Contacts page" />
-    <figcaption>Contacts — call or message from home</figcaption>
+    <img src="{{ '/assets/images/v5_setup_drag.png' | relative_url }}" alt="Setup: picked apps over a folder" loading="lazy" />
+    <figcaption>Drag them into a folder</figcaption>
   </figure>
   <figure class="shot-card">
-    <img src="{{ '/assets/images/v4_setup_folders.png' | relative_url }}" alt="Setup folder picker" />
-    <figcaption>Setup builds your first folders</figcaption>
+    <img src="{{ '/assets/images/v5_desktop_page.png' | relative_url }}" alt="Desktop mode with Quick Settings open as a card" loading="lazy" />
+    <figcaption>On a tablet or open Fold: a desktop, pages as cards</figcaption>
+  </figure>
+  <figure class="shot-card">
+    <img src="{{ '/assets/images/v5_desktop_folder.png' | relative_url }}" alt="Desktop mode with a folder open" loading="lazy" />
+    <figcaption>Folders open as cards on the desktop</figcaption>
   </figure>
 </div>
 
@@ -110,7 +118,7 @@ See everything in [What's new in 4.0]({{ '/features/#new-in-dextera-40' | relati
 
 ## Status
 
-**Dextera 4.0** is **on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** and ready for everyday use. It's updated often, and What's new opens in the app after each update.
+**Dextera 5** is **on [Google Play](https://play.google.com/store/apps/details?id=com.dexteralabs.home)** and ready for everyday use. It's updated often, and What's new opens in the app after each update.
 
 **Get the app:**
 
